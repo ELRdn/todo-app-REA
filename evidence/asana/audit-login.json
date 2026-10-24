@@ -1,0 +1,623 @@
+{
+  "url": "https://app.asana.com/-/login",
+  "title": "Log in - Asana",
+  "meta": {
+    "description": null,
+    "themeColor": null,
+    "viewport": "width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no",
+    "generator": null,
+    "ogSite": null
+  },
+  "viewport": {
+    "w": 1424,
+    "h": 865,
+    "docH": 865
+  },
+  "counts": {
+    "elements": 70,
+    "nodes": 241,
+    "images": 5
+  },
+  "palette": {
+    "text": [
+      {
+        "value": "rgb(99, 99, 99)",
+        "count": 42
+      },
+      {
+        "value": "rgb(0, 0, 0)",
+        "count": 18
+      },
+      {
+        "value": "rgb(5, 5, 5)",
+        "count": 7
+      },
+      {
+        "value": "rgb(44, 96, 184)",
+        "count": 2
+      },
+      {
+        "value": "rgb(255, 255, 255)",
+        "count": 1
+      }
+    ],
+    "background": [
+      {
+        "value": "rgba(0, 0, 0, 0)",
+        "count": 65
+      },
+      {
+        "value": "rgb(255, 255, 255)",
+        "count": 4
+      },
+      {
+        "value": "rgb(64, 117, 207)",
+        "count": 1
+      }
+    ],
+    "border": [
+      {
+        "value": "1px solid rgb(225, 225, 225)",
+        "count": 3
+      },
+      {
+        "value": "1px solid rgb(234, 234, 234)",
+        "count": 2
+      },
+      {
+        "value": "1px solid rgba(0, 0, 0, 0)",
+        "count": 1
+      }
+    ],
+    "radius": [
+      {
+        "value": "0px",
+        "count": 66
+      },
+      {
+        "value": "6px",
+        "count": 4
+      }
+    ],
+    "shadow": [],
+    "gap": [
+      {
+        "value": "4px",
+        "count": 2
+      },
+      {
+        "value": "16px",
+        "count": 1
+      },
+      {
+        "value": "8px",
+        "count": 1
+      }
+    ],
+    "fontSize": [
+      {
+        "value": "14px",
+        "count": 47
+      },
+      {
+        "value": "12px",
+        "count": 15
+      },
+      {
+        "value": "16px",
+        "count": 6
+      },
+      {
+        "value": "32px",
+        "count": 1
+      },
+      {
+        "value": "20px",
+        "count": 1
+      }
+    ],
+    "fontWeight": [
+      {
+        "value": "400",
+        "count": 67
+      },
+      {
+        "value": "500",
+        "count": 3
+      }
+    ],
+    "lineHeight": [
+      {
+        "value": "normal",
+        "count": 44
+      },
+      {
+        "value": "18px",
+        "count": 15
+      },
+      {
+        "value": "48px",
+        "count": 6
+      },
+      {
+        "value": "22px",
+        "count": 2
+      },
+      {
+        "value": "40px",
+        "count": 1
+      },
+      {
+        "value": "28px",
+        "count": 1
+      },
+      {
+        "value": "36px",
+        "count": 1
+      }
+    ],
+    "letterSpacing": [
+      {
+        "value": "normal",
+        "count": 70
+      }
+    ],
+    "fontFamily": [
+      {
+        "value": "-apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+        "count": 70
+      }
+    ]
+  },
+  "cssVariables": {},
+  "typography": [
+    {
+      "tag": "h2",
+      "text": "Welcome to Asana",
+      "font": "-apple-system",
+      "size": "32px",
+      "weight": "400",
+      "lineHeight": "40px",
+      "letterSpacing": "normal",
+      "color": "rgb(5, 5, 5)",
+      "transform": "none"
+    },
+    {
+      "tag": "h3",
+      "text": "To get started, please sign in",
+      "font": "-apple-system",
+      "size": "20px",
+      "weight": "500",
+      "lineHeight": "28px",
+      "letterSpacing": "normal",
+      "color": "rgb(99, 99, 99)",
+      "transform": "none"
+    },
+    {
+      "tag": "span",
+      "text": "or",
+      "font": "-apple-system",
+      "size": "14px",
+      "weight": "400",
+      "lineHeight": "normal",
+      "letterSpacing": "normal",
+      "color": "rgb(0, 0, 0)",
+      "transform": "none"
+    },
+    {
+      "tag": "span",
+      "text": "or",
+      "font": "-apple-system",
+      "size": "14px",
+      "weight": "500",
+      "lineHeight": "22px",
+      "letterSpacing": "normal",
+      "color": "rgb(99, 99, 99)",
+      "transform": "none"
+    },
+    {
+      "tag": "a",
+      "text": "Asana.com",
+      "font": "-apple-system",
+      "size": "14px",
+      "weight": "400",
+      "lineHeight": "normal",
+      "letterSpacing": "normal",
+      "color": "rgb(99, 99, 99)",
+      "transform": "none"
+    },
+    {
+      "tag": "span",
+      "text": "Asana.com",
+      "font": "-apple-system",
+      "size": "12px",
+      "weight": "400",
+      "lineHeight": "18px",
+      "letterSpacing": "normal",
+      "color": "rgb(99, 99, 99)",
+      "transform": "none"
+    },
+    {
+      "tag": "a",
+      "text": "Support",
+      "font": "-apple-system",
+      "size": "14px",
+      "weight": "400",
+      "lineHeight": "normal",
+      "letterSpacing": "normal",
+      "color": "rgb(99, 99, 99)",
+      "transform": "none"
+    },
+    {
+      "tag": "span",
+      "text": "Support",
+      "font": "-apple-system",
+      "size": "12px",
+      "weight": "400",
+      "lineHeight": "18px",
+      "letterSpacing": "normal",
+      "color": "rgb(99, 99, 99)",
+      "transform": "none"
+    },
+    {
+      "tag": "a",
+      "text": "Integrations",
+      "font": "-apple-system",
+      "size": "14px",
+      "weight": "400",
+      "lineHeight": "normal",
+      "letterSpacing": "normal",
+      "color": "rgb(99, 99, 99)",
+      "transform": "none"
+    },
+    {
+      "tag": "span",
+      "text": "Integrations",
+      "font": "-apple-system",
+      "size": "12px",
+      "weight": "400",
+      "lineHeight": "18px",
+      "letterSpacing": "normal",
+      "color": "rgb(99, 99, 99)",
+      "transform": "none"
+    },
+    {
+      "tag": "a",
+      "text": "Forum",
+      "font": "-apple-system",
+      "size": "14px",
+      "weight": "400",
+      "lineHeight": "normal",
+      "letterSpacing": "normal",
+      "color": "rgb(99, 99, 99)",
+      "transform": "none"
+    },
+    {
+      "tag": "span",
+      "text": "Forum",
+      "font": "-apple-system",
+      "size": "12px",
+      "weight": "400",
+      "lineHeight": "18px",
+      "letterSpacing": "normal",
+      "color": "rgb(99, 99, 99)",
+      "transform": "none"
+    },
+    {
+      "tag": "a",
+      "text": "Developers & API",
+      "font": "-apple-system",
+      "size": "14px",
+      "weight": "400",
+      "lineHeight": "normal",
+      "letterSpacing": "normal",
+      "color": "rgb(99, 99, 99)",
+      "transform": "none"
+    },
+    {
+      "tag": "span",
+      "text": "Developers & API",
+      "font": "-apple-system",
+      "size": "12px",
+      "weight": "400",
+      "lineHeight": "18px",
+      "letterSpacing": "normal",
+      "color": "rgb(99, 99, 99)",
+      "transform": "none"
+    },
+    {
+      "tag": "a",
+      "text": "Resources",
+      "font": "-apple-system",
+      "size": "14px",
+      "weight": "400",
+      "lineHeight": "normal",
+      "letterSpacing": "normal",
+      "color": "rgb(99, 99, 99)",
+      "transform": "none"
+    },
+    {
+      "tag": "span",
+      "text": "Resources",
+      "font": "-apple-system",
+      "size": "12px",
+      "weight": "400",
+      "lineHeight": "18px",
+      "letterSpacing": "normal",
+      "color": "rgb(99, 99, 99)",
+      "transform": "none"
+    },
+    {
+      "tag": "a",
+      "text": "Guide",
+      "font": "-apple-system",
+      "size": "14px",
+      "weight": "400",
+      "lineHeight": "normal",
+      "letterSpacing": "normal",
+      "color": "rgb(99, 99, 99)",
+      "transform": "none"
+    },
+    {
+      "tag": "span",
+      "text": "Guide",
+      "font": "-apple-system",
+      "size": "12px",
+      "weight": "400",
+      "lineHeight": "18px",
+      "letterSpacing": "normal",
+      "color": "rgb(99, 99, 99)",
+      "transform": "none"
+    },
+    {
+      "tag": "a",
+      "text": "Templates",
+      "font": "-apple-system",
+      "size": "14px",
+      "weight": "400",
+      "lineHeight": "normal",
+      "letterSpacing": "normal",
+      "color": "rgb(99, 99, 99)",
+      "transform": "none"
+    },
+    {
+      "tag": "span",
+      "text": "Templates",
+      "font": "-apple-system",
+      "size": "12px",
+      "weight": "400",
+      "lineHeight": "18px",
+      "letterSpacing": "normal",
+      "color": "rgb(99, 99, 99)",
+      "transform": "none"
+    },
+    {
+      "tag": "a",
+      "text": "Pricing",
+      "font": "-apple-system",
+      "size": "14px",
+      "weight": "400",
+      "lineHeight": "normal",
+      "letterSpacing": "normal",
+      "color": "rgb(99, 99, 99)",
+      "transform": "none"
+    },
+    {
+      "tag": "span",
+      "text": "Pricing",
+      "font": "-apple-system",
+      "size": "12px",
+      "weight": "400",
+      "lineHeight": "18px",
+      "letterSpacing": "normal",
+      "color": "rgb(99, 99, 99)",
+      "transform": "none"
+    },
+    {
+      "tag": "a",
+      "text": "Terms",
+      "font": "-apple-system",
+      "size": "14px",
+      "weight": "400",
+      "lineHeight": "normal",
+      "letterSpacing": "normal",
+      "color": "rgb(99, 99, 99)",
+      "transform": "none"
+    },
+    {
+      "tag": "span",
+      "text": "Terms",
+      "font": "-apple-system",
+      "size": "12px",
+      "weight": "400",
+      "lineHeight": "18px",
+      "letterSpacing": "normal",
+      "color": "rgb(99, 99, 99)",
+      "transform": "none"
+    },
+    {
+      "tag": "a",
+      "text": "Privacy",
+      "font": "-apple-system",
+      "size": "14px",
+      "weight": "400",
+      "lineHeight": "normal",
+      "letterSpacing": "normal",
+      "color": "rgb(99, 99, 99)",
+      "transform": "none"
+    },
+    {
+      "tag": "span",
+      "text": "Privacy",
+      "font": "-apple-system",
+      "size": "12px",
+      "weight": "400",
+      "lineHeight": "18px",
+      "letterSpacing": "normal",
+      "color": "rgb(99, 99, 99)",
+      "transform": "none"
+    },
+    {
+      "tag": "p",
+      "text": "This site is protected by reCAPTCHA and the Asana Privacy Statement and Terms of Service a",
+      "font": "-apple-system",
+      "size": "12px",
+      "weight": "400",
+      "lineHeight": "18px",
+      "letterSpacing": "normal",
+      "color": "rgb(99, 99, 99)",
+      "transform": "none"
+    },
+    {
+      "tag": "a",
+      "text": "Privacy Statement",
+      "font": "-apple-system",
+      "size": "12px",
+      "weight": "400",
+      "lineHeight": "18px",
+      "letterSpacing": "normal",
+      "color": "rgb(99, 99, 99)",
+      "transform": "none"
+    },
+    {
+      "tag": "a",
+      "text": "Terms of Service",
+      "font": "-apple-system",
+      "size": "12px",
+      "weight": "400",
+      "lineHeight": "18px",
+      "letterSpacing": "normal",
+      "color": "rgb(99, 99, 99)",
+      "transform": "none"
+    }
+  ],
+  "headings": [
+    {
+      "tag": "h2",
+      "text": "Welcome to Asana",
+      "size": "32px",
+      "weight": "400",
+      "lineHeight": "40px",
+      "letterSpacing": "normal",
+      "font": "-apple-system",
+      "color": "rgb(5, 5, 5)",
+      "top": 190,
+      "w": 400
+    },
+    {
+      "tag": "h3",
+      "text": "To get started, please sign in",
+      "size": "20px",
+      "weight": "500",
+      "lineHeight": "28px",
+      "letterSpacing": "normal",
+      "font": "-apple-system",
+      "color": "rgb(99, 99, 99)",
+      "top": 238,
+      "w": 400
+    }
+  ],
+  "buttons": [
+    {
+      "text": "Google Microsoft",
+      "tag": "div",
+      "w": 400,
+      "h": 48,
+      "bg": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "radius": "0px",
+      "border": "0px none rgb(0, 0, 0)",
+      "font": "-apple-system",
+      "size": "14px",
+      "weight": "400",
+      "padding": "0px"
+    },
+    {
+      "text": "Google",
+      "tag": "div",
+      "w": 196,
+      "h": 48,
+      "bg": "rgb(255, 255, 255)",
+      "color": "rgb(5, 5, 5)",
+      "radius": "6px",
+      "border": "1px solid rgb(225, 225, 225)",
+      "font": "-apple-system",
+      "size": "16px",
+      "weight": "400",
+      "padding": "0px 16px"
+    },
+    {
+      "text": "Microsoft",
+      "tag": "div",
+      "w": 196,
+      "h": 48,
+      "bg": "rgb(255, 255, 255)",
+      "color": "rgb(5, 5, 5)",
+      "radius": "6px",
+      "border": "1px solid rgb(225, 225, 225)",
+      "font": "-apple-system",
+      "size": "16px",
+      "weight": "400",
+      "padding": "0px 16px"
+    },
+    {
+      "text": "Continue",
+      "tag": "div",
+      "w": 400,
+      "h": 36,
+      "bg": "rgb(64, 117, 207)",
+      "color": "rgb(255, 255, 255)",
+      "radius": "6px",
+      "border": "1px solid rgba(0, 0, 0, 0)",
+      "font": "-apple-system",
+      "size": "14px",
+      "weight": "400",
+      "padding": "0px 12px"
+    }
+  ],
+  "landmarks": [
+    {
+      "tag": "nav",
+      "role": null,
+      "label": null,
+      "class": "LoginStickyLogoBar-nav",
+      "top": 28,
+      "w": 1280,
+      "h": 24,
+      "bg": "rgba(0, 0, 0, 0)",
+      "padding": "0px",
+      "position": "static",
+      "z": "auto"
+    },
+    {
+      "tag": "nav",
+      "role": null,
+      "label": null,
+      "class": "",
+      "top": 800,
+      "w": 685,
+      "h": 19,
+      "bg": "rgba(0, 0, 0, 0)",
+      "padding": "0px",
+      "position": "static",
+      "z": "auto"
+    }
+  ],
+  "fontsLoaded": [
+    {
+      "family": "Lausanne",
+      "weight": "300",
+      "style": "normal",
+      "status": "unloaded"
+    }
+  ],
+  "cssLinks": [
+    "https://d3ki9tyy5l5ruj.cloudfront.net/compressed/build/bundles/f391cca5169472a71ccc1f173cd9834cbba5fb96/login/login.css"
+  ],
+  "scripts": [
+    "https://cdn.cookielaw.org/consent/6d3cfbb6-bd53-462f-aac5-4fafed745589/otSDKStub.js",
+    "https://d3ki9tyy5l5ruj.cloudfront.net/compressed/build/bundles/f391cca5169472a71ccc1f173cd9834cbba5fb96/login/login_javascript_bundle.js",
+    "https://cdn.cookielaw.org/scripttemplates/202511.1.0/otBannerSdk.js",
+    "https://www.google.com/recaptcha/api.js"
+  ]
+}

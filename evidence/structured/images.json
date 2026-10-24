@@ -1,0 +1,330 @@
+{
+  "result": {
+    "type": "object",
+    "value": {
+      "count": 104,
+      "items": [
+        {
+          "src": "https://structured.app/_next/image?url=%2Fassets%2Fhero-screenshot.webp&w=3840&q=75&dpl=dpl_Gz7zvH26NMyaBxgoLpapTnQi1bMC",
+          "alt": "Structured app timeline",
+          "w": 427,
+          "h": 1896,
+          "nw": 2402,
+          "nh": 10672
+        },
+        {
+          "src": "https://structured.app/_next/image?url=%2Fassets%2Fphone-mockup.webp&w=1920&q=75&dpl=dpl_Gz7zvH26NMyaBxgoLpapTnQi1bMC",
+          "alt": "Structured app on iPhone showing daily timeline",
+          "w": 292,
+          "h": 635,
+          "nw": 1136,
+          "nh": 2483
+        },
+        {
+          "src": "https://structured.app/_next/image?url=%2Fassets%2Fmacbook-mockup.webp&w=2048&q=75&dpl=dpl_Gz7zvH26NMyaBxgoLpapTnQi1bMC",
+          "alt": "Structured web app on MacBook",
+          "w": 721,
+          "h": 435,
+          "nw": 2048,
+          "nh": 1237
+        },
+        {
+          "src": "https://structured.app/assets/team-1-hover.webp",
+          "alt": "",
+          "w": 248,
+          "h": 455,
+          "nw": 1080,
+          "nh": 1980
+        },
+        {
+          "src": "https://structured.app/assets/team-1-default.webp",
+          "alt": "",
+          "w": 248,
+          "h": 455,
+          "nw": 1080,
+          "nh": 1980
+        },
+        {
+          "src": "https://structured.app/assets/team-6-hover.webp",
+          "alt": "",
+          "w": 248,
+          "h": 455,
+          "nw": 1080,
+          "nh": 1980
+        },
+        {
+          "src": "https://structured.app/assets/team-6-default.webp",
+          "alt": "",
+          "w": 248,
+          "h": 455,
+          "nw": 1080,
+          "nh": 1980
+        },
+        {
+          "src": "https://structured.app/assets/team-3-hover.webp",
+          "alt": "",
+          "w": 248,
+          "h": 455,
+          "nw": 1080,
+          "nh": 1980
+        },
+        {
+          "src": "https://structured.app/assets/team-3-default.webp",
+          "alt": "",
+          "w": 248,
+          "h": 455,
+          "nw": 1080,
+          "nh": 1980
+        },
+        {
+          "src": "https://structured.app/_next/image?url=%2Fassets%2Fhero-poster.webp&w=1920&q=75&dpl=dpl_Gz7zvH26NMyaBxgoLpapTnQi1bMC",
+          "alt": "Structured app planning preview",
+          "w": 1424,
+          "h": 865,
+          "nw": 1424,
+          "nh": 801
+        },
+        {
+          "src": "https://structured.app/_next/image?url=%2Fassets%2Fiphone-frame.png&w=1920&q=75&dpl=dpl_Gz7zvH26NMyaBxgoLpapTnQi1bMC",
+          "alt": "",
+          "w": 318,
+          "h": 655,
+          "nw": 703,
+          "nh": 1449
+        },
+        {
+          "src": "https://structured.app/_next/image?url=%2Fassets%2Fwatch-mockup.png&w=828&q=75&dpl=dpl_Gz7zvH26NMyaBxgoLpapTnQi1bMC",
+          "alt": "Structured on Apple Watch",
+          "w": 220,
+          "h": 371,
+          "nw": 774,
+          "nh": 1304
+        },
+        {
+          "src": "https://structured.app/assets/team-8-hover.png",
+          "alt": "",
+          "w": 248,
+          "h": 455,
+          "nw": 720,
+          "nh": 1321
+        },
+        {
+          "src": "https://structured.app/assets/team-8-default.png",
+          "alt": "",
+          "w": 248,
+          "h": 455,
+          "nw": 720,
+          "nh": 1321
+        },
+        {
+          "src": "https://structured.app/assets/team-2-hover.png",
+          "alt": "",
+          "w": 248,
+          "h": 455,
+          "nw": 720,
+          "nh": 1321
+        },
+        {
+          "src": "https://structured.app/assets/team-2-default.png",
+          "alt": "",
+          "w": 248,
+          "h": 455,
+          "nw": 720,
+          "nh": 1321
+        },
+        {
+          "src": "https://structured.app/assets/team-10-hover.png",
+          "alt": "",
+          "w": 248,
+          "h": 455,
+          "nw": 720,
+          "nh": 1321
+        },
+        {
+          "src": "https://structured.app/assets/team-10-default.png",
+          "alt": "",
+          "w": 248,
+          "h": 455,
+          "nw": 720,
+          "nh": 1321
+        },
+        {
+          "src": "https://structured.app/assets/team-0-hover.png",
+          "alt": "",
+          "w": 248,
+          "h": 455,
+          "nw": 720,
+          "nh": 1321
+        },
+        {
+          "src": "https://structured.app/assets/team-0-default.png",
+          "alt": "",
+          "w": 248,
+          "h": 455,
+          "nw": 720,
+          "nh": 1321
+        },
+        {
+          "src": "https://structured.app/assets/team-9-hover.png",
+          "alt": "",
+          "w": 248,
+          "h": 455,
+          "nw": 720,
+          "nh": 1321
+        },
+        {
+          "src": "https://structured.app/assets/team-9-default.png",
+          "alt": "",
+          "w": 248,
+          "h": 455,
+          "nw": 720,
+          "nh": 1321
+        },
+        {
+          "src": "https://structured.app/assets/team-4-hover.png",
+          "alt": "",
+          "w": 248,
+          "h": 455,
+          "nw": 720,
+          "nh": 1320
+        },
+        {
+          "src": "https://structured.app/assets/team-4-default.png",
+          "alt": "",
+          "w": 248,
+          "h": 455,
+          "nw": 720,
+          "nh": 1320
+        },
+        {
+          "src": "https://structured.app/assets/team-7-hover.png",
+          "alt": "",
+          "w": 248,
+          "h": 455,
+          "nw": 720,
+          "nh": 1320
+        },
+        {
+          "src": "https://structured.app/assets/team-7-default.png",
+          "alt": "",
+          "w": 248,
+          "h": 455,
+          "nw": 720,
+          "nh": 1320
+        },
+        {
+          "src": "https://structured.app/assets/team-5-hover.png",
+          "alt": "",
+          "w": 248,
+          "h": 455,
+          "nw": 720,
+          "nh": 1320
+        },
+        {
+          "src": "https://structured.app/assets/team-5-default.png",
+          "alt": "",
+          "w": 248,
+          "h": 455,
+          "nw": 720,
+          "nh": 1320
+        },
+        {
+          "src": "https://structured.app/_next/image?url=%2Fassets%2Fnotebook.webp&w=1920&q=75&dpl=dpl_Gz7zvH26NMyaBxgoLpapTnQi1bMC",
+          "alt": "",
+          "w": 731,
+          "h": 925,
+          "nw": 831,
+          "nh": 1052
+        },
+        {
+          "src": "https://structured.app/_next/image?url=%2Fassets%2Fruler.webp&w=1920&q=75&dpl=dpl_Gz7zvH26NMyaBxgoLpapTnQi1bMC",
+          "alt": "",
+          "w": 585,
+          "h": 792,
+          "nw": 614,
+          "nh": 832
+        },
+        {
+          "src": "https://structured.app/_next/image?url=%2Fassets%2Freview-card-5.png&w=750&q=75&dpl=dpl_Gz7zvH26NMyaBxgoLpapTnQi1bMC",
+          "alt": "",
+          "w": 646,
+          "h": 193,
+          "nw": 750,
+          "nh": 225
+        },
+        {
+          "src": "https://structured.app/_next/image?url=%2Fassets%2Freview-card-3.png&w=750&q=75&dpl=dpl_Gz7zvH26NMyaBxgoLpapTnQi1bMC",
+          "alt": "",
+          "w": 646,
+          "h": 193,
+          "nw": 750,
+          "nh": 224
+        },
+        {
+          "src": "https://structured.app/_next/image?url=%2Fassets%2Freview-card-1.png&w=750&q=75&dpl=dpl_Gz7zvH26NMyaBxgoLpapTnQi1bMC",
+          "alt": "",
+          "w": 646,
+          "h": 193,
+          "nw": 750,
+          "nh": 224
+        },
+        {
+          "src": "https://structured.app/_next/image?url=%2Fassets%2Freview-card-2.png&w=750&q=75&dpl=dpl_Gz7zvH26NMyaBxgoLpapTnQi1bMC",
+          "alt": "",
+          "w": 646,
+          "h": 193,
+          "nw": 750,
+          "nh": 224
+        },
+        {
+          "src": "https://structured.app/_next/image?url=%2Fassets%2Freview-card-6.png&w=750&q=75&dpl=dpl_Gz7zvH26NMyaBxgoLpapTnQi1bMC",
+          "alt": "",
+          "w": 646,
+          "h": 193,
+          "nw": 750,
+          "nh": 224
+        },
+        {
+          "src": "https://structured.app/_next/image?url=%2Fassets%2Freview-card-4.png&w=750&q=75&dpl=dpl_Gz7zvH26NMyaBxgoLpapTnQi1bMC",
+          "alt": "",
+          "w": 646,
+          "h": 193,
+          "nw": 750,
+          "nh": 224
+        },
+        {
+          "src": "https://structured.app/_next/image?url=%2Fassets%2Fbubble-yoga.png&w=1920&q=75&dpl=dpl_Gz7zvH26NMyaBxgoLpapTnQi1bMC",
+          "alt": "Yoga Workout",
+          "w": 41,
+          "h": 155,
+          "nw": 192,
+          "nh": 464
+        },
+        {
+          "src": "https://structured.app/_next/image?url=%2Fassets%2Ffeature-visual-planning.webp&w=1920&q=75&dpl=dpl_Gz7zvH26NMyaBxgoLpapTnQi1bMC",
+          "alt": "visual planning",
+          "w": 178,
+          "h": 177,
+          "nw": 296,
+          "nh": 296
+        },
+        {
+          "src": "https://structured.app/_next/image?url=%2Fassets%2Ffeature-import-calendars.webp&w=1920&q=75&dpl=dpl_Gz7zvH26NMyaBxgoLpapTnQi1bMC",
+          "alt": "import calendars",
+          "w": 178,
+          "h": 177,
+          "nw": 296,
+          "nh": 296
+        },
+        {
+          "src": "https://structured.app/_next/image?url=%2Fassets%2Ffeature-plan-ai.webp&w=1920&q=75&dpl=dpl_Gz7zvH26NMyaBxgoLpapTnQi1bMC",
+          "alt": "plan with AI",
+          "w": 178,
+          "h": 177,
+          "nw": 296,
+          "nh": 296
+        }
+      ]
+    }
+  }
+}

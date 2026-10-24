@@ -1,0 +1,2325 @@
+{
+  "url": "https://structured.app/",
+  "title": "Structured — Daily Planner",
+  "meta": {
+    "description": "Structured combines all your tasks, calendar events, and focus sessions in one beautifully designed timeline.",
+    "themeColor": "#ffa7a0",
+    "viewport": "width=device-width, initial-scale=1, viewport-fit=cover",
+    "generator": null,
+    "ogSite": "Structured"
+  },
+  "viewport": {
+    "w": 1424,
+    "h": 865,
+    "docH": 18168
+  },
+  "counts": {
+    "elements": 583,
+    "nodes": 725,
+    "images": 139
+  },
+  "palette": {
+    "text": [
+      {
+        "value": "rgb(0, 0, 0)",
+        "count": 218
+      },
+      {
+        "value": "rgb(255, 255, 255)",
+        "count": 167
+      },
+      {
+        "value": "rgba(0, 0, 0, 0)",
+        "count": 99
+      },
+      {
+        "value": "rgb(97, 133, 168)",
+        "count": 51
+      },
+      {
+        "value": "rgb(44, 80, 115)",
+        "count": 36
+      },
+      {
+        "value": "oklab(0.999994 0.0000455678 0.0000200868 / 0.9)",
+        "count": 12
+      }
+    ],
+    "background": [
+      {
+        "value": "rgba(0, 0, 0, 0)",
+        "count": 573
+      },
+      {
+        "value": "rgb(92, 133, 168)",
+        "count": 3
+      },
+      {
+        "value": "rgb(255, 167, 160)",
+        "count": 3
+      },
+      {
+        "value": "rgb(97, 133, 168)",
+        "count": 2
+      },
+      {
+        "value": "rgba(30, 30, 30, 0.18)",
+        "count": 1
+      },
+      {
+        "value": "rgb(44, 80, 115)",
+        "count": 1
+      }
+    ],
+    "border": [
+      {
+        "value": "1px solid oklab(0.999994 0.0000455678 0.0000200868 / 0.2)",
+        "count": 1
+      },
+      {
+        "value": "1px solid oklab(0.999994 0.0000455678 0.0000200868 / 0.15)",
+        "count": 1
+      }
+    ],
+    "radius": [
+      {
+        "value": "0px",
+        "count": 543
+      },
+      {
+        "value": "100px",
+        "count": 20
+      },
+      {
+        "value": "3.35544e+07px",
+        "count": 8
+      },
+      {
+        "value": "4px",
+        "count": 6
+      },
+      {
+        "value": "32px",
+        "count": 2
+      },
+      {
+        "value": "40px",
+        "count": 2
+      },
+      {
+        "value": "38px",
+        "count": 1
+      },
+      {
+        "value": "13px",
+        "count": 1
+      }
+    ],
+    "shadow": [
+      {
+        "value": "rgba(0, 0, 0, 0.15) 0px 4px 14px 0px",
+        "count": 5
+      },
+      {
+        "value": "rgba(255, 255, 255, 0.28) 0px 1px 0px 0px inset, rgba(0, 0, 0, 0.07) 0px -1px 0px 0px inset, rgba(0, 0, 0, 0.13) 0px 4px 14px -6px, rgba(0, 0, 0, 0.13) 0px 18px 42px -20px",
+        "count": 1
+      }
+    ],
+    "gap": [
+      {
+        "value": "8px",
+        "count": 28
+      },
+      {
+        "value": "12px",
+        "count": 6
+      },
+      {
+        "value": "32px",
+        "count": 6
+      },
+      {
+        "value": "0px",
+        "count": 3
+      },
+      {
+        "value": "40px",
+        "count": 3
+      },
+      {
+        "value": "20px",
+        "count": 2
+      },
+      {
+        "value": "4px",
+        "count": 1
+      },
+      {
+        "value": "6px",
+        "count": 1
+      },
+      {
+        "value": "48px",
+        "count": 1
+      },
+      {
+        "value": "60px",
+        "count": 1
+      },
+      {
+        "value": "0px 12px",
+        "count": 1
+      }
+    ],
+    "fontSize": [
+      {
+        "value": "16px",
+        "count": 359
+      },
+      {
+        "value": "30px",
+        "count": 55
+      },
+      {
+        "value": "62px",
+        "count": 53
+      },
+      {
+        "value": "20px",
+        "count": 18
+      },
+      {
+        "value": "64.08px",
+        "count": 18
+      },
+      {
+        "value": "78px",
+        "count": 17
+      },
+      {
+        "value": "67.2px",
+        "count": 15
+      },
+      {
+        "value": "19.2px",
+        "count": 12
+      },
+      {
+        "value": "12px",
+        "count": 12
+      },
+      {
+        "value": "18px",
+        "count": 8
+      },
+      {
+        "value": "28px",
+        "count": 7
+      },
+      {
+        "value": "80px",
+        "count": 6
+      },
+      {
+        "value": "66px",
+        "count": 3
+      }
+    ],
+    "fontWeight": [
+      {
+        "value": "400",
+        "count": 375
+      },
+      {
+        "value": "300",
+        "count": 104
+      },
+      {
+        "value": "700",
+        "count": 51
+      },
+      {
+        "value": "600",
+        "count": 30
+      },
+      {
+        "value": "500",
+        "count": 23
+      }
+    ],
+    "lineHeight": [
+      {
+        "value": "24px",
+        "count": 360
+      },
+      {
+        "value": "68.2px",
+        "count": 53
+      },
+      {
+        "value": "36px",
+        "count": 34
+      },
+      {
+        "value": "39px",
+        "count": 20
+      },
+      {
+        "value": "64.08px",
+        "count": 18
+      },
+      {
+        "value": "81.9px",
+        "count": 15
+      },
+      {
+        "value": "28.8px",
+        "count": 15
+      },
+      {
+        "value": "67.2px",
+        "count": 15
+      },
+      {
+        "value": "22.8px",
+        "count": 12
+      },
+      {
+        "value": "23px",
+        "count": 12
+      }
+    ],
+    "letterSpacing": [
+      {
+        "value": "-0.128px",
+        "count": 424
+      },
+      {
+        "value": "-1.5px",
+        "count": 102
+      },
+      {
+        "value": "-0.3px",
+        "count": 14
+      },
+      {
+        "value": "-0.6px",
+        "count": 12
+      },
+      {
+        "value": "-0.576px",
+        "count": 12
+      },
+      {
+        "value": "-0.8px",
+        "count": 10
+      },
+      {
+        "value": "-4px",
+        "count": 4
+      },
+      {
+        "value": "-1px",
+        "count": 2
+      },
+      {
+        "value": "-0.5px",
+        "count": 1
+      },
+      {
+        "value": "-3.8px",
+        "count": 1
+      }
+    ],
+    "fontFamily": [
+      {
+        "value": "Inter, \"Inter Fallback\", Inter, system-ui, sans-serif",
+        "count": 583
+      }
+    ]
+  },
+  "cssVariables": {},
+  "typography": [
+    {
+      "tag": "a",
+      "text": "Structured",
+      "font": "Inter",
+      "size": "16px",
+      "weight": "400",
+      "lineHeight": "24px",
+      "letterSpacing": "-0.128px",
+      "color": "rgb(0, 0, 0)",
+      "transform": "none"
+    },
+    {
+      "tag": "span",
+      "text": "Structured",
+      "font": "Inter",
+      "size": "20px",
+      "weight": "700",
+      "lineHeight": "30px",
+      "letterSpacing": "-0.5px",
+      "color": "rgb(255, 255, 255)",
+      "transform": "none"
+    },
+    {
+      "tag": "button",
+      "text": "features",
+      "font": "Inter",
+      "size": "16px",
+      "weight": "600",
+      "lineHeight": "24px",
+      "letterSpacing": "-0.6px",
+      "color": "oklab(0.999994 0.0000455678 0.0000200868 / 0.9)",
+      "transform": "none"
+    },
+    {
+      "tag": "a",
+      "text": "reviews",
+      "font": "Inter",
+      "size": "16px",
+      "weight": "600",
+      "lineHeight": "24px",
+      "letterSpacing": "-0.6px",
+      "color": "oklab(0.999994 0.0000455678 0.0000200868 / 0.9)",
+      "transform": "none"
+    },
+    {
+      "tag": "a",
+      "text": "team",
+      "font": "Inter",
+      "size": "16px",
+      "weight": "600",
+      "lineHeight": "24px",
+      "letterSpacing": "-0.6px",
+      "color": "oklab(0.999994 0.0000455678 0.0000200868 / 0.9)",
+      "transform": "none"
+    },
+    {
+      "tag": "a",
+      "text": "support",
+      "font": "Inter",
+      "size": "16px",
+      "weight": "600",
+      "lineHeight": "24px",
+      "letterSpacing": "-0.6px",
+      "color": "oklab(0.999994 0.0000455678 0.0000200868 / 0.9)",
+      "transform": "none"
+    },
+    {
+      "tag": "a",
+      "text": "blog",
+      "font": "Inter",
+      "size": "16px",
+      "weight": "600",
+      "lineHeight": "24px",
+      "letterSpacing": "-0.6px",
+      "color": "oklab(0.999994 0.0000455678 0.0000200868 / 0.9)",
+      "transform": "none"
+    },
+    {
+      "tag": "a",
+      "text": "research",
+      "font": "Inter",
+      "size": "16px",
+      "weight": "600",
+      "lineHeight": "24px",
+      "letterSpacing": "-0.6px",
+      "color": "oklab(0.999994 0.0000455678 0.0000200868 / 0.9)",
+      "transform": "none"
+    },
+    {
+      "tag": "a",
+      "text": "Structured Web",
+      "font": "Inter",
+      "size": "16px",
+      "weight": "600",
+      "lineHeight": "24px",
+      "letterSpacing": "-0.6px",
+      "color": "oklab(0.999994 0.0000455678 0.0000200868 / 0.9)",
+      "transform": "none"
+    },
+    {
+      "tag": "button",
+      "text": "Start planning for free!",
+      "font": "Inter",
+      "size": "20px",
+      "weight": "400",
+      "lineHeight": "30px",
+      "letterSpacing": "-0.128px",
+      "color": "rgb(255, 255, 255)",
+      "transform": "none"
+    },
+    {
+      "tag": "span",
+      "text": "Start planning for free!",
+      "font": "Inter",
+      "size": "20px",
+      "weight": "400",
+      "lineHeight": "30px",
+      "letterSpacing": "-0.128px",
+      "color": "rgb(255, 255, 255)",
+      "transform": "none"
+    },
+    {
+      "tag": "h1",
+      "text": "your all in one calendar habit tracker day planner to do list focus timer",
+      "font": "Inter",
+      "size": "16px",
+      "weight": "400",
+      "lineHeight": "24px",
+      "letterSpacing": "-0.128px",
+      "color": "rgb(0, 0, 0)",
+      "transform": "lowercase"
+    },
+    {
+      "tag": "span",
+      "text": "your all in one",
+      "font": "Inter",
+      "size": "80px",
+      "weight": "300",
+      "lineHeight": "80px",
+      "letterSpacing": "-3.8px",
+      "color": "rgb(255, 255, 255)",
+      "transform": "lowercase"
+    },
+    {
+      "tag": "span",
+      "text": "calendar habit tracker day planner to do list focus timer",
+      "font": "Inter",
+      "size": "16px",
+      "weight": "400",
+      "lineHeight": "24px",
+      "letterSpacing": "-0.128px",
+      "color": "rgb(0, 0, 0)",
+      "transform": "lowercase"
+    },
+    {
+      "tag": "span",
+      "text": "calendar",
+      "font": "Inter",
+      "size": "80px",
+      "weight": "600",
+      "lineHeight": "96px",
+      "letterSpacing": "-0.8px",
+      "color": "rgb(255, 255, 255)",
+      "transform": "lowercase"
+    },
+    {
+      "tag": "span",
+      "text": "habit tracker",
+      "font": "Inter",
+      "size": "80px",
+      "weight": "600",
+      "lineHeight": "96px",
+      "letterSpacing": "-0.8px",
+      "color": "rgb(255, 255, 255)",
+      "transform": "lowercase"
+    },
+    {
+      "tag": "span",
+      "text": "day planner",
+      "font": "Inter",
+      "size": "80px",
+      "weight": "600",
+      "lineHeight": "96px",
+      "letterSpacing": "-0.8px",
+      "color": "rgb(255, 255, 255)",
+      "transform": "lowercase"
+    },
+    {
+      "tag": "span",
+      "text": "to do list",
+      "font": "Inter",
+      "size": "80px",
+      "weight": "600",
+      "lineHeight": "96px",
+      "letterSpacing": "-0.8px",
+      "color": "rgb(255, 255, 255)",
+      "transform": "lowercase"
+    },
+    {
+      "tag": "span",
+      "text": "focus timer",
+      "font": "Inter",
+      "size": "80px",
+      "weight": "600",
+      "lineHeight": "96px",
+      "letterSpacing": "-0.8px",
+      "color": "rgb(255, 255, 255)",
+      "transform": "lowercase"
+    },
+    {
+      "tag": "p",
+      "text": "Structured combines all your tasks and to-dos into a single visual timeline.",
+      "font": "Inter",
+      "size": "20px",
+      "weight": "500",
+      "lineHeight": "24px",
+      "letterSpacing": "-0.4px",
+      "color": "rgb(255, 255, 255)",
+      "transform": "none"
+    },
+    {
+      "tag": "button",
+      "text": "Start planning for free!",
+      "font": "Inter",
+      "size": "18px",
+      "weight": "500",
+      "lineHeight": "27px",
+      "letterSpacing": "-0.128px",
+      "color": "rgb(255, 255, 255)",
+      "transform": "none"
+    },
+    {
+      "tag": "span",
+      "text": "Start planning for free!",
+      "font": "Inter",
+      "size": "18px",
+      "weight": "500",
+      "lineHeight": "27px",
+      "letterSpacing": "-0.128px",
+      "color": "rgb(255, 255, 255)",
+      "transform": "none"
+    },
+    {
+      "tag": "h2",
+      "text": "the day planner app that everyone is using",
+      "font": "Inter",
+      "size": "78px",
+      "weight": "400",
+      "lineHeight": "81.9px",
+      "letterSpacing": "-1.5px",
+      "color": "rgb(97, 133, 168)",
+      "transform": "lowercase"
+    },
+    {
+      "tag": "span",
+      "text": "the day planner app",
+      "font": "Inter",
+      "size": "78px",
+      "weight": "300",
+      "lineHeight": "81.9px",
+      "letterSpacing": "-1.5px",
+      "color": "rgb(97, 133, 168)",
+      "transform": "lowercase"
+    },
+    {
+      "tag": "span",
+      "text": "that everyone is using",
+      "font": "Inter",
+      "size": "78px",
+      "weight": "600",
+      "lineHeight": "81.9px",
+      "letterSpacing": "-1.5px",
+      "color": "rgb(97, 133, 168)",
+      "transform": "lowercase"
+    },
+    {
+      "tag": "p",
+      "text": "600K+",
+      "font": "Inter",
+      "size": "30px",
+      "weight": "700",
+      "lineHeight": "36px",
+      "letterSpacing": "-0.128px",
+      "color": "rgb(97, 133, 168)",
+      "transform": "none"
+    },
+    {
+      "tag": "p",
+      "text": "tasks daily",
+      "font": "Inter",
+      "size": "30px",
+      "weight": "300",
+      "lineHeight": "39px",
+      "letterSpacing": "-0.128px",
+      "color": "rgb(97, 133, 168)",
+      "transform": "none"
+    },
+    {
+      "tag": "p",
+      "text": "15M+",
+      "font": "Inter",
+      "size": "30px",
+      "weight": "700",
+      "lineHeight": "36px",
+      "letterSpacing": "-0.128px",
+      "color": "rgb(97, 133, 168)",
+      "transform": "none"
+    },
+    {
+      "tag": "p",
+      "text": "downloads",
+      "font": "Inter",
+      "size": "30px",
+      "weight": "300",
+      "lineHeight": "39px",
+      "letterSpacing": "-0.128px",
+      "color": "rgb(97, 133, 168)",
+      "transform": "none"
+    },
+    {
+      "tag": "p",
+      "text": "500K+",
+      "font": "Inter",
+      "size": "30px",
+      "weight": "700",
+      "lineHeight": "36px",
+      "letterSpacing": "-0.128px",
+      "color": "rgb(97, 133, 168)",
+      "transform": "none"
+    },
+    {
+      "tag": "p",
+      "text": "pro users",
+      "font": "Inter",
+      "size": "30px",
+      "weight": "300",
+      "lineHeight": "39px",
+      "letterSpacing": "-0.128px",
+      "color": "rgb(97, 133, 168)",
+      "transform": "none"
+    },
+    {
+      "tag": "p",
+      "text": "30+",
+      "font": "Inter",
+      "size": "30px",
+      "weight": "700",
+      "lineHeight": "36px",
+      "letterSpacing": "-0.128px",
+      "color": "rgb(97, 133, 168)",
+      "transform": "none"
+    },
+    {
+      "tag": "p",
+      "text": "languages",
+      "font": "Inter",
+      "size": "30px",
+      "weight": "300",
+      "lineHeight": "39px",
+      "letterSpacing": "-0.128px",
+      "color": "rgb(97, 133, 168)",
+      "transform": "none"
+    },
+    {
+      "tag": "p",
+      "text": "400K+",
+      "font": "Inter",
+      "size": "30px",
+      "weight": "700",
+      "lineHeight": "36px",
+      "letterSpacing": "-0.128px",
+      "color": "rgb(97, 133, 168)",
+      "transform": "none"
+    },
+    {
+      "tag": "p",
+      "text": "5-star reviews",
+      "font": "Inter",
+      "size": "30px",
+      "weight": "300",
+      "lineHeight": "39px",
+      "letterSpacing": "-0.128px",
+      "color": "rgb(97, 133, 168)",
+      "transform": "none"
+    },
+    {
+      "tag": "p",
+      "text": "600K+",
+      "font": "Inter",
+      "size": "30px",
+      "weight": "700",
+      "lineHeight": "36px",
+      "letterSpacing": "-0.128px",
+      "color": "rgb(97, 133, 168)",
+      "transform": "none"
+    },
+    {
+      "tag": "p",
+      "text": "tasks daily",
+      "font": "Inter",
+      "size": "30px",
+      "weight": "300",
+      "lineHeight": "39px",
+      "letterSpacing": "-0.128px",
+      "color": "rgb(97, 133, 168)",
+      "transform": "none"
+    },
+    {
+      "tag": "p",
+      "text": "15M+",
+      "font": "Inter",
+      "size": "30px",
+      "weight": "700",
+      "lineHeight": "36px",
+      "letterSpacing": "-0.128px",
+      "color": "rgb(97, 133, 168)",
+      "transform": "none"
+    },
+    {
+      "tag": "p",
+      "text": "downloads",
+      "font": "Inter",
+      "size": "30px",
+      "weight": "300",
+      "lineHeight": "39px",
+      "letterSpacing": "-0.128px",
+      "color": "rgb(97, 133, 168)",
+      "transform": "none"
+    },
+    {
+      "tag": "p",
+      "text": "500K+",
+      "font": "Inter",
+      "size": "30px",
+      "weight": "700",
+      "lineHeight": "36px",
+      "letterSpacing": "-0.128px",
+      "color": "rgb(97, 133, 168)",
+      "transform": "none"
+    },
+    {
+      "tag": "p",
+      "text": "pro users",
+      "font": "Inter",
+      "size": "30px",
+      "weight": "300",
+      "lineHeight": "39px",
+      "letterSpacing": "-0.128px",
+      "color": "rgb(97, 133, 168)",
+      "transform": "none"
+    },
+    {
+      "tag": "p",
+      "text": "30+",
+      "font": "Inter",
+      "size": "30px",
+      "weight": "700",
+      "lineHeight": "36px",
+      "letterSpacing": "-0.128px",
+      "color": "rgb(97, 133, 168)",
+      "transform": "none"
+    },
+    {
+      "tag": "p",
+      "text": "languages",
+      "font": "Inter",
+      "size": "30px",
+      "weight": "300",
+      "lineHeight": "39px",
+      "letterSpacing": "-0.128px",
+      "color": "rgb(97, 133, 168)",
+      "transform": "none"
+    },
+    {
+      "tag": "p",
+      "text": "400K+",
+      "font": "Inter",
+      "size": "30px",
+      "weight": "700",
+      "lineHeight": "36px",
+      "letterSpacing": "-0.128px",
+      "color": "rgb(97, 133, 168)",
+      "transform": "none"
+    },
+    {
+      "tag": "p",
+      "text": "5-star reviews",
+      "font": "Inter",
+      "size": "30px",
+      "weight": "300",
+      "lineHeight": "39px",
+      "letterSpacing": "-0.128px",
+      "color": "rgb(97, 133, 168)",
+      "transform": "none"
+    },
+    {
+      "tag": "p",
+      "text": "600K+",
+      "font": "Inter",
+      "size": "30px",
+      "weight": "700",
+      "lineHeight": "36px",
+      "letterSpacing": "-0.128px",
+      "color": "rgb(97, 133, 168)",
+      "transform": "none"
+    },
+    {
+      "tag": "p",
+      "text": "tasks daily",
+      "font": "Inter",
+      "size": "30px",
+      "weight": "300",
+      "lineHeight": "39px",
+      "letterSpacing": "-0.128px",
+      "color": "rgb(97, 133, 168)",
+      "transform": "none"
+    },
+    {
+      "tag": "p",
+      "text": "15M+",
+      "font": "Inter",
+      "size": "30px",
+      "weight": "700",
+      "lineHeight": "36px",
+      "letterSpacing": "-0.128px",
+      "color": "rgb(97, 133, 168)",
+      "transform": "none"
+    },
+    {
+      "tag": "p",
+      "text": "downloads",
+      "font": "Inter",
+      "size": "30px",
+      "weight": "300",
+      "lineHeight": "39px",
+      "letterSpacing": "-0.128px",
+      "color": "rgb(97, 133, 168)",
+      "transform": "none"
+    },
+    {
+      "tag": "p",
+      "text": "500K+",
+      "font": "Inter",
+      "size": "30px",
+      "weight": "700",
+      "lineHeight": "36px",
+      "letterSpacing": "-0.128px",
+      "color": "rgb(97, 133, 168)",
+      "transform": "none"
+    },
+    {
+      "tag": "p",
+      "text": "pro users",
+      "font": "Inter",
+      "size": "30px",
+      "weight": "300",
+      "lineHeight": "39px",
+      "letterSpacing": "-0.128px",
+      "color": "rgb(97, 133, 168)",
+      "transform": "none"
+    },
+    {
+      "tag": "p",
+      "text": "30+",
+      "font": "Inter",
+      "size": "30px",
+      "weight": "700",
+      "lineHeight": "36px",
+      "letterSpacing": "-0.128px",
+      "color": "rgb(97, 133, 168)",
+      "transform": "none"
+    },
+    {
+      "tag": "p",
+      "text": "languages",
+      "font": "Inter",
+      "size": "30px",
+      "weight": "300",
+      "lineHeight": "39px",
+      "letterSpacing": "-0.128px",
+      "color": "rgb(97, 133, 168)",
+      "transform": "none"
+    },
+    {
+      "tag": "p",
+      "text": "400K+",
+      "font": "Inter",
+      "size": "30px",
+      "weight": "700",
+      "lineHeight": "36px",
+      "letterSpacing": "-0.128px",
+      "color": "rgb(97, 133, 168)",
+      "transform": "none"
+    },
+    {
+      "tag": "p",
+      "text": "5-star reviews",
+      "font": "Inter",
+      "size": "30px",
+      "weight": "300",
+      "lineHeight": "39px",
+      "letterSpacing": "-0.128px",
+      "color": "rgb(97, 133, 168)",
+      "transform": "none"
+    },
+    {
+      "tag": "p",
+      "text": "600K+",
+      "font": "Inter",
+      "size": "30px",
+      "weight": "700",
+      "lineHeight": "36px",
+      "letterSpacing": "-0.128px",
+      "color": "rgb(97, 133, 168)",
+      "transform": "none"
+    },
+    {
+      "tag": "p",
+      "text": "tasks daily",
+      "font": "Inter",
+      "size": "30px",
+      "weight": "300",
+      "lineHeight": "39px",
+      "letterSpacing": "-0.128px",
+      "color": "rgb(97, 133, 168)",
+      "transform": "none"
+    },
+    {
+      "tag": "p",
+      "text": "15M+",
+      "font": "Inter",
+      "size": "30px",
+      "weight": "700",
+      "lineHeight": "36px",
+      "letterSpacing": "-0.128px",
+      "color": "rgb(97, 133, 168)",
+      "transform": "none"
+    },
+    {
+      "tag": "p",
+      "text": "downloads",
+      "font": "Inter",
+      "size": "30px",
+      "weight": "300",
+      "lineHeight": "39px",
+      "letterSpacing": "-0.128px",
+      "color": "rgb(97, 133, 168)",
+      "transform": "none"
+    },
+    {
+      "tag": "p",
+      "text": "500K+",
+      "font": "Inter",
+      "size": "30px",
+      "weight": "700",
+      "lineHeight": "36px",
+      "letterSpacing": "-0.128px",
+      "color": "rgb(97, 133, 168)",
+      "transform": "none"
+    },
+    {
+      "tag": "p",
+      "text": "pro users",
+      "font": "Inter",
+      "size": "30px",
+      "weight": "300",
+      "lineHeight": "39px",
+      "letterSpacing": "-0.128px",
+      "color": "rgb(97, 133, 168)",
+      "transform": "none"
+    },
+    {
+      "tag": "p",
+      "text": "30+",
+      "font": "Inter",
+      "size": "30px",
+      "weight": "700",
+      "lineHeight": "36px",
+      "letterSpacing": "-0.128px",
+      "color": "rgb(97, 133, 168)",
+      "transform": "none"
+    },
+    {
+      "tag": "p",
+      "text": "languages",
+      "font": "Inter",
+      "size": "30px",
+      "weight": "300",
+      "lineHeight": "39px",
+      "letterSpacing": "-0.128px",
+      "color": "rgb(97, 133, 168)",
+      "transform": "none"
+    },
+    {
+      "tag": "p",
+      "text": "400K+",
+      "font": "Inter",
+      "size": "30px",
+      "weight": "700",
+      "lineHeight": "36px",
+      "letterSpacing": "-0.128px",
+      "color": "rgb(97, 133, 168)",
+      "transform": "none"
+    },
+    {
+      "tag": "p",
+      "text": "5-star reviews",
+      "font": "Inter",
+      "size": "30px",
+      "weight": "300",
+      "lineHeight": "39px",
+      "letterSpacing": "-0.128px",
+      "color": "rgb(97, 133, 168)",
+      "transform": "none"
+    },
+    {
+      "tag": "button",
+      "text": "I'm convinced",
+      "font": "Inter",
+      "size": "18px",
+      "weight": "500",
+      "lineHeight": "27px",
+      "letterSpacing": "-0.128px",
+      "color": "rgb(255, 255, 255)",
+      "transform": "none"
+    },
+    {
+      "tag": "span",
+      "text": "I'm convinced",
+      "font": "Inter",
+      "size": "18px",
+      "weight": "500",
+      "lineHeight": "27px",
+      "letterSpacing": "-0.128px",
+      "color": "rgb(255, 255, 255)",
+      "transform": "none"
+    },
+    {
+      "tag": "h2",
+      "text": "one planner, one timeline, 99 appointments",
+      "font": "Inter",
+      "size": "78px",
+      "weight": "300",
+      "lineHeight": "81.9px",
+      "letterSpacing": "-4px",
+      "color": "rgb(97, 133, 168)",
+      "transform": "lowercase"
+    },
+    {
+      "tag": "span",
+      "text": "99 appointments",
+      "font": "Inter",
+      "size": "78px",
+      "weight": "600",
+      "lineHeight": "81.9px",
+      "letterSpacing": "-4px",
+      "color": "rgb(97, 133, 168)",
+      "transform": "lowercase"
+    },
+    {
+      "tag": "h3",
+      "text": "split your day into tasks and visualize them in a timeline.",
+      "font": "Inter",
+      "size": "64.08px",
+      "weight": "300",
+      "lineHeight": "64.08px",
+      "letterSpacing": "-1.5px",
+      "color": "rgb(255, 255, 255)",
+      "transform": "lowercase"
+    },
+    {
+      "tag": "span",
+      "text": "split your day into tasks",
+      "font": "Inter",
+      "size": "64.08px",
+      "weight": "700",
+      "lineHeight": "64.08px",
+      "letterSpacing": "-1.5px",
+      "color": "rgb(255, 255, 255)",
+      "transform": "lowercase"
+    },
+    {
+      "tag": "span",
+      "text": "and visualize them in a timeline.",
+      "font": "Inter",
+      "size": "64.08px",
+      "weight": "300",
+      "lineHeight": "64.08px",
+      "letterSpacing": "-1.5px",
+      "color": "rgb(255, 255, 255)",
+      "transform": "lowercase"
+    },
+    {
+      "tag": "h3",
+      "text": "create tasks in seconds or import your existing calendar",
+      "font": "Inter",
+      "size": "64.08px",
+      "weight": "300",
+      "lineHeight": "64.08px",
+      "letterSpacing": "-1.5px",
+      "color": "rgb(255, 255, 255)",
+      "transform": "lowercase"
+    },
+    {
+      "tag": "span",
+      "text": "create tasks in seconds",
+      "font": "Inter",
+      "size": "64.08px",
+      "weight": "700",
+      "lineHeight": "64.08px",
+      "letterSpacing": "-1.5px",
+      "color": "rgb(255, 255, 255)",
+      "transform": "lowercase"
+    },
+    {
+      "tag": "span",
+      "text": "or import your existing calendar",
+      "font": "Inter",
+      "size": "64.08px",
+      "weight": "300",
+      "lineHeight": "64.08px",
+      "letterSpacing": "-1.5px",
+      "color": "rgb(255, 255, 255)",
+      "transform": "lowercase"
+    },
+    {
+      "tag": "h3",
+      "text": "stay on top with weekly and monthly view",
+      "font": "Inter",
+      "size": "64.08px",
+      "weight": "300",
+      "lineHeight": "64.08px",
+      "letterSpacing": "-1.5px",
+      "color": "rgb(255, 255, 255)",
+      "transform": "lowercase"
+    },
+    {
+      "tag": "span",
+      "text": "stay on top",
+      "font": "Inter",
+      "size": "64.08px",
+      "weight": "700",
+      "lineHeight": "64.08px",
+      "letterSpacing": "-1.5px",
+      "color": "rgb(255, 255, 255)",
+      "transform": "lowercase"
+    },
+    {
+      "tag": "span",
+      "text": "with weekly and monthly view",
+      "font": "Inter",
+      "size": "64.08px",
+      "weight": "300",
+      "lineHeight": "64.08px",
+      "letterSpacing": "-1.5px",
+      "color": "rgb(255, 255, 255)",
+      "transform": "lowercase"
+    },
+    {
+      "tag": "h3",
+      "text": "start planning on your phone",
+      "font": "Inter",
+      "size": "64.08px",
+      "weight": "300",
+      "lineHeight": "64.08px",
+      "letterSpacing": "-1.5px",
+      "color": "rgb(255, 255, 255)",
+      "transform": "lowercase"
+    },
+    {
+      "tag": "span",
+      "text": "start planning on",
+      "font": "Inter",
+      "size": "64.08px",
+      "weight": "300",
+      "lineHeight": "64.08px",
+      "letterSpacing": "-1.5px",
+      "color": "rgb(255, 255, 255)",
+      "transform": "lowercase"
+    },
+    {
+      "tag": "span",
+      "text": "your phone",
+      "font": "Inter",
+      "size": "64.08px",
+      "weight": "700",
+      "lineHeight": "64.08px",
+      "letterSpacing": "-1.5px",
+      "color": "rgb(255, 255, 255)",
+      "transform": "lowercase"
+    },
+    {
+      "tag": "h3",
+      "text": "finish on your computer",
+      "font": "Inter",
+      "size": "64.08px",
+      "weight": "300",
+      "lineHeight": "64.08px",
+      "letterSpacing": "-1.5px",
+      "color": "rgb(255, 255, 255)",
+      "transform": "lowercase"
+    },
+    {
+      "tag": "span",
+      "text": "finish on your",
+      "font": "Inter",
+      "size": "64.08px",
+      "weight": "300",
+      "lineHeight": "64.08px",
+      "letterSpacing": "-1.5px",
+      "color": "rgb(255, 255, 255)",
+      "transform": "lowercase"
+    },
+    {
+      "tag": "span",
+      "text": "computer",
+      "font": "Inter",
+      "size": "64.08px",
+      "weight": "700",
+      "lineHeight": "64.08px",
+      "letterSpacing": "-1.5px",
+      "color": "rgb(255, 255, 255)",
+      "transform": "lowercase"
+    },
+    {
+      "tag": "h3",
+      "text": "and view it on your smart watch",
+      "font": "Inter",
+      "size": "64.08px",
+      "weight": "300",
+      "lineHeight": "64.08px",
+      "letterSpacing": "-1.5px",
+      "color": "rgb(255, 255, 255)",
+      "transform": "lowercase"
+    },
+    {
+      "tag": "span",
+      "text": "and view it on",
+      "font": "Inter",
+      "size": "64.08px",
+      "weight": "300",
+      "lineHeight": "64.08px",
+      "letterSpacing": "-1.5px",
+      "color": "rgb(255, 255, 255)",
+      "transform": "lowercase"
+    },
+    {
+      "tag": "span",
+      "text": "your smart watch",
+      "font": "Inter",
+      "size": "64.08px",
+      "weight": "700",
+      "lineHeight": "64.08px",
+      "letterSpacing": "-1.5px",
+      "color": "rgb(255, 255, 255)",
+      "transform": "lowercase"
+    },
+    {
+      "tag": "a",
+      "text": "visual planning",
+      "font": "Inter",
+      "size": "16px",
+      "weight": "400",
+      "lineHeight": "24px",
+      "letterSpacing": "-0.128px",
+      "color": "rgb(0, 0, 0)",
+      "transform": "none"
+    },
+    {
+      "tag": "span",
+      "text": "visual",
+      "font": "Inter",
+      "size": "30px",
+      "weight": "600",
+      "lineHeight": "28.8px",
+      "letterSpacing": "-0.128px",
+      "color": "rgb(255, 255, 255)",
+      "transform": "lowercase"
+    },
+    {
+      "tag": "span",
+      "text": "planning",
+      "font": "Inter",
+      "size": "30px",
+      "weight": "300",
+      "lineHeight": "28.8px",
+      "letterSpacing": "-0.128px",
+      "color": "rgb(255, 255, 255)",
+      "transform": "lowercase"
+    },
+    {
+      "tag": "a",
+      "text": "import calendars",
+      "font": "Inter",
+      "size": "16px",
+      "weight": "400",
+      "lineHeight": "24px",
+      "letterSpacing": "-0.128px",
+      "color": "rgb(0, 0, 0)",
+      "transform": "none"
+    },
+    {
+      "tag": "span",
+      "text": "import",
+      "font": "Inter",
+      "size": "30px",
+      "weight": "600",
+      "lineHeight": "28.8px",
+      "letterSpacing": "-0.128px",
+      "color": "rgb(255, 255, 255)",
+      "transform": "lowercase"
+    },
+    {
+      "tag": "span",
+      "text": "calendars",
+      "font": "Inter",
+      "size": "30px",
+      "weight": "300",
+      "lineHeight": "28.8px",
+      "letterSpacing": "-0.128px",
+      "color": "rgb(255, 255, 255)",
+      "transform": "lowercase"
+    },
+    {
+      "tag": "a",
+      "text": "plan with ai",
+      "font": "Inter",
+      "size": "16px",
+      "weight": "400",
+      "lineHeight": "24px",
+      "letterSpacing": "-0.128px",
+      "color": "rgb(0, 0, 0)",
+      "transform": "none"
+    },
+    {
+      "tag": "span",
+      "text": "plan",
+      "font": "Inter",
+      "size": "30px",
+      "weight": "600",
+      "lineHeight": "28.8px",
+      "letterSpacing": "-0.128px",
+      "color": "rgb(255, 255, 255)",
+      "transform": "lowercase"
+    },
+    {
+      "tag": "span",
+      "text": "with ai",
+      "font": "Inter",
+      "size": "30px",
+      "weight": "300",
+      "lineHeight": "28.8px",
+      "letterSpacing": "-0.128px",
+      "color": "rgb(255, 255, 255)",
+      "transform": "lowercase"
+    },
+    {
+      "tag": "a",
+      "text": "access everywhere",
+      "font": "Inter",
+      "size": "16px",
+      "weight": "400",
+      "lineHeight": "24px",
+      "letterSpacing": "-0.128px",
+      "color": "rgb(0, 0, 0)",
+      "transform": "none"
+    },
+    {
+      "tag": "span",
+      "text": "access",
+      "font": "Inter",
+      "size": "30px",
+      "weight": "600",
+      "lineHeight": "28.8px",
+      "letterSpacing": "-0.128px",
+      "color": "rgb(255, 255, 255)",
+      "transform": "lowercase"
+    },
+    {
+      "tag": "span",
+      "text": "everywhere",
+      "font": "Inter",
+      "size": "30px",
+      "weight": "300",
+      "lineHeight": "28.8px",
+      "letterSpacing": "-0.128px",
+      "color": "rgb(255, 255, 255)",
+      "transform": "lowercase"
+    },
+    {
+      "tag": "a",
+      "text": "align your rhythm",
+      "font": "Inter",
+      "size": "16px",
+      "weight": "400",
+      "lineHeight": "24px",
+      "letterSpacing": "-0.128px",
+      "color": "rgb(0, 0, 0)",
+      "transform": "none"
+    },
+    {
+      "tag": "span",
+      "text": "align",
+      "font": "Inter",
+      "size": "30px",
+      "weight": "600",
+      "lineHeight": "28.8px",
+      "letterSpacing": "-0.128px",
+      "color": "rgb(255, 255, 255)",
+      "transform": "lowercase"
+    },
+    {
+      "tag": "span",
+      "text": "your rhythm",
+      "font": "Inter",
+      "size": "30px",
+      "weight": "300",
+      "lineHeight": "28.8px",
+      "letterSpacing": "-0.128px",
+      "color": "rgb(255, 255, 255)",
+      "transform": "lowercase"
+    },
+    {
+      "tag": "h2",
+      "text": "known from",
+      "font": "Inter",
+      "size": "78px",
+      "weight": "600",
+      "lineHeight": "78px",
+      "letterSpacing": "-4px",
+      "color": "rgb(255, 255, 255)",
+      "transform": "lowercase"
+    },
+    {
+      "tag": "span",
+      "text": "from",
+      "font": "Inter",
+      "size": "78px",
+      "weight": "300",
+      "lineHeight": "78px",
+      "letterSpacing": "-4px",
+      "color": "rgb(255, 255, 255)",
+      "transform": "lowercase"
+    },
+    {
+      "tag": "span",
+      "text": "visualize your day",
+      "font": "Inter",
+      "size": "62px",
+      "weight": "300",
+      "lineHeight": "68.2px",
+      "letterSpacing": "-1.5px",
+      "color": "rgb(0, 0, 0)",
+      "transform": "lowercase"
+    },
+    {
+      "tag": "span",
+      "text": "visualize",
+      "font": "Inter",
+      "size": "62px",
+      "weight": "300",
+      "lineHeight": "68.2px",
+      "letterSpacing": "-1.5px",
+      "color": "rgb(44, 80, 115)",
+      "transform": "lowercase"
+    },
+    {
+      "tag": "span",
+      "text": "your",
+      "font": "Inter",
+      "size": "62px",
+      "weight": "300",
+      "lineHeight": "68.2px",
+      "letterSpacing": "-1.5px",
+      "color": "rgb(44, 80, 115)",
+      "transform": "lowercase"
+    },
+    {
+      "tag": "span",
+      "text": "day",
+      "font": "Inter",
+      "size": "62px",
+      "weight": "300",
+      "lineHeight": "68.2px",
+      "letterSpacing": "-1.5px",
+      "color": "rgb(44, 80, 115)",
+      "transform": "lowercase"
+    },
+    {
+      "tag": "span",
+      "text": "split it into tasks, set deadlines, get an overview",
+      "font": "Inter",
+      "size": "62px",
+      "weight": "300",
+      "lineHeight": "68.2px",
+      "letterSpacing": "-1.5px",
+      "color": "rgb(0, 0, 0)",
+      "transform": "lowercase"
+    },
+    {
+      "tag": "span",
+      "text": "split",
+      "font": "Inter",
+      "size": "62px",
+      "weight": "300",
+      "lineHeight": "68.2px",
+      "letterSpacing": "-1.5px",
+      "color": "rgb(44, 80, 115)",
+      "transform": "lowercase"
+    },
+    {
+      "tag": "span",
+      "text": "it",
+      "font": "Inter",
+      "size": "62px",
+      "weight": "300",
+      "lineHeight": "68.2px",
+      "letterSpacing": "-1.5px",
+      "color": "rgb(44, 80, 115)",
+      "transform": "lowercase"
+    },
+    {
+      "tag": "span",
+      "text": "into",
+      "font": "Inter",
+      "size": "62px",
+      "weight": "300",
+      "lineHeight": "68.2px",
+      "letterSpacing": "-1.5px",
+      "color": "rgb(44, 80, 115)",
+      "transform": "lowercase"
+    },
+    {
+      "tag": "span",
+      "text": "tasks,",
+      "font": "Inter",
+      "size": "62px",
+      "weight": "300",
+      "lineHeight": "68.2px",
+      "letterSpacing": "-1.5px",
+      "color": "rgb(44, 80, 115)",
+      "transform": "lowercase"
+    },
+    {
+      "tag": "span",
+      "text": "set",
+      "font": "Inter",
+      "size": "62px",
+      "weight": "300",
+      "lineHeight": "68.2px",
+      "letterSpacing": "-1.5px",
+      "color": "rgb(44, 80, 115)",
+      "transform": "lowercase"
+    },
+    {
+      "tag": "span",
+      "text": "deadlines,",
+      "font": "Inter",
+      "size": "62px",
+      "weight": "300",
+      "lineHeight": "68.2px",
+      "letterSpacing": "-1.5px",
+      "color": "rgb(44, 80, 115)",
+      "transform": "lowercase"
+    },
+    {
+      "tag": "span",
+      "text": "get",
+      "font": "Inter",
+      "size": "62px",
+      "weight": "300",
+      "lineHeight": "68.2px",
+      "letterSpacing": "-1.5px",
+      "color": "rgb(44, 80, 115)",
+      "transform": "lowercase"
+    },
+    {
+      "tag": "span",
+      "text": "an",
+      "font": "Inter",
+      "size": "62px",
+      "weight": "300",
+      "lineHeight": "68.2px",
+      "letterSpacing": "-1.5px",
+      "color": "rgb(44, 80, 115)",
+      "transform": "lowercase"
+    },
+    {
+      "tag": "span",
+      "text": "overview",
+      "font": "Inter",
+      "size": "62px",
+      "weight": "300",
+      "lineHeight": "68.2px",
+      "letterSpacing": "-1.5px",
+      "color": "rgb(44, 80, 115)",
+      "transform": "lowercase"
+    },
+    {
+      "tag": "span",
+      "text": "store your thoughts",
+      "font": "Inter",
+      "size": "62px",
+      "weight": "300",
+      "lineHeight": "68.2px",
+      "letterSpacing": "-1.5px",
+      "color": "rgb(0, 0, 0)",
+      "transform": "lowercase"
+    },
+    {
+      "tag": "span",
+      "text": "store",
+      "font": "Inter",
+      "size": "62px",
+      "weight": "300",
+      "lineHeight": "68.2px",
+      "letterSpacing": "-1.5px",
+      "color": "rgb(44, 80, 115)",
+      "transform": "lowercase"
+    }
+  ],
+  "headings": [
+    {
+      "tag": "h1",
+      "text": "your all in one calendar habit tracker day planner to do list focus timer",
+      "size": "16px",
+      "weight": "400",
+      "lineHeight": "24px",
+      "letterSpacing": "-0.128px",
+      "font": "Inter",
+      "color": "rgb(0, 0, 0)",
+      "top": 1015,
+      "w": 1152
+    },
+    {
+      "tag": "h2",
+      "text": "the day planner app that everyone is using",
+      "size": "78px",
+      "weight": "400",
+      "lineHeight": "81.9px",
+      "letterSpacing": "-1.5px",
+      "font": "Inter",
+      "color": "rgb(97, 133, 168)",
+      "top": 2380,
+      "w": 762
+    },
+    {
+      "tag": "h2",
+      "text": "one planner, one timeline, 99 appointments",
+      "size": "78px",
+      "weight": "300",
+      "lineHeight": "81.9px",
+      "letterSpacing": "-4px",
+      "font": "Inter",
+      "color": "rgb(97, 133, 168)",
+      "top": 3299,
+      "w": 900
+    },
+    {
+      "tag": "h3",
+      "text": "split your day into tasks and visualize them in a timeline.",
+      "size": "64.08px",
+      "weight": "300",
+      "lineHeight": "64.08px",
+      "letterSpacing": "-1.5px",
+      "font": "Inter",
+      "color": "rgb(255, 255, 255)",
+      "top": 8955,
+      "w": 513
+    },
+    {
+      "tag": "h3",
+      "text": "create tasks in seconds or import your existing calendar",
+      "size": "64.08px",
+      "weight": "300",
+      "lineHeight": "64.08px",
+      "letterSpacing": "-1.5px",
+      "font": "Inter",
+      "color": "rgb(255, 255, 255)",
+      "top": 8955,
+      "w": 513
+    },
+    {
+      "tag": "h3",
+      "text": "stay on top with weekly and monthly view",
+      "size": "64.08px",
+      "weight": "300",
+      "lineHeight": "64.08px",
+      "letterSpacing": "-1.5px",
+      "font": "Inter",
+      "color": "rgb(255, 255, 255)",
+      "top": 8955,
+      "w": 513
+    },
+    {
+      "tag": "h3",
+      "text": "start planning on your phone",
+      "size": "64.08px",
+      "weight": "300",
+      "lineHeight": "64.08px",
+      "letterSpacing": "-1.5px",
+      "font": "Inter",
+      "color": "rgb(255, 255, 255)",
+      "top": 8955,
+      "w": 513
+    },
+    {
+      "tag": "h3",
+      "text": "finish on your computer",
+      "size": "64.08px",
+      "weight": "300",
+      "lineHeight": "64.08px",
+      "letterSpacing": "-1.5px",
+      "font": "Inter",
+      "color": "rgb(255, 255, 255)",
+      "top": 8955,
+      "w": 513
+    },
+    {
+      "tag": "h3",
+      "text": "and view it on your smart watch",
+      "size": "64.08px",
+      "weight": "300",
+      "lineHeight": "64.08px",
+      "letterSpacing": "-1.5px",
+      "font": "Inter",
+      "color": "rgb(255, 255, 255)",
+      "top": 8925,
+      "w": 513
+    },
+    {
+      "tag": "h2",
+      "text": "known from",
+      "size": "78px",
+      "weight": "600",
+      "lineHeight": "78px",
+      "letterSpacing": "-4px",
+      "font": "Inter",
+      "color": "rgb(255, 255, 255)",
+      "top": 10340,
+      "w": 399
+    },
+    {
+      "tag": "h3",
+      "text": "content",
+      "size": "66px",
+      "weight": "700",
+      "lineHeight": "66px",
+      "letterSpacing": "-1.5px",
+      "font": "Inter",
+      "color": "rgb(255, 255, 255)",
+      "top": 17599,
+      "w": 368
+    },
+    {
+      "tag": "h3",
+      "text": "resources",
+      "size": "66px",
+      "weight": "700",
+      "lineHeight": "66px",
+      "letterSpacing": "-1.5px",
+      "font": "Inter",
+      "color": "rgb(255, 255, 255)",
+      "top": 17599,
+      "w": 368
+    },
+    {
+      "tag": "h3",
+      "text": "company",
+      "size": "66px",
+      "weight": "700",
+      "lineHeight": "66px",
+      "letterSpacing": "-1.5px",
+      "font": "Inter",
+      "color": "rgb(255, 255, 255)",
+      "top": 17599,
+      "w": 368
+    }
+  ],
+  "buttons": [
+    {
+      "text": "features",
+      "tag": "button",
+      "w": 78,
+      "h": 24,
+      "bg": "rgba(0, 0, 0, 0)",
+      "color": "oklab(0.999994 0.0000455678 0.0000200868 / 0.9)",
+      "radius": "4px",
+      "border": "0px none oklab(0.999994 0.0000455678 0.0000200868 / 0.9)",
+      "font": "Inter",
+      "size": "16px",
+      "weight": "600",
+      "padding": "0px"
+    },
+    {
+      "text": "Start planning for free!",
+      "tag": "button",
+      "w": 282,
+      "h": 52,
+      "bg": "rgb(92, 133, 168)",
+      "color": "rgb(255, 255, 255)",
+      "radius": "3.35544e+07px",
+      "border": "1px solid oklab(0.999994 0.0000455678 0.0000200868 / 0.15)",
+      "font": "Inter",
+      "size": "20px",
+      "weight": "400",
+      "padding": "10px 35px"
+    },
+    {
+      "text": "Start planning for free!",
+      "tag": "button",
+      "w": 261,
+      "h": 47,
+      "bg": "rgb(92, 133, 168)",
+      "color": "rgb(255, 255, 255)",
+      "radius": "3.35544e+07px",
+      "border": "0px solid rgb(255, 255, 255)",
+      "font": "Inter",
+      "size": "18px",
+      "weight": "500",
+      "padding": "10px 35px"
+    },
+    {
+      "text": "I'm convinced",
+      "tag": "button",
+      "w": 195,
+      "h": 47,
+      "bg": "rgb(92, 133, 168)",
+      "color": "rgb(255, 255, 255)",
+      "radius": "3.35544e+07px",
+      "border": "0px solid rgb(255, 255, 255)",
+      "font": "Inter",
+      "size": "18px",
+      "weight": "500",
+      "padding": "0px"
+    },
+    {
+      "text": "Is Structured free?",
+      "tag": "button",
+      "w": 960,
+      "h": 77,
+      "bg": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "radius": "4px",
+      "border": "0px solid rgb(0, 0, 0)",
+      "font": "Inter",
+      "size": "16px",
+      "weight": "400",
+      "padding": "22px 0px"
+    },
+    {
+      "text": "I use Google Calendar! How is Structured different",
+      "tag": "button",
+      "w": 960,
+      "h": 77,
+      "bg": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "radius": "4px",
+      "border": "0px solid rgb(0, 0, 0)",
+      "font": "Inter",
+      "size": "16px",
+      "weight": "400",
+      "padding": "22px 0px"
+    },
+    {
+      "text": "Do you show ads or sell my data?",
+      "tag": "button",
+      "w": 960,
+      "h": 77,
+      "bg": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "radius": "4px",
+      "border": "0px solid rgb(0, 0, 0)",
+      "font": "Inter",
+      "size": "16px",
+      "weight": "400",
+      "padding": "22px 0px"
+    },
+    {
+      "text": "Who is Structured for?",
+      "tag": "button",
+      "w": 960,
+      "h": 77,
+      "bg": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "radius": "4px",
+      "border": "0px solid rgb(0, 0, 0)",
+      "font": "Inter",
+      "size": "16px",
+      "weight": "400",
+      "padding": "22px 0px"
+    },
+    {
+      "text": "What if it's not right for me?",
+      "tag": "button",
+      "w": 960,
+      "h": 77,
+      "bg": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "radius": "4px",
+      "border": "0px solid rgb(0, 0, 0)",
+      "font": "Inter",
+      "size": "16px",
+      "weight": "400",
+      "padding": "22px 0px"
+    },
+    {
+      "text": "Try Structured for free",
+      "tag": "button",
+      "w": 247,
+      "h": 47,
+      "bg": "rgb(97, 133, 168)",
+      "color": "rgb(255, 255, 255)",
+      "radius": "40px",
+      "border": "0px solid rgb(255, 255, 255)",
+      "font": "Inter",
+      "size": "18px",
+      "weight": "500",
+      "padding": "10px 35px"
+    }
+  ],
+  "landmarks": [
+    {
+      "tag": "nav",
+      "role": null,
+      "label": null,
+      "class": "fixed top-0 left-0 w-full z-50 flex items-start justify-center px-4 py-3",
+      "top": 17100,
+      "w": 1424,
+      "h": 102,
+      "bg": "rgba(0, 0, 0, 0)",
+      "padding": "12px 16px",
+      "position": "fixed",
+      "z": "50"
+    },
+    {
+      "tag": "main",
+      "role": null,
+      "label": null,
+      "class": "",
+      "top": 865,
+      "w": 1424,
+      "h": 16669,
+      "bg": "rgb(255, 167, 160)",
+      "padding": "0px",
+      "position": "relative",
+      "z": "3"
+    },
+    {
+      "tag": "section",
+      "role": null,
+      "label": null,
+      "class": "relative z-[2]",
+      "top": 865,
+      "w": 1424,
+      "h": 1448,
+      "bg": "rgb(255, 167, 160)",
+      "padding": "150px 0px 0px",
+      "position": "relative",
+      "z": "2"
+    },
+    {
+      "tag": "section",
+      "role": null,
+      "label": null,
+      "class": "relative z-[1] overflow-hidden flex flex-col items-center justify-center",
+      "top": 2314,
+      "w": 1424,
+      "h": 865,
+      "bg": "rgba(0, 0, 0, 0)",
+      "padding": "0px",
+      "position": "relative",
+      "z": "1"
+    },
+    {
+      "tag": "section",
+      "role": null,
+      "label": null,
+      "class": "desktop-ssr-only relative z-[2]",
+      "top": 3179,
+      "w": 1424,
+      "h": 1116,
+      "bg": "rgba(0, 0, 0, 0)",
+      "padding": "120px 20px",
+      "position": "relative",
+      "z": "2"
+    },
+    {
+      "tag": "section",
+      "role": null,
+      "label": null,
+      "class": "desktop-ssr-only relative z-[2]",
+      "top": 4296,
+      "w": 1424,
+      "h": 5190,
+      "bg": "rgba(0, 0, 0, 0)",
+      "padding": "0px",
+      "position": "relative",
+      "z": "2"
+    },
+    {
+      "tag": "section",
+      "role": null,
+      "label": null,
+      "class": "relative z-[2]",
+      "top": 9486,
+      "w": 1424,
+      "h": 712,
+      "bg": "rgba(0, 0, 0, 0)",
+      "padding": "0px 50px",
+      "position": "relative",
+      "z": "2"
+    },
+    {
+      "tag": "section",
+      "role": null,
+      "label": null,
+      "class": "relative z-[2]",
+      "top": 10198,
+      "w": 1200,
+      "h": 510,
+      "bg": "rgba(0, 0, 0, 0)",
+      "padding": "0px",
+      "position": "relative",
+      "z": "2"
+    },
+    {
+      "tag": "section",
+      "role": null,
+      "label": null,
+      "class": "relative z-[2]",
+      "top": 10729,
+      "w": 1424,
+      "h": 2595,
+      "bg": "rgba(0, 0, 0, 0)",
+      "padding": "0px",
+      "position": "relative",
+      "z": "2"
+    },
+    {
+      "tag": "section",
+      "role": null,
+      "label": null,
+      "class": "relative z-[2]",
+      "top": 13324,
+      "w": 1424,
+      "h": 673,
+      "bg": "rgba(0, 0, 0, 0)",
+      "padding": "40px 0px 0px",
+      "position": "relative",
+      "z": "2"
+    },
+    {
+      "tag": "section",
+      "role": null,
+      "label": null,
+      "class": "desktop-ssr-only relative z-[2] section-padding",
+      "top": 13997,
+      "w": 1424,
+      "h": 1928,
+      "bg": "rgba(0, 0, 0, 0)",
+      "padding": "199.36px 60px 120px",
+      "position": "relative",
+      "z": "2"
+    },
+    {
+      "tag": "section",
+      "role": null,
+      "label": null,
+      "class": "relative z-[2]",
+      "top": 15926,
+      "w": 1424,
+      "h": 916,
+      "bg": "rgba(0, 0, 0, 0)",
+      "padding": "80px 20px 160px",
+      "position": "relative",
+      "z": "2"
+    }
+  ],
+  "fontsLoaded": [
+    {
+      "family": "Inter",
+      "weight": "300",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Inter",
+      "weight": "300",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Inter",
+      "weight": "300",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Inter",
+      "weight": "300",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Inter",
+      "weight": "300",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Inter",
+      "weight": "300",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Inter",
+      "weight": "300",
+      "style": "normal",
+      "status": "loaded"
+    },
+    {
+      "family": "Inter",
+      "weight": "400",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Inter",
+      "weight": "400",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Inter",
+      "weight": "400",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Inter",
+      "weight": "400",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Inter",
+      "weight": "400",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Inter",
+      "weight": "400",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Inter",
+      "weight": "400",
+      "style": "normal",
+      "status": "loaded"
+    },
+    {
+      "family": "Inter",
+      "weight": "500",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Inter",
+      "weight": "500",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Inter",
+      "weight": "500",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Inter",
+      "weight": "500",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Inter",
+      "weight": "500",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Inter",
+      "weight": "500",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Inter",
+      "weight": "500",
+      "style": "normal",
+      "status": "loaded"
+    },
+    {
+      "family": "Inter",
+      "weight": "600",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Inter",
+      "weight": "600",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Inter",
+      "weight": "600",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Inter",
+      "weight": "600",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Inter",
+      "weight": "600",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Inter",
+      "weight": "600",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Inter",
+      "weight": "600",
+      "style": "normal",
+      "status": "loaded"
+    },
+    {
+      "family": "Inter",
+      "weight": "700",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Inter",
+      "weight": "700",
+      "style": "normal",
+      "status": "unloaded"
+    }
+  ],
+  "cssLinks": [
+    "https://structured.app/_next/static/css/ea6d46804a1cc804.css?dpl=dpl_Gz7zvH26NMyaBxgoLpapTnQi1bMC"
+  ],
+  "scripts": [
+    "https://structured.app/_next/static/chunks/4bd1b696-76ccd9213bfb5057.js?dpl=dpl_Gz7zvH26NMyaBxgoLpapTnQi1bMC",
+    "https://structured.app/_next/static/chunks/162-928cec58a969c1f4.js?dpl=dpl_Gz7zvH26NMyaBxgoLpapTnQi1bMC",
+    "https://structured.app/_next/static/chunks/main-app-bec198b8bd3585e3.js?dpl=dpl_Gz7zvH26NMyaBxgoLpapTnQi1bMC",
+    "https://structured.app/_next/static/chunks/256-624c6af97cad4dbf.js?dpl=dpl_Gz7zvH26NMyaBxgoLpapTnQi1bMC",
+    "https://structured.app/_next/static/chunks/104-f0d1e36c68e03b47.js?dpl=dpl_Gz7zvH26NMyaBxgoLpapTnQi1bMC",
+    "https://structured.app/_next/static/chunks/294-135f14f3ed398728.js?dpl=dpl_Gz7zvH26NMyaBxgoLpapTnQi1bMC",
+    "https://structured.app/_next/static/chunks/116-c3bdbe54fb100f2c.js?dpl=dpl_Gz7zvH26NMyaBxgoLpapTnQi1bMC",
+    "https://structured.app/_next/static/chunks/app/layout-29bfa35644e71cae.js?dpl=dpl_Gz7zvH26NMyaBxgoLpapTnQi1bMC",
+    "https://structured.app/_next/static/chunks/app/error-1a33cfaea2d826da.js?dpl=dpl_Gz7zvH26NMyaBxgoLpapTnQi1bMC",
+    "https://structured.app/_next/static/chunks/653-6dcfc89365cac8bf.js?dpl=dpl_Gz7zvH26NMyaBxgoLpapTnQi1bMC",
+    "https://structured.app/_next/static/chunks/app/page-c2ac03ba1e0f9f5d.js?dpl=dpl_Gz7zvH26NMyaBxgoLpapTnQi1bMC",
+    "https://structured.app/_next/static/chunks/app/global-error-d9fab85ffc16d6b7.js?dpl=dpl_Gz7zvH26NMyaBxgoLpapTnQi1bMC",
+    "https://structured.app/_next/static/chunks/polyfills-42372ed130431b0a.js?dpl=dpl_Gz7zvH26NMyaBxgoLpapTnQi1bMC",
+    "https://i.strct.app/static/dead-clicks-autocapture.js?v=1.376.3",
+    "https://structured.app/_next/static/chunks/webpack-047a6060dd5c9ffb.js?dpl=dpl_Gz7zvH26NMyaBxgoLpapTnQi1bMC",
+    "https://chat-assets.frontapp.com/v1/chat.bundle.js"
+  ]
+}

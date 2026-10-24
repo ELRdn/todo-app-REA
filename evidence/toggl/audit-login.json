@@ -1,0 +1,605 @@
+{
+  "url": "https://accounts.toggl.com/track/login/?returnTo=https%3A%2F%2Ftrack.toggl.com%2Flogin",
+  "title": "Login | Toggl Track",
+  "meta": {
+    "description": null,
+    "themeColor": null,
+    "viewport": "width=device-width,initial-scale=1.0 maximum-scale=1.0,user-scalable=no",
+    "generator": null,
+    "ogSite": null
+  },
+  "viewport": {
+    "w": 1424,
+    "h": 865,
+    "docH": 865
+  },
+  "counts": {
+    "elements": 63,
+    "nodes": 1988,
+    "images": 33
+  },
+  "palette": {
+    "text": [
+      {
+        "value": "rgb(255, 255, 255)",
+        "count": 53
+      },
+      {
+        "value": "rgb(179, 176, 178)",
+        "count": 4
+      },
+      {
+        "value": "rgb(87, 84, 86)",
+        "count": 3
+      },
+      {
+        "value": "rgb(229, 123, 217)",
+        "count": 2
+      },
+      {
+        "value": "rgb(19, 18, 19)",
+        "count": 1
+      }
+    ],
+    "background": [
+      {
+        "value": "rgba(0, 0, 0, 0)",
+        "count": 52
+      },
+      {
+        "value": "rgb(28, 26, 28)",
+        "count": 10
+      },
+      {
+        "value": "rgb(205, 127, 194)",
+        "count": 1
+      }
+    ],
+    "border": [
+      {
+        "value": "1px solid rgb(87, 84, 86)",
+        "count": 6
+      },
+      {
+        "value": "1px solid rgba(0, 0, 0, 0)",
+        "count": 2
+      },
+      {
+        "value": "1px solid rgb(60, 57, 59)",
+        "count": 1
+      }
+    ],
+    "radius": [
+      {
+        "value": "0px",
+        "count": 52
+      },
+      {
+        "value": "8px",
+        "count": 10
+      },
+      {
+        "value": "4px",
+        "count": 1
+      }
+    ],
+    "shadow": [],
+    "gap": [
+      {
+        "value": "8px",
+        "count": 8
+      }
+    ],
+    "fontSize": [
+      {
+        "value": "14px",
+        "count": 57
+      },
+      {
+        "value": "11px",
+        "count": 3
+      },
+      {
+        "value": "16px",
+        "count": 2
+      },
+      {
+        "value": "12px",
+        "count": 1
+      }
+    ],
+    "fontWeight": [
+      {
+        "value": "500",
+        "count": 35
+      },
+      {
+        "value": "600",
+        "count": 28
+      }
+    ],
+    "lineHeight": [
+      {
+        "value": "20px",
+        "count": 31
+      },
+      {
+        "value": "16.1px",
+        "count": 17
+      },
+      {
+        "value": "14px",
+        "count": 6
+      },
+      {
+        "value": "18px",
+        "count": 4
+      },
+      {
+        "value": "22px",
+        "count": 2
+      },
+      {
+        "value": "17.16px",
+        "count": 1
+      },
+      {
+        "value": "15.73px",
+        "count": 1
+      },
+      {
+        "value": "20.02px",
+        "count": 1
+      }
+    ],
+    "letterSpacing": [
+      {
+        "value": "normal",
+        "count": 63
+      }
+    ],
+    "fontFamily": [
+      {
+        "value": "Inter, Arial, sans-serif",
+        "count": 61
+      },
+      {
+        "value": "\"GT Haptik\", Inter, ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+        "count": 1
+      },
+      {
+        "value": "\"GT Haptik Rotalic\"",
+        "count": 1
+      }
+    ]
+  },
+  "cssVariables": {},
+  "typography": [
+    {
+      "tag": "h1",
+      "text": "Log in and get tracking!",
+      "font": "GT Haptik",
+      "size": "16px",
+      "weight": "500",
+      "lineHeight": "22px",
+      "letterSpacing": "normal",
+      "color": "rgb(179, 176, 178)",
+      "transform": "none"
+    },
+    {
+      "tag": "span",
+      "text": "get tracking!",
+      "font": "GT Haptik Rotalic",
+      "size": "16px",
+      "weight": "500",
+      "lineHeight": "22px",
+      "letterSpacing": "normal",
+      "color": "rgb(179, 176, 178)",
+      "transform": "none"
+    },
+    {
+      "tag": "a",
+      "text": "Reset password",
+      "font": "Inter",
+      "size": "12px",
+      "weight": "500",
+      "lineHeight": "17.16px",
+      "letterSpacing": "normal",
+      "color": "rgb(255, 255, 255)",
+      "transform": "none"
+    },
+    {
+      "tag": "button",
+      "text": "Log in via email",
+      "font": "Inter",
+      "size": "14px",
+      "weight": "600",
+      "lineHeight": "16.1px",
+      "letterSpacing": "normal",
+      "color": "rgb(19, 18, 19)",
+      "transform": "none"
+    },
+    {
+      "tag": "span",
+      "text": "OR LOG IN WITH",
+      "font": "Inter",
+      "size": "11px",
+      "weight": "500",
+      "lineHeight": "15.73px",
+      "letterSpacing": "normal",
+      "color": "rgb(255, 255, 255)",
+      "transform": "uppercase"
+    },
+    {
+      "tag": "a",
+      "text": "Google",
+      "font": "Inter",
+      "size": "14px",
+      "weight": "500",
+      "lineHeight": "20px",
+      "letterSpacing": "normal",
+      "color": "rgb(255, 255, 255)",
+      "transform": "none"
+    },
+    {
+      "tag": "button",
+      "text": "Google",
+      "font": "Inter",
+      "size": "14px",
+      "weight": "600",
+      "lineHeight": "16.1px",
+      "letterSpacing": "normal",
+      "color": "rgb(255, 255, 255)",
+      "transform": "none"
+    },
+    {
+      "tag": "a",
+      "text": "Apple",
+      "font": "Inter",
+      "size": "14px",
+      "weight": "500",
+      "lineHeight": "20px",
+      "letterSpacing": "normal",
+      "color": "rgb(255, 255, 255)",
+      "transform": "none"
+    },
+    {
+      "tag": "button",
+      "text": "Apple",
+      "font": "Inter",
+      "size": "14px",
+      "weight": "600",
+      "lineHeight": "16.1px",
+      "letterSpacing": "normal",
+      "color": "rgb(255, 255, 255)",
+      "transform": "none"
+    },
+    {
+      "tag": "button",
+      "text": "Passkey",
+      "font": "Inter",
+      "size": "14px",
+      "weight": "600",
+      "lineHeight": "16.1px",
+      "letterSpacing": "normal",
+      "color": "rgb(255, 255, 255)",
+      "transform": "none"
+    },
+    {
+      "tag": "a",
+      "text": "SSO",
+      "font": "Inter",
+      "size": "14px",
+      "weight": "500",
+      "lineHeight": "20px",
+      "letterSpacing": "normal",
+      "color": "rgb(255, 255, 255)",
+      "transform": "none"
+    },
+    {
+      "tag": "button",
+      "text": "SSO",
+      "font": "Inter",
+      "size": "14px",
+      "weight": "600",
+      "lineHeight": "16.1px",
+      "letterSpacing": "normal",
+      "color": "rgb(255, 255, 255)",
+      "transform": "none"
+    },
+    {
+      "tag": "a",
+      "text": "Sign up for an account",
+      "font": "Inter",
+      "size": "14px",
+      "weight": "600",
+      "lineHeight": "20.02px",
+      "letterSpacing": "normal",
+      "color": "rgb(255, 255, 255)",
+      "transform": "none"
+    }
+  ],
+  "headings": [
+    {
+      "tag": "h1",
+      "text": "Log in and get tracking!",
+      "size": "16px",
+      "weight": "500",
+      "lineHeight": "22px",
+      "letterSpacing": "normal",
+      "font": "GT Haptik",
+      "color": "rgb(179, 176, 178)",
+      "top": 225,
+      "w": 176
+    }
+  ],
+  "buttons": [
+    {
+      "text": "Log in via email",
+      "tag": "button",
+      "w": 278,
+      "h": 36,
+      "bg": "rgb(205, 127, 194)",
+      "color": "rgb(19, 18, 19)",
+      "radius": "8px",
+      "border": "1px solid rgba(0, 0, 0, 0)",
+      "font": "Inter",
+      "size": "14px",
+      "weight": "600",
+      "padding": "0px 16px"
+    },
+    {
+      "text": "Google",
+      "tag": "button",
+      "w": 135,
+      "h": 36,
+      "bg": "rgb(28, 26, 28)",
+      "color": "rgb(255, 255, 255)",
+      "radius": "8px",
+      "border": "1px solid rgb(87, 84, 86)",
+      "font": "Inter",
+      "size": "14px",
+      "weight": "600",
+      "padding": "0px 16px"
+    },
+    {
+      "text": "Apple",
+      "tag": "button",
+      "w": 135,
+      "h": 36,
+      "bg": "rgb(28, 26, 28)",
+      "color": "rgb(255, 255, 255)",
+      "radius": "8px",
+      "border": "1px solid rgb(87, 84, 86)",
+      "font": "Inter",
+      "size": "14px",
+      "weight": "600",
+      "padding": "0px 16px"
+    },
+    {
+      "text": "Passkey",
+      "tag": "button",
+      "w": 280,
+      "h": 36,
+      "bg": "rgb(28, 26, 28)",
+      "color": "rgb(255, 255, 255)",
+      "radius": "8px",
+      "border": "1px solid rgb(87, 84, 86)",
+      "font": "Inter",
+      "size": "14px",
+      "weight": "600",
+      "padding": "0px 16px"
+    },
+    {
+      "text": "SSO",
+      "tag": "button",
+      "w": 278,
+      "h": 36,
+      "bg": "rgb(28, 26, 28)",
+      "color": "rgb(255, 255, 255)",
+      "radius": "8px",
+      "border": "1px solid rgb(87, 84, 86)",
+      "font": "Inter",
+      "size": "14px",
+      "weight": "600",
+      "padding": "0px 16px"
+    }
+  ],
+  "landmarks": [],
+  "fontsLoaded": [
+    {
+      "family": "Inter",
+      "weight": "500",
+      "style": "italic",
+      "status": "unloaded"
+    },
+    {
+      "family": "Inter",
+      "weight": "500",
+      "style": "italic",
+      "status": "unloaded"
+    },
+    {
+      "family": "Inter",
+      "weight": "500",
+      "style": "italic",
+      "status": "unloaded"
+    },
+    {
+      "family": "Inter",
+      "weight": "500",
+      "style": "italic",
+      "status": "unloaded"
+    },
+    {
+      "family": "Inter",
+      "weight": "500",
+      "style": "italic",
+      "status": "unloaded"
+    },
+    {
+      "family": "Inter",
+      "weight": "500",
+      "style": "italic",
+      "status": "unloaded"
+    },
+    {
+      "family": "Inter",
+      "weight": "500",
+      "style": "italic",
+      "status": "unloaded"
+    },
+    {
+      "family": "Inter",
+      "weight": "600",
+      "style": "italic",
+      "status": "unloaded"
+    },
+    {
+      "family": "Inter",
+      "weight": "600",
+      "style": "italic",
+      "status": "unloaded"
+    },
+    {
+      "family": "Inter",
+      "weight": "600",
+      "style": "italic",
+      "status": "unloaded"
+    },
+    {
+      "family": "Inter",
+      "weight": "600",
+      "style": "italic",
+      "status": "unloaded"
+    },
+    {
+      "family": "Inter",
+      "weight": "600",
+      "style": "italic",
+      "status": "unloaded"
+    },
+    {
+      "family": "Inter",
+      "weight": "600",
+      "style": "italic",
+      "status": "unloaded"
+    },
+    {
+      "family": "Inter",
+      "weight": "600",
+      "style": "italic",
+      "status": "unloaded"
+    },
+    {
+      "family": "Inter",
+      "weight": "500",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Inter",
+      "weight": "500",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Inter",
+      "weight": "500",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Inter",
+      "weight": "500",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Inter",
+      "weight": "500",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Inter",
+      "weight": "500",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Inter",
+      "weight": "500",
+      "style": "normal",
+      "status": "loaded"
+    },
+    {
+      "family": "Inter",
+      "weight": "600",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Inter",
+      "weight": "600",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Inter",
+      "weight": "600",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Inter",
+      "weight": "600",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Inter",
+      "weight": "600",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Inter",
+      "weight": "600",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Inter",
+      "weight": "600",
+      "style": "normal",
+      "status": "loaded"
+    },
+    {
+      "family": "Roboto",
+      "weight": "500",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Roboto",
+      "weight": "500",
+      "style": "normal",
+      "status": "unloaded"
+    }
+  ],
+  "cssLinks": [
+    "https://assets.accounts.toggl.com/assets/modern-normalize-BoKul65T.css",
+    "https://assets.accounts.toggl.com/assets/fonts-BgGQQ76z.css",
+    "https://assets.accounts.toggl.com/assets/global-dDFl_gZQ.css",
+    "https://assets.accounts.toggl.com/assets/tailwind-PtAxkfn3.css"
+  ],
+  "scripts": [
+    "https://consent.cookiebot.com/logconsent.ashx?action=decline&nocache=1792853865934&cbid=cdbd3bbf-7c98-4d02-a856-95a4c6a34ffb&cbt=leveloptin&method=strict&hasdata=true&usercountry=JP&referer=https%3A%2F%2Faccounts.toggl.com&rc=false",
+    "https://www.googletagmanager.com/gtag/js?id=G-MP93489PR6&cx=c&gtm=4e6al1",
+    "https://consent.cookiebot.com/cdbd3bbf-7c98-4d02-a856-95a4c6a34ffb/cc.js?renew=false&referer=accounts.toggl.com&dnt=false&init=false",
+    "https://www.googletagmanager.com/gtm.js?id=GTM-P9FVGMK",
+    "https://consent.cookiebot.com/uc.js",
+    "https://www.googletagmanager.com/gtag/js?id=GTM-P9FVGMK"
+  ]
+}

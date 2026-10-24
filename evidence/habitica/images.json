@@ -1,0 +1,66 @@
+{
+  "result": {
+    "type": "object",
+    "value": {
+      "count": 7,
+      "items": [
+        {
+          "src": "https://habitica.com/assets/track-habits@3x-Dy1sJuXn.png",
+          "alt": "",
+          "w": 354,
+          "h": 228,
+          "nw": 1086,
+          "nh": 708
+        },
+        {
+          "src": "https://habitica.com/assets/school-work@3x-Cu6m0t6Q.png",
+          "alt": "",
+          "w": 200,
+          "h": 200,
+          "nw": 846,
+          "nh": 846
+        },
+        {
+          "src": "https://habitica.com/assets/battle-monsters@3x-CDF1cMMR.png",
+          "alt": "",
+          "w": 303,
+          "h": 244,
+          "nw": 900,
+          "nh": 723
+        },
+        {
+          "src": "https://habitica.com/assets/earn-rewards@3x-1kOzj7qi.png",
+          "alt": "",
+          "w": 316,
+          "h": 244,
+          "nw": 906,
+          "nh": 717
+        },
+        {
+          "src": "https://habitica.com/assets/health-fitness@3x-N0KKPBQ6.png",
+          "alt": "",
+          "w": 200,
+          "h": 200,
+          "nw": 774,
+          "nh": 792
+        },
+        {
+          "src": "https://habitica.com/assets/home-main@3x-Dwnue45Z.png",
+          "alt": "",
+          "w": 357,
+          "h": 185,
+          "nw": 1071,
+          "nh": 555
+        },
+        {
+          "src": "https://habitica.com/assets/much-more@3x-Bnb9mIpG.png",
+          "alt": "",
+          "w": 200,
+          "h": 200,
+          "nw": 774,
+          "nh": 756
+        }
+      ]
+    }
+  }
+}

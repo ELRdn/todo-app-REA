@@ -1,0 +1,1532 @@
+{
+  "url": "https://habitica.com/static/features",
+  "title": "Features | Habitica",
+  "meta": {
+    "description": "Habitica is a free habit and productivity app that treats your real life like a game. Habitica can help you achieve your goals to become healthy and happy.",
+    "themeColor": null,
+    "viewport": "width=device-width, initial-scale=1",
+    "generator": null,
+    "ogSite": null
+  },
+  "viewport": {
+    "w": 1424,
+    "h": 865,
+    "docH": 4121
+  },
+  "counts": {
+    "elements": 205,
+    "nodes": 251,
+    "images": 10
+  },
+  "palette": {
+    "text": [
+      {
+        "value": "rgb(189, 168, 255)",
+        "count": 85
+      },
+      {
+        "value": "rgb(78, 74, 87)",
+        "count": 74
+      },
+      {
+        "value": "rgb(79, 42, 147)",
+        "count": 16
+      },
+      {
+        "value": "rgb(97, 51, 180)",
+        "count": 10
+      },
+      {
+        "value": "rgb(255, 255, 255)",
+        "count": 8
+      },
+      {
+        "value": "rgb(146, 92, 243)",
+        "count": 6
+      },
+      {
+        "value": "rgb(128, 128, 128)",
+        "count": 4
+      },
+      {
+        "value": "rgb(195, 192, 199)",
+        "count": 2
+      }
+    ],
+    "background": [
+      {
+        "value": "rgba(0, 0, 0, 0)",
+        "count": 192
+      },
+      {
+        "value": "rgb(54, 32, 93)",
+        "count": 8
+      },
+      {
+        "value": "rgb(79, 42, 147)",
+        "count": 2
+      },
+      {
+        "value": "rgb(39, 27, 61)",
+        "count": 2
+      },
+      {
+        "value": "rgb(67, 40, 116)",
+        "count": 1
+      }
+    ],
+    "border": [
+      {
+        "value": "1px solid rgba(0, 0, 0, 0.1)",
+        "count": 3
+      },
+      {
+        "value": "2px solid rgba(0, 0, 0, 0)",
+        "count": 2
+      },
+      {
+        "value": "1px solid rgb(67, 40, 116)",
+        "count": 1
+      }
+    ],
+    "radius": [
+      {
+        "value": "0px",
+        "count": 199
+      },
+      {
+        "value": "4px",
+        "count": 6
+      }
+    ],
+    "shadow": [
+      {
+        "value": "rgba(26, 24, 29, 0.12) 0px 1px 3px 0px, rgba(26, 24, 29, 0.24) 0px 1px 2px 0px",
+        "count": 2
+      },
+      {
+        "value": "rgba(26, 24, 29, 0.24) 0px 1px 2px 0px",
+        "count": 1
+      },
+      {
+        "value": "rgb(97, 51, 180) 0px -4px 0px 0px inset",
+        "count": 1
+      }
+    ],
+    "gap": [
+      {
+        "value": "8px",
+        "count": 2
+      }
+    ],
+    "fontSize": [
+      {
+        "value": "14px",
+        "count": 168
+      },
+      {
+        "value": "17.6px",
+        "count": 14
+      },
+      {
+        "value": "24px",
+        "count": 11
+      },
+      {
+        "value": "16px",
+        "count": 6
+      },
+      {
+        "value": "32px",
+        "count": 5
+      },
+      {
+        "value": "20px",
+        "count": 1
+      }
+    ],
+    "fontWeight": [
+      {
+        "value": "400",
+        "count": 181
+      },
+      {
+        "value": "700",
+        "count": 24
+      }
+    ],
+    "lineHeight": [
+      {
+        "value": "20.02px",
+        "count": 154
+      },
+      {
+        "value": "25.6px",
+        "count": 14
+      },
+      {
+        "value": "23.94px",
+        "count": 13
+      },
+      {
+        "value": "33.6px",
+        "count": 11
+      },
+      {
+        "value": "24px",
+        "count": 6
+      },
+      {
+        "value": "53.44px",
+        "count": 5
+      },
+      {
+        "value": "31.5px",
+        "count": 1
+      },
+      {
+        "value": "30px",
+        "count": 1
+      }
+    ],
+    "letterSpacing": [
+      {
+        "value": "normal",
+        "count": 205
+      }
+    ],
+    "fontFamily": [
+      {
+        "value": "Roboto, sans-serif",
+        "count": 189
+      },
+      {
+        "value": "\"Roboto Condensed\", sans-serif",
+        "count": 16
+      }
+    ]
+  },
+  "cssVariables": {
+    "--blue": "#007bff",
+    "--indigo": "#6610f2",
+    "--purple": "#6f42c1",
+    "--pink": "#e83e8c",
+    "--red": "#dc3545",
+    "--orange": "#fd7e14",
+    "--yellow": "#ffc107",
+    "--green": "#28a745",
+    "--teal": "#20c997",
+    "--cyan": "#17a2b8",
+    "--white": "#fff",
+    "--gray": "#6c757d",
+    "--gray-dark": "#343a40",
+    "--primary": "#007bff",
+    "--secondary": "#6c757d",
+    "--success": "#28a745",
+    "--info": "#17a2b8",
+    "--warning": "#ffc107",
+    "--danger": "#dc3545",
+    "--light": "#f8f9fa",
+    "--dark": "#343a40",
+    "--breakpoint-xs": "0",
+    "--breakpoint-sm": "576px",
+    "--breakpoint-md": "768px",
+    "--breakpoint-lg": "992px",
+    "--breakpoint-xl": "1200px",
+    "--font-family-sans-serif": "-apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, \"Noto Sans\", \"Liberation Sans\", sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+    "--font-family-monospace": "SFMono-Regular, Menlo, Monaco, Consolas, \"Liberation Mono\", \"Courier New\", monospace"
+  },
+  "typography": [
+    {
+      "tag": "a",
+      "text": "How It Works",
+      "font": "Roboto",
+      "size": "16px",
+      "weight": "400",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "color": "rgb(255, 255, 255)",
+      "transform": "none"
+    },
+    {
+      "tag": "a",
+      "text": "Group Plans",
+      "font": "Roboto",
+      "size": "16px",
+      "weight": "400",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "color": "rgb(255, 255, 255)",
+      "transform": "none"
+    },
+    {
+      "tag": "a",
+      "text": "Blog",
+      "font": "Roboto",
+      "size": "16px",
+      "weight": "400",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "color": "rgb(255, 255, 255)",
+      "transform": "none"
+    },
+    {
+      "tag": "a",
+      "text": "Tumblr",
+      "font": "Roboto",
+      "size": "16px",
+      "weight": "400",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "color": "rgb(255, 255, 255)",
+      "transform": "none"
+    },
+    {
+      "tag": "a",
+      "text": "Press Kit",
+      "font": "Roboto",
+      "size": "16px",
+      "weight": "400",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "color": "rgb(255, 255, 255)",
+      "transform": "none"
+    },
+    {
+      "tag": "a",
+      "text": "Contact Us",
+      "font": "Roboto",
+      "size": "16px",
+      "weight": "400",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "color": "rgb(255, 255, 255)",
+      "transform": "none"
+    },
+    {
+      "tag": "button",
+      "text": "Enter Habitica",
+      "font": "Roboto",
+      "size": "14px",
+      "weight": "700",
+      "lineHeight": "31.5px",
+      "letterSpacing": "normal",
+      "color": "rgb(255, 255, 255)",
+      "transform": "none"
+    },
+    {
+      "tag": "h1",
+      "text": "Build better habits one level at a time!",
+      "font": "Roboto Condensed",
+      "size": "32px",
+      "weight": "700",
+      "lineHeight": "53.44px",
+      "letterSpacing": "normal",
+      "color": "rgb(79, 42, 147)",
+      "transform": "none"
+    },
+    {
+      "tag": "h2",
+      "text": "Gamify your life",
+      "font": "Roboto Condensed",
+      "size": "24px",
+      "weight": "700",
+      "lineHeight": "33.6px",
+      "letterSpacing": "normal",
+      "color": "rgb(79, 42, 147)",
+      "transform": "none"
+    },
+    {
+      "tag": "p",
+      "text": "Habitica is the perfect app for anyone who struggles with to-do lists. We use familiar gam",
+      "font": "Roboto",
+      "size": "17.6px",
+      "weight": "400",
+      "lineHeight": "25.6px",
+      "letterSpacing": "normal",
+      "color": "rgb(78, 74, 87)",
+      "transform": "none"
+    },
+    {
+      "tag": "h2",
+      "text": "Gear up in style",
+      "font": "Roboto Condensed",
+      "size": "24px",
+      "weight": "700",
+      "lineHeight": "33.6px",
+      "letterSpacing": "normal",
+      "color": "rgb(79, 42, 147)",
+      "transform": "none"
+    },
+    {
+      "tag": "p",
+      "text": "Collect swords, armor, and much more with the Gold you earn from completing tasks. With hu",
+      "font": "Roboto",
+      "size": "17.6px",
+      "weight": "400",
+      "lineHeight": "25.6px",
+      "letterSpacing": "normal",
+      "color": "rgb(78, 74, 87)",
+      "transform": "none"
+    },
+    {
+      "tag": "h2",
+      "text": "Get rewarded for your effort",
+      "font": "Roboto Condensed",
+      "size": "24px",
+      "weight": "700",
+      "lineHeight": "33.6px",
+      "letterSpacing": "normal",
+      "color": "rgb(79, 42, 147)",
+      "transform": "none"
+    },
+    {
+      "tag": "p",
+      "text": "Having something to look forward to can be the difference between getting a task done, or ",
+      "font": "Roboto",
+      "size": "17.6px",
+      "weight": "400",
+      "lineHeight": "25.6px",
+      "letterSpacing": "normal",
+      "color": "rgb(78, 74, 87)",
+      "transform": "none"
+    },
+    {
+      "tag": "h1",
+      "text": "Team up with friends",
+      "font": "Roboto Condensed",
+      "size": "32px",
+      "weight": "700",
+      "lineHeight": "53.44px",
+      "letterSpacing": "normal",
+      "color": "rgb(79, 42, 147)",
+      "transform": "none"
+    },
+    {
+      "tag": "h2",
+      "text": "Social productivity",
+      "font": "Roboto Condensed",
+      "size": "24px",
+      "weight": "700",
+      "lineHeight": "33.6px",
+      "letterSpacing": "normal",
+      "color": "rgb(79, 42, 147)",
+      "transform": "none"
+    },
+    {
+      "tag": "p",
+      "text": "Get a boost of motivation by collaborating, competing, and interacting with others! Habiti",
+      "font": "Roboto",
+      "size": "17.6px",
+      "weight": "400",
+      "lineHeight": "25.6px",
+      "letterSpacing": "normal",
+      "color": "rgb(78, 74, 87)",
+      "transform": "none"
+    },
+    {
+      "tag": "h2",
+      "text": "Battle monsters on Quests",
+      "font": "Roboto Condensed",
+      "size": "24px",
+      "weight": "700",
+      "lineHeight": "33.6px",
+      "letterSpacing": "normal",
+      "color": "rgb(79, 42, 147)",
+      "transform": "none"
+    },
+    {
+      "tag": "p",
+      "text": "Take on one of our hundreds of Quests with a Party of friends to enter the fray. Quest mon",
+      "font": "Roboto",
+      "size": "17.6px",
+      "weight": "400",
+      "lineHeight": "25.6px",
+      "letterSpacing": "normal",
+      "color": "rgb(78, 74, 87)",
+      "transform": "none"
+    },
+    {
+      "tag": "p",
+      "text": "Take on one of our hundreds of Quests with a Party of friends to enter the fray. Quest mon",
+      "font": "Roboto",
+      "size": "17.6px",
+      "weight": "400",
+      "lineHeight": "25.6px",
+      "letterSpacing": "normal",
+      "color": "rgb(78, 74, 87)",
+      "transform": "none"
+    },
+    {
+      "tag": "h2",
+      "text": "Challenge each other",
+      "font": "Roboto Condensed",
+      "size": "24px",
+      "weight": "700",
+      "lineHeight": "33.6px",
+      "letterSpacing": "normal",
+      "color": "rgb(79, 42, 147)",
+      "transform": "none"
+    },
+    {
+      "tag": "p",
+      "text": "Join Challenges made by our community to get curated task lists that fit your interests an",
+      "font": "Roboto",
+      "size": "17.6px",
+      "weight": "400",
+      "lineHeight": "25.6px",
+      "letterSpacing": "normal",
+      "color": "rgb(78, 74, 87)",
+      "transform": "none"
+    },
+    {
+      "tag": "h1",
+      "text": "More ways to use Habitica",
+      "font": "Roboto Condensed",
+      "size": "32px",
+      "weight": "700",
+      "lineHeight": "53.44px",
+      "letterSpacing": "normal",
+      "color": "rgb(79, 42, 147)",
+      "transform": "none"
+    },
+    {
+      "tag": "h2",
+      "text": "Android & iOS apps",
+      "font": "Roboto Condensed",
+      "size": "24px",
+      "weight": "700",
+      "lineHeight": "33.6px",
+      "letterSpacing": "normal",
+      "color": "rgb(79, 42, 147)",
+      "transform": "none"
+    },
+    {
+      "tag": "p",
+      "text": "You can get Habitica on your Android or iOS device to check off tasks anywhere. Check out ",
+      "font": "Roboto",
+      "size": "17.6px",
+      "weight": "400",
+      "lineHeight": "25.6px",
+      "letterSpacing": "normal",
+      "color": "rgb(78, 74, 87)",
+      "transform": "none"
+    },
+    {
+      "tag": "p",
+      "text": "You can get Habitica on your Android or iOS device to check off tasks anywhere. Check out ",
+      "font": "Roboto",
+      "size": "17.6px",
+      "weight": "400",
+      "lineHeight": "25.6px",
+      "letterSpacing": "normal",
+      "color": "rgb(78, 74, 87)",
+      "transform": "none"
+    },
+    {
+      "tag": "h2",
+      "text": "Open-Source community",
+      "font": "Roboto Condensed",
+      "size": "24px",
+      "weight": "700",
+      "lineHeight": "33.6px",
+      "letterSpacing": "normal",
+      "color": "rgb(79, 42, 147)",
+      "transform": "none"
+    },
+    {
+      "tag": "p",
+      "text": "We're proud to be an open-source project that welcomes contributions from our dedicated co",
+      "font": "Roboto",
+      "size": "17.6px",
+      "weight": "400",
+      "lineHeight": "25.6px",
+      "letterSpacing": "normal",
+      "color": "rgb(78, 74, 87)",
+      "transform": "none"
+    },
+    {
+      "tag": "p",
+      "text": "We're proud to be an open-source project that welcomes contributions from our dedicated co",
+      "font": "Roboto",
+      "size": "17.6px",
+      "weight": "400",
+      "lineHeight": "25.6px",
+      "letterSpacing": "normal",
+      "color": "rgb(78, 74, 87)",
+      "transform": "none"
+    },
+    {
+      "tag": "a",
+      "text": "GitHub",
+      "font": "Roboto",
+      "size": "17.6px",
+      "weight": "400",
+      "lineHeight": "25.6px",
+      "letterSpacing": "normal",
+      "color": "rgb(97, 51, 180)",
+      "transform": "none"
+    },
+    {
+      "tag": "h1",
+      "text": "Beyond household chores",
+      "font": "Roboto Condensed",
+      "size": "32px",
+      "weight": "700",
+      "lineHeight": "53.44px",
+      "letterSpacing": "normal",
+      "color": "rgb(79, 42, 147)",
+      "transform": "none"
+    },
+    {
+      "tag": "h2",
+      "text": "Gamification in education",
+      "font": "Roboto Condensed",
+      "size": "24px",
+      "weight": "700",
+      "lineHeight": "33.6px",
+      "letterSpacing": "normal",
+      "color": "rgb(79, 42, 147)",
+      "transform": "none"
+    },
+    {
+      "tag": "p",
+      "text": "Education is one of the best places for a little gamification! Break through the monotony ",
+      "font": "Roboto",
+      "size": "17.6px",
+      "weight": "400",
+      "lineHeight": "25.6px",
+      "letterSpacing": "normal",
+      "color": "rgb(78, 74, 87)",
+      "transform": "none"
+    },
+    {
+      "tag": "h2",
+      "text": "Gamification In health and wellness",
+      "font": "Roboto Condensed",
+      "size": "24px",
+      "weight": "700",
+      "lineHeight": "33.6px",
+      "letterSpacing": "normal",
+      "color": "rgb(79, 42, 147)",
+      "transform": "none"
+    },
+    {
+      "tag": "p",
+      "text": "Building a healthier lifestyle can easily become an overwhelming endeavor. Habitica helps ",
+      "font": "Roboto",
+      "size": "17.6px",
+      "weight": "400",
+      "lineHeight": "25.6px",
+      "letterSpacing": "normal",
+      "color": "rgb(78, 74, 87)",
+      "transform": "none"
+    },
+    {
+      "tag": "h1",
+      "text": "Start your journey!",
+      "font": "Roboto Condensed",
+      "size": "32px",
+      "weight": "700",
+      "lineHeight": "53.44px",
+      "letterSpacing": "normal",
+      "color": "rgb(79, 42, 147)",
+      "transform": "none"
+    },
+    {
+      "tag": "h2",
+      "text": "Ready to have fun getting things done?",
+      "font": "Roboto Condensed",
+      "size": "24px",
+      "weight": "700",
+      "lineHeight": "33.6px",
+      "letterSpacing": "normal",
+      "color": "rgb(79, 42, 147)",
+      "transform": "none"
+    },
+    {
+      "tag": "button",
+      "text": "Get Started Today",
+      "font": "Roboto",
+      "size": "20px",
+      "weight": "700",
+      "lineHeight": "30px",
+      "letterSpacing": "normal",
+      "color": "rgb(255, 255, 255)",
+      "transform": "none"
+    },
+    {
+      "tag": "h3",
+      "text": "Product",
+      "font": "Roboto",
+      "size": "14px",
+      "weight": "700",
+      "lineHeight": "23.94px",
+      "letterSpacing": "normal",
+      "color": "rgb(146, 92, 243)",
+      "transform": "none"
+    },
+    {
+      "tag": "a",
+      "text": "iOS App",
+      "font": "Roboto",
+      "size": "14px",
+      "weight": "400",
+      "lineHeight": "20.02px",
+      "letterSpacing": "normal",
+      "color": "rgb(189, 168, 255)",
+      "transform": "none"
+    },
+    {
+      "tag": "a",
+      "text": "Android App",
+      "font": "Roboto",
+      "size": "14px",
+      "weight": "400",
+      "lineHeight": "20.02px",
+      "letterSpacing": "normal",
+      "color": "rgb(189, 168, 255)",
+      "transform": "none"
+    },
+    {
+      "tag": "a",
+      "text": "Group Plans",
+      "font": "Roboto",
+      "size": "14px",
+      "weight": "400",
+      "lineHeight": "20.02px",
+      "letterSpacing": "normal",
+      "color": "rgb(189, 168, 255)",
+      "transform": "none"
+    },
+    {
+      "tag": "a",
+      "text": "How It Works",
+      "font": "Roboto",
+      "size": "14px",
+      "weight": "400",
+      "lineHeight": "20.02px",
+      "letterSpacing": "normal",
+      "color": "rgb(189, 168, 255)",
+      "transform": "none"
+    },
+    {
+      "tag": "h3",
+      "text": "Company",
+      "font": "Roboto",
+      "size": "14px",
+      "weight": "700",
+      "lineHeight": "23.94px",
+      "letterSpacing": "normal",
+      "color": "rgb(146, 92, 243)",
+      "transform": "none"
+    },
+    {
+      "tag": "a",
+      "text": "Contact Us",
+      "font": "Roboto",
+      "size": "14px",
+      "weight": "400",
+      "lineHeight": "20.02px",
+      "letterSpacing": "normal",
+      "color": "rgb(189, 168, 255)",
+      "transform": "none"
+    },
+    {
+      "tag": "a",
+      "text": "Press Kit",
+      "font": "Roboto",
+      "size": "14px",
+      "weight": "400",
+      "lineHeight": "20.02px",
+      "letterSpacing": "normal",
+      "color": "rgb(189, 168, 255)",
+      "transform": "none"
+    },
+    {
+      "tag": "a",
+      "text": "Blog",
+      "font": "Roboto",
+      "size": "14px",
+      "weight": "400",
+      "lineHeight": "20.02px",
+      "letterSpacing": "normal",
+      "color": "rgb(189, 168, 255)",
+      "transform": "none"
+    },
+    {
+      "tag": "a",
+      "text": "News",
+      "font": "Roboto",
+      "size": "14px",
+      "weight": "400",
+      "lineHeight": "20.02px",
+      "letterSpacing": "normal",
+      "color": "rgb(189, 168, 255)",
+      "transform": "none"
+    },
+    {
+      "tag": "h3",
+      "text": "Community",
+      "font": "Roboto",
+      "size": "14px",
+      "weight": "700",
+      "lineHeight": "23.94px",
+      "letterSpacing": "normal",
+      "color": "rgb(146, 92, 243)",
+      "transform": "none"
+    },
+    {
+      "tag": "a",
+      "text": "Community Guidelines",
+      "font": "Roboto",
+      "size": "14px",
+      "weight": "400",
+      "lineHeight": "20.02px",
+      "letterSpacing": "normal",
+      "color": "rgb(189, 168, 255)",
+      "transform": "none"
+    },
+    {
+      "tag": "a",
+      "text": "Hall of Heroes",
+      "font": "Roboto",
+      "size": "14px",
+      "weight": "400",
+      "lineHeight": "20.02px",
+      "letterSpacing": "normal",
+      "color": "rgb(189, 168, 255)",
+      "transform": "none"
+    },
+    {
+      "tag": "a",
+      "text": "Contributing to Habitica",
+      "font": "Roboto",
+      "size": "14px",
+      "weight": "400",
+      "lineHeight": "20.02px",
+      "letterSpacing": "normal",
+      "color": "rgb(189, 168, 255)",
+      "transform": "none"
+    },
+    {
+      "tag": "a",
+      "text": "Translate Habitica",
+      "font": "Roboto",
+      "size": "14px",
+      "weight": "400",
+      "lineHeight": "20.02px",
+      "letterSpacing": "normal",
+      "color": "rgb(189, 168, 255)",
+      "transform": "none"
+    },
+    {
+      "tag": "h3",
+      "text": "Support",
+      "font": "Roboto",
+      "size": "14px",
+      "weight": "700",
+      "lineHeight": "23.94px",
+      "letterSpacing": "normal",
+      "color": "rgb(146, 92, 243)",
+      "transform": "none"
+    },
+    {
+      "tag": "a",
+      "text": "FAQ",
+      "font": "Roboto",
+      "size": "14px",
+      "weight": "400",
+      "lineHeight": "20.02px",
+      "letterSpacing": "normal",
+      "color": "rgb(189, 168, 255)",
+      "transform": "none"
+    },
+    {
+      "tag": "a",
+      "text": "Report a Bug",
+      "font": "Roboto",
+      "size": "14px",
+      "weight": "400",
+      "lineHeight": "20.02px",
+      "letterSpacing": "normal",
+      "color": "rgb(189, 168, 255)",
+      "transform": "none"
+    },
+    {
+      "tag": "a",
+      "text": "Request a Feature",
+      "font": "Roboto",
+      "size": "14px",
+      "weight": "400",
+      "lineHeight": "20.02px",
+      "letterSpacing": "normal",
+      "color": "rgb(189, 168, 255)",
+      "transform": "none"
+    },
+    {
+      "tag": "h3",
+      "text": "Developers",
+      "font": "Roboto",
+      "size": "14px",
+      "weight": "700",
+      "lineHeight": "23.94px",
+      "letterSpacing": "normal",
+      "color": "rgb(146, 92, 243)",
+      "transform": "none"
+    },
+    {
+      "tag": "a",
+      "text": "API v3",
+      "font": "Roboto",
+      "size": "14px",
+      "weight": "400",
+      "lineHeight": "20.02px",
+      "letterSpacing": "normal",
+      "color": "rgb(189, 168, 255)",
+      "transform": "none"
+    },
+    {
+      "tag": "a",
+      "text": "Data Display Tool",
+      "font": "Roboto",
+      "size": "14px",
+      "weight": "400",
+      "lineHeight": "20.02px",
+      "letterSpacing": "normal",
+      "color": "rgb(189, 168, 255)",
+      "transform": "none"
+    },
+    {
+      "tag": "a",
+      "text": "Guidance for Blacksmiths",
+      "font": "Roboto",
+      "size": "14px",
+      "weight": "400",
+      "lineHeight": "20.02px",
+      "letterSpacing": "normal",
+      "color": "rgb(189, 168, 255)",
+      "transform": "none"
+    },
+    {
+      "tag": "h3",
+      "text": "Social",
+      "font": "Roboto",
+      "size": "14px",
+      "weight": "700",
+      "lineHeight": "23.94px",
+      "letterSpacing": "normal",
+      "color": "rgb(146, 92, 243)",
+      "transform": "none"
+    },
+    {
+      "tag": "a",
+      "text": "Instagram",
+      "font": "Roboto",
+      "size": "14px",
+      "weight": "400",
+      "lineHeight": "20.02px",
+      "letterSpacing": "normal",
+      "color": "rgb(189, 168, 255)",
+      "transform": "none"
+    },
+    {
+      "tag": "a",
+      "text": "Bluesky",
+      "font": "Roboto",
+      "size": "14px",
+      "weight": "400",
+      "lineHeight": "20.02px",
+      "letterSpacing": "normal",
+      "color": "rgb(189, 168, 255)",
+      "transform": "none"
+    },
+    {
+      "tag": "a",
+      "text": "Facebook",
+      "font": "Roboto",
+      "size": "14px",
+      "weight": "400",
+      "lineHeight": "20.02px",
+      "letterSpacing": "normal",
+      "color": "rgb(189, 168, 255)",
+      "transform": "none"
+    },
+    {
+      "tag": "a",
+      "text": "Tumblr",
+      "font": "Roboto",
+      "size": "14px",
+      "weight": "400",
+      "lineHeight": "20.02px",
+      "letterSpacing": "normal",
+      "color": "rgb(189, 168, 255)",
+      "transform": "none"
+    },
+    {
+      "tag": "span",
+      "text": "Privacy Policy",
+      "font": "Roboto",
+      "size": "14px",
+      "weight": "400",
+      "lineHeight": "23.94px",
+      "letterSpacing": "normal",
+      "color": "rgb(189, 168, 255)",
+      "transform": "none"
+    },
+    {
+      "tag": "a",
+      "text": "Privacy Policy",
+      "font": "Roboto",
+      "size": "14px",
+      "weight": "400",
+      "lineHeight": "23.94px",
+      "letterSpacing": "normal",
+      "color": "rgb(189, 168, 255)",
+      "transform": "none"
+    },
+    {
+      "tag": "span",
+      "text": "Terms of Service",
+      "font": "Roboto",
+      "size": "14px",
+      "weight": "400",
+      "lineHeight": "23.94px",
+      "letterSpacing": "normal",
+      "color": "rgb(189, 168, 255)",
+      "transform": "none"
+    },
+    {
+      "tag": "a",
+      "text": "Terms of Service",
+      "font": "Roboto",
+      "size": "14px",
+      "weight": "400",
+      "lineHeight": "23.94px",
+      "letterSpacing": "normal",
+      "color": "rgb(189, 168, 255)",
+      "transform": "none"
+    }
+  ],
+  "headings": [
+    {
+      "tag": "h1",
+      "text": "Build better habits one level at a time!",
+      "size": "32px",
+      "weight": "700",
+      "lineHeight": "53.44px",
+      "letterSpacing": "normal",
+      "font": "Roboto Condensed",
+      "color": "rgb(79, 42, 147)",
+      "top": 86,
+      "w": 1344
+    },
+    {
+      "tag": "h2",
+      "text": "Gamify your life",
+      "size": "24px",
+      "weight": "700",
+      "lineHeight": "33.6px",
+      "letterSpacing": "normal",
+      "font": "Roboto Condensed",
+      "color": "rgb(79, 42, 147)",
+      "top": 678,
+      "w": 1344
+    },
+    {
+      "tag": "h2",
+      "text": "Gear up in style",
+      "size": "24px",
+      "weight": "700",
+      "lineHeight": "33.6px",
+      "letterSpacing": "normal",
+      "font": "Roboto Condensed",
+      "color": "rgb(79, 42, 147)",
+      "top": 1187,
+      "w": 660
+    },
+    {
+      "tag": "h2",
+      "text": "Get rewarded for your effort",
+      "size": "24px",
+      "weight": "700",
+      "lineHeight": "33.6px",
+      "letterSpacing": "normal",
+      "font": "Roboto Condensed",
+      "color": "rgb(79, 42, 147)",
+      "top": 1187,
+      "w": 660
+    },
+    {
+      "tag": "h1",
+      "text": "Team up with friends",
+      "size": "32px",
+      "weight": "700",
+      "lineHeight": "53.44px",
+      "letterSpacing": "normal",
+      "font": "Roboto Condensed",
+      "color": "rgb(79, 42, 147)",
+      "top": 1388,
+      "w": 1344
+    },
+    {
+      "tag": "h2",
+      "text": "Social productivity",
+      "size": "24px",
+      "weight": "700",
+      "lineHeight": "33.6px",
+      "letterSpacing": "normal",
+      "font": "Roboto Condensed",
+      "color": "rgb(79, 42, 147)",
+      "top": 1478,
+      "w": 1344
+    },
+    {
+      "tag": "h2",
+      "text": "Battle monsters on Quests",
+      "size": "24px",
+      "weight": "700",
+      "lineHeight": "33.6px",
+      "letterSpacing": "normal",
+      "font": "Roboto Condensed",
+      "color": "rgb(79, 42, 147)",
+      "top": 1984,
+      "w": 660
+    },
+    {
+      "tag": "h2",
+      "text": "Challenge each other",
+      "size": "24px",
+      "weight": "700",
+      "lineHeight": "33.6px",
+      "letterSpacing": "normal",
+      "font": "Roboto Condensed",
+      "color": "rgb(79, 42, 147)",
+      "top": 1993,
+      "w": 660
+    },
+    {
+      "tag": "h1",
+      "text": "More ways to use Habitica",
+      "size": "32px",
+      "weight": "700",
+      "lineHeight": "53.44px",
+      "letterSpacing": "normal",
+      "font": "Roboto Condensed",
+      "color": "rgb(79, 42, 147)",
+      "top": 2168,
+      "w": 1344
+    },
+    {
+      "tag": "h2",
+      "text": "Android & iOS apps",
+      "size": "24px",
+      "weight": "700",
+      "lineHeight": "33.6px",
+      "letterSpacing": "normal",
+      "font": "Roboto Condensed",
+      "color": "rgb(79, 42, 147)",
+      "top": 2578,
+      "w": 660
+    },
+    {
+      "tag": "h2",
+      "text": "Open-Source community",
+      "size": "24px",
+      "weight": "700",
+      "lineHeight": "33.6px",
+      "letterSpacing": "normal",
+      "font": "Roboto Condensed",
+      "color": "rgb(79, 42, 147)",
+      "top": 2578,
+      "w": 660
+    },
+    {
+      "tag": "h1",
+      "text": "Beyond household chores",
+      "size": "32px",
+      "weight": "700",
+      "lineHeight": "53.44px",
+      "letterSpacing": "normal",
+      "font": "Roboto Condensed",
+      "color": "rgb(79, 42, 147)",
+      "top": 2786,
+      "w": 1344
+    },
+    {
+      "tag": "h2",
+      "text": "Gamification in education",
+      "size": "24px",
+      "weight": "700",
+      "lineHeight": "33.6px",
+      "letterSpacing": "normal",
+      "font": "Roboto Condensed",
+      "color": "rgb(79, 42, 147)",
+      "top": 2876,
+      "w": 482
+    },
+    {
+      "tag": "h2",
+      "text": "Gamification In health and wellness",
+      "size": "24px",
+      "weight": "700",
+      "lineHeight": "33.6px",
+      "letterSpacing": "normal",
+      "font": "Roboto Condensed",
+      "color": "rgb(79, 42, 147)",
+      "top": 2876,
+      "w": 482
+    },
+    {
+      "tag": "h1",
+      "text": "Start your journey!",
+      "size": "32px",
+      "weight": "700",
+      "lineHeight": "53.44px",
+      "letterSpacing": "normal",
+      "font": "Roboto Condensed",
+      "color": "rgb(79, 42, 147)",
+      "top": 3117,
+      "w": 660
+    },
+    {
+      "tag": "h2",
+      "text": "Ready to have fun getting things done?",
+      "size": "24px",
+      "weight": "700",
+      "lineHeight": "33.6px",
+      "letterSpacing": "normal",
+      "font": "Roboto Condensed",
+      "color": "rgb(79, 42, 147)",
+      "top": 3401,
+      "w": 660
+    },
+    {
+      "tag": "h3",
+      "text": "Product",
+      "size": "14px",
+      "weight": "700",
+      "lineHeight": "23.94px",
+      "letterSpacing": "normal",
+      "font": "Roboto",
+      "color": "rgb(146, 92, 243)",
+      "top": 3589,
+      "w": 83
+    },
+    {
+      "tag": "h3",
+      "text": "Company",
+      "size": "14px",
+      "weight": "700",
+      "lineHeight": "23.94px",
+      "letterSpacing": "normal",
+      "font": "Roboto",
+      "color": "rgb(146, 92, 243)",
+      "top": 3589,
+      "w": 69
+    },
+    {
+      "tag": "h3",
+      "text": "Community",
+      "size": "14px",
+      "weight": "700",
+      "lineHeight": "23.94px",
+      "letterSpacing": "normal",
+      "font": "Roboto",
+      "color": "rgb(146, 92, 243)",
+      "top": 3589,
+      "w": 148
+    },
+    {
+      "tag": "h3",
+      "text": "Support",
+      "size": "14px",
+      "weight": "700",
+      "lineHeight": "23.94px",
+      "letterSpacing": "normal",
+      "font": "Roboto",
+      "color": "rgb(146, 92, 243)",
+      "top": 3589,
+      "w": 113
+    },
+    {
+      "tag": "h3",
+      "text": "Developers",
+      "size": "14px",
+      "weight": "700",
+      "lineHeight": "23.94px",
+      "letterSpacing": "normal",
+      "font": "Roboto",
+      "color": "rgb(146, 92, 243)",
+      "top": 3589,
+      "w": 160
+    },
+    {
+      "tag": "h3",
+      "text": "Social",
+      "size": "14px",
+      "weight": "700",
+      "lineHeight": "23.94px",
+      "letterSpacing": "normal",
+      "font": "Roboto",
+      "color": "rgb(146, 92, 243)",
+      "top": 3589,
+      "w": 95
+    }
+  ],
+  "buttons": [
+    {
+      "text": "Enter Habitica",
+      "tag": "button",
+      "w": 117,
+      "h": 40,
+      "bg": "rgb(79, 42, 147)",
+      "color": "rgb(255, 255, 255)",
+      "radius": "4px",
+      "border": "2px solid rgba(0, 0, 0, 0)",
+      "font": "Roboto",
+      "size": "14px",
+      "weight": "700",
+      "padding": "2px 12px"
+    },
+    {
+      "text": "Get Started Today",
+      "tag": "button",
+      "w": 197,
+      "h": 50,
+      "bg": "rgb(79, 42, 147)",
+      "color": "rgb(255, 255, 255)",
+      "radius": "4px",
+      "border": "2px solid rgba(0, 0, 0, 0)",
+      "font": "Roboto",
+      "size": "20px",
+      "weight": "700",
+      "padding": "8px 16px"
+    }
+  ],
+  "landmarks": [
+    {
+      "tag": "nav",
+      "role": null,
+      "label": null,
+      "class": "navbar navbar-inverse fixed-top navbar-expand-md",
+      "top": 900,
+      "w": 1424,
+      "h": 56,
+      "bg": "rgb(67, 40, 116)",
+      "padding": "8px 12.5px 8px 24px",
+      "position": "fixed",
+      "z": "1030"
+    },
+    {
+      "tag": "footer",
+      "role": null,
+      "label": null,
+      "class": "",
+      "top": 3557,
+      "w": 1424,
+      "h": 274,
+      "bg": "rgba(0, 0, 0, 0)",
+      "padding": "32px 142px 40px",
+      "position": "static",
+      "z": "auto"
+    }
+  ],
+  "fontsLoaded": [
+    {
+      "family": "Roboto",
+      "weight": "400",
+      "style": "italic",
+      "status": "unloaded"
+    },
+    {
+      "family": "Roboto",
+      "weight": "400",
+      "style": "italic",
+      "status": "unloaded"
+    },
+    {
+      "family": "Roboto",
+      "weight": "400",
+      "style": "italic",
+      "status": "unloaded"
+    },
+    {
+      "family": "Roboto",
+      "weight": "400",
+      "style": "italic",
+      "status": "unloaded"
+    },
+    {
+      "family": "Roboto",
+      "weight": "400",
+      "style": "italic",
+      "status": "unloaded"
+    },
+    {
+      "family": "Roboto",
+      "weight": "400",
+      "style": "italic",
+      "status": "unloaded"
+    },
+    {
+      "family": "Roboto",
+      "weight": "400",
+      "style": "italic",
+      "status": "unloaded"
+    },
+    {
+      "family": "Roboto",
+      "weight": "400",
+      "style": "italic",
+      "status": "unloaded"
+    },
+    {
+      "family": "Roboto",
+      "weight": "400",
+      "style": "italic",
+      "status": "unloaded"
+    },
+    {
+      "family": "Roboto",
+      "weight": "700",
+      "style": "italic",
+      "status": "unloaded"
+    },
+    {
+      "family": "Roboto",
+      "weight": "700",
+      "style": "italic",
+      "status": "unloaded"
+    },
+    {
+      "family": "Roboto",
+      "weight": "700",
+      "style": "italic",
+      "status": "unloaded"
+    },
+    {
+      "family": "Roboto",
+      "weight": "700",
+      "style": "italic",
+      "status": "unloaded"
+    },
+    {
+      "family": "Roboto",
+      "weight": "700",
+      "style": "italic",
+      "status": "unloaded"
+    },
+    {
+      "family": "Roboto",
+      "weight": "700",
+      "style": "italic",
+      "status": "unloaded"
+    },
+    {
+      "family": "Roboto",
+      "weight": "700",
+      "style": "italic",
+      "status": "unloaded"
+    },
+    {
+      "family": "Roboto",
+      "weight": "700",
+      "style": "italic",
+      "status": "unloaded"
+    },
+    {
+      "family": "Roboto",
+      "weight": "700",
+      "style": "italic",
+      "status": "unloaded"
+    },
+    {
+      "family": "Roboto",
+      "weight": "400",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Roboto",
+      "weight": "400",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Roboto",
+      "weight": "400",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Roboto",
+      "weight": "400",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Roboto",
+      "weight": "400",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Roboto",
+      "weight": "400",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Roboto",
+      "weight": "400",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Roboto",
+      "weight": "400",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Roboto",
+      "weight": "400",
+      "style": "normal",
+      "status": "loaded"
+    },
+    {
+      "family": "Roboto",
+      "weight": "700",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Roboto",
+      "weight": "700",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Roboto",
+      "weight": "700",
+      "style": "normal",
+      "status": "unloaded"
+    }
+  ],
+  "cssLinks": [
+    "https://fonts.googleapis.com/css?family=Roboto+Condensed:400,400i,700,700i|Roboto:400,400i,700,700i",
+    "https://habitica.com/assets/index-vd1XIeic.css",
+    "https://habitica.com/assets/closeX-DES5uthp.css",
+    "https://habitica.com/assets/list-DJiw40r1.css",
+    "https://habitica.com/assets/toggleSwitch-Bw6PmqsG.css",
+    "https://habitica.com/assets/appFooter-D0zPv4NO.css",
+    "https://habitica.com/assets/staticWrapper-CDfEtBZt.css",
+    "https://habitica.com/assets/features-DrOazfju.css"
+  ],
+  "scripts": [
+    "https://habitica.com/assets/index-CuiOjjKh.js",
+    "https://cloudfront.loggly.com/js/loggly.tracker-latest.min.js",
+    "https://habitica.com/api/v4/i18n/core"
+  ]
+}

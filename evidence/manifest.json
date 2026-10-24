@@ -1,0 +1,1214 @@
+{
+  "generated_at": "2026-10-24T16:50:58.942Z",
+  "viewport": {
+    "width": 1440,
+    "height": 960,
+    "effective_inner_width": 1424,
+    "effective_inner_height": 865
+  },
+  "capture_method": "Local headless Chrome 156 via CDP; section sweeps scroll in 850 px steps; full-page via Page.captureScreenshot captureBeyondViewport.",
+  "screenshots": [
+    {
+      "app": "asana",
+      "page": "home",
+      "page_label": "Marketing home",
+      "url": "https://asana.com/",
+      "file": "evidence/asana/screenshots/00.png",
+      "bytes": 252655,
+      "sha256": "8cf1cefac00f3b6760aad3a4241dea447781fe9006736b6d5b7afe3d9df0119e",
+      "captured_at": "2026-10-24T15:29:54.155Z"
+    },
+    {
+      "app": "asana",
+      "page": "home",
+      "page_label": "Marketing home",
+      "url": "https://asana.com/",
+      "file": "evidence/asana/screenshots/01.png",
+      "bytes": 276615,
+      "sha256": "92bc9291443c1c130c5fc1242769ecc9cfb4a30bb13a552a1dacfcd856268e75",
+      "captured_at": "2026-10-24T15:29:55.737Z"
+    },
+    {
+      "app": "asana",
+      "page": "home",
+      "page_label": "Marketing home",
+      "url": "https://asana.com/",
+      "file": "evidence/asana/screenshots/02.png",
+      "bytes": 185691,
+      "sha256": "16ae89249353429563a68306a276281ca0ddb4eadfd3b9b70d1fde2e3d4c6cb1",
+      "captured_at": "2026-10-24T15:29:57.296Z"
+    },
+    {
+      "app": "asana",
+      "page": "home",
+      "page_label": "Marketing home",
+      "url": "https://asana.com/",
+      "file": "evidence/asana/screenshots/03.png",
+      "bytes": 227135,
+      "sha256": "e261dc1db499add99e34fd9cb97cc6565d72b7ab9525cea44b472bd8e010a33a",
+      "captured_at": "2026-10-24T15:29:58.772Z"
+    },
+    {
+      "app": "asana",
+      "page": "home",
+      "page_label": "Marketing home",
+      "url": "https://asana.com/",
+      "file": "evidence/asana/screenshots/04.png",
+      "bytes": 260088,
+      "sha256": "9d9d40c24c0dd94cda099218965e06a1ddfd0d12758378c23eecb5ffa97f92be",
+      "captured_at": "2026-10-24T15:30:00.284Z"
+    },
+    {
+      "app": "asana",
+      "page": "home",
+      "page_label": "Marketing home",
+      "url": "https://asana.com/",
+      "file": "evidence/asana/screenshots/05.png",
+      "bytes": 505802,
+      "sha256": "e805d9d508497d2579ebabeae70a9f0f9e6e20f0b8f6c8dac5fa3d41838af3db",
+      "captured_at": "2026-10-24T15:30:01.818Z"
+    },
+    {
+      "app": "asana",
+      "page": "home",
+      "page_label": "Marketing home",
+      "url": "https://asana.com/",
+      "file": "evidence/asana/screenshots/06.png",
+      "bytes": 169814,
+      "sha256": "93a6f8417b044c01b8f5d42562ed83d9aa0025105afe86bac20049ca08dfafd0",
+      "captured_at": "2026-10-24T15:30:03.344Z"
+    },
+    {
+      "app": "asana",
+      "page": "home",
+      "page_label": "Marketing home",
+      "url": "https://asana.com/",
+      "file": "evidence/asana/screenshots/07.png",
+      "bytes": 259518,
+      "sha256": "d8ef94b207c7a3b534534582cb1d28b33ea87009551102952ec52a56bce4873b",
+      "captured_at": "2026-10-24T15:30:04.847Z"
+    },
+    {
+      "app": "asana",
+      "page": "home",
+      "page_label": "Marketing home",
+      "url": "https://asana.com/",
+      "file": "evidence/asana/screenshots/08.png",
+      "bytes": 174099,
+      "sha256": "3d55b3ba79fc422800169a026a29220df0da49a6f87068ea481bfcd52e79ec17",
+      "captured_at": "2026-10-24T15:30:06.329Z"
+    },
+    {
+      "app": "asana",
+      "page": "home",
+      "page_label": "Marketing home",
+      "url": "https://asana.com/",
+      "file": "evidence/asana/screenshots/09.png",
+      "bytes": 209447,
+      "sha256": "b363a43c1f34597450f745569742bca3ca193be238611c9689d5334dc849f019",
+      "captured_at": "2026-10-24T15:30:09.308Z"
+    },
+    {
+      "app": "asana",
+      "page": "home",
+      "page_label": "Marketing home",
+      "url": "https://asana.com/",
+      "file": "evidence/asana/screenshots/full-page.png",
+      "bytes": 1641177,
+      "sha256": "73483bee2176d3469e646d4041176674352e8644b46b61ff8c2c4f9d4af343b4",
+      "captured_at": "2026-10-24T15:30:12.869Z"
+    },
+    {
+      "app": "asana",
+      "page": "login",
+      "page_label": "App login",
+      "url": "https://app.asana.com/-/login",
+      "file": "evidence/asana/screenshots/login.png",
+      "bytes": 30027,
+      "sha256": "fa112feea0fe94428249f59578b4d9e95055ebea19f9872c692803784c936776",
+      "captured_at": "2026-10-24T14:50:48.890Z"
+    },
+    {
+      "app": "asana",
+      "page": "product",
+      "page_label": "Product overview",
+      "url": "https://asana.com/product",
+      "file": "evidence/asana/screenshots-product/00.png",
+      "bytes": 206130,
+      "sha256": "cd180e2b5857b67e38596b27c34ebc0841a9b4352fdd64dfd9c210641ffcd3c2",
+      "captured_at": "2026-10-24T15:36:30.311Z"
+    },
+    {
+      "app": "asana",
+      "page": "product",
+      "page_label": "Product overview",
+      "url": "https://asana.com/product",
+      "file": "evidence/asana/screenshots-product/01.png",
+      "bytes": 491888,
+      "sha256": "b3357c8f00f682cc184c373ce3efa058e6d1769cd83daf373845eab86ab32fbd",
+      "captured_at": "2026-10-24T15:36:31.821Z"
+    },
+    {
+      "app": "asana",
+      "page": "product",
+      "page_label": "Product overview",
+      "url": "https://asana.com/product",
+      "file": "evidence/asana/screenshots-product/02.png",
+      "bytes": 177126,
+      "sha256": "30d1566e7348a5bdfe495f90b804bac7fa8751de66462361f4d01dae91377fe4",
+      "captured_at": "2026-10-24T15:36:33.285Z"
+    },
+    {
+      "app": "asana",
+      "page": "product",
+      "page_label": "Product overview",
+      "url": "https://asana.com/product",
+      "file": "evidence/asana/screenshots-product/03.png",
+      "bytes": 174859,
+      "sha256": "2f70ff840d0e73d9af350ec87465aa9c97b0dc5dcca2025092380aae3f05333c",
+      "captured_at": "2026-10-24T15:36:34.750Z"
+    },
+    {
+      "app": "asana",
+      "page": "product",
+      "page_label": "Product overview",
+      "url": "https://asana.com/product",
+      "file": "evidence/asana/screenshots-product/04.png",
+      "bytes": 182524,
+      "sha256": "8832eecd082940f178a8273f6c1e7bed133a5dc916cf9a85ebb1d80d5fcc528f",
+      "captured_at": "2026-10-24T15:36:36.209Z"
+    },
+    {
+      "app": "asana",
+      "page": "product",
+      "page_label": "Product overview",
+      "url": "https://asana.com/product",
+      "file": "evidence/asana/screenshots-product/05.png",
+      "bytes": 196855,
+      "sha256": "24bdf6b5ab8919d60ac701c063fc2bd993a07cf840347b88d99928f37b109dac",
+      "captured_at": "2026-10-24T15:36:37.682Z"
+    },
+    {
+      "app": "asana",
+      "page": "product",
+      "page_label": "Product overview",
+      "url": "https://asana.com/product",
+      "file": "evidence/asana/screenshots-product/06.png",
+      "bytes": 133187,
+      "sha256": "99ffb1e28e797bf99a5e60e8435b91cf58a1c32c88fd11596e0d1ed338e63d5b",
+      "captured_at": "2026-10-24T15:36:39.139Z"
+    },
+    {
+      "app": "asana",
+      "page": "product",
+      "page_label": "Product overview",
+      "url": "https://asana.com/product",
+      "file": "evidence/asana/screenshots-product/07.png",
+      "bytes": 150536,
+      "sha256": "969e51c2975d90cc164a940aed930f339e33408cab6d6f873e793f19bccc410d",
+      "captured_at": "2026-10-24T15:36:40.627Z"
+    },
+    {
+      "app": "asana",
+      "page": "product",
+      "page_label": "Product overview",
+      "url": "https://asana.com/product",
+      "file": "evidence/asana/screenshots-product/08.png",
+      "bytes": 61140,
+      "sha256": "727cc3f773d173fd542687da14786eee603f6a55f28d3d0a1c7edba2abae1b13",
+      "captured_at": "2026-10-24T15:36:42.098Z"
+    },
+    {
+      "app": "asana",
+      "page": "product",
+      "page_label": "Product overview",
+      "url": "https://asana.com/product",
+      "file": "evidence/asana/screenshots-product/09.png",
+      "bytes": 94543,
+      "sha256": "5f998bae8595e052741ec6699889a9617733b164708e84723665a79ff4b3028a",
+      "captured_at": "2026-10-24T15:36:43.592Z"
+    },
+    {
+      "app": "asana",
+      "page": "product",
+      "page_label": "Product overview",
+      "url": "https://asana.com/product",
+      "file": "evidence/asana/screenshots-product/10.png",
+      "bytes": 120942,
+      "sha256": "b925dc0ef508d06ea0f007215d5e3334c1c21039de4ee99f084812cf0d7989b8",
+      "captured_at": "2026-10-24T15:36:45.086Z"
+    },
+    {
+      "app": "asana",
+      "page": "product",
+      "page_label": "Product overview",
+      "url": "https://asana.com/product",
+      "file": "evidence/asana/screenshots-product/full-page.png",
+      "bytes": 1501743,
+      "sha256": "ea7b33c39324472afff2a09ccd1109066cbf1f005cef13627d909dbd4a3b9ead",
+      "captured_at": "2026-10-24T15:36:47.060Z"
+    },
+    {
+      "app": "toggl",
+      "page": "home",
+      "page_label": "Marketing home",
+      "url": "https://toggl.com/",
+      "file": "evidence/toggl/screenshots/00.png",
+      "bytes": 239994,
+      "sha256": "cf6c333e0bd07c5410204eef8f24e0950ff980e081c1da75c55a8ab2e14b85b8",
+      "captured_at": "2026-10-24T15:30:14.529Z"
+    },
+    {
+      "app": "toggl",
+      "page": "home",
+      "page_label": "Marketing home",
+      "url": "https://toggl.com/",
+      "file": "evidence/toggl/screenshots/01.png",
+      "bytes": 102488,
+      "sha256": "69bb25ee821c7bda2010db3574cde150c6ac600a63ad77bad1f7d3eccde00f52",
+      "captured_at": "2026-10-24T15:30:16.025Z"
+    },
+    {
+      "app": "toggl",
+      "page": "home",
+      "page_label": "Marketing home",
+      "url": "https://toggl.com/",
+      "file": "evidence/toggl/screenshots/02.png",
+      "bytes": 59338,
+      "sha256": "843ee416aafc595a05d37dd0dcae2403882f84fe62cd635299097f071165ff7c",
+      "captured_at": "2026-10-24T15:30:17.522Z"
+    },
+    {
+      "app": "toggl",
+      "page": "home",
+      "page_label": "Marketing home",
+      "url": "https://toggl.com/",
+      "file": "evidence/toggl/screenshots/03.png",
+      "bytes": 262761,
+      "sha256": "56e4956c42c81395de450e2869dd2cf6bf557f89a2e43c32e33aebaaf840a2d8",
+      "captured_at": "2026-10-24T15:30:19.056Z"
+    },
+    {
+      "app": "toggl",
+      "page": "home",
+      "page_label": "Marketing home",
+      "url": "https://toggl.com/",
+      "file": "evidence/toggl/screenshots/04.png",
+      "bytes": 318728,
+      "sha256": "73d99850c0213a6548be2cb32224b17320c6245cd358c276de862c2a44a0a85a",
+      "captured_at": "2026-10-24T15:30:20.572Z"
+    },
+    {
+      "app": "toggl",
+      "page": "home",
+      "page_label": "Marketing home",
+      "url": "https://toggl.com/",
+      "file": "evidence/toggl/screenshots/05.png",
+      "bytes": 292381,
+      "sha256": "30d3910f82790abfdb7ea81320692f8046c7c3e072a63692224bf370127d4ed1",
+      "captured_at": "2026-10-24T15:30:22.089Z"
+    },
+    {
+      "app": "toggl",
+      "page": "home",
+      "page_label": "Marketing home",
+      "url": "https://toggl.com/",
+      "file": "evidence/toggl/screenshots/06.png",
+      "bytes": 391869,
+      "sha256": "ad084650d1c4587166434d110c93af307b13666ebcb030351c79e59ab759cb26",
+      "captured_at": "2026-10-24T15:30:23.635Z"
+    },
+    {
+      "app": "toggl",
+      "page": "home",
+      "page_label": "Marketing home",
+      "url": "https://toggl.com/",
+      "file": "evidence/toggl/screenshots/07.png",
+      "bytes": 170742,
+      "sha256": "e7536b99da5aff45251fbe9398656e6515de7260d33acf02634b8375a31203e9",
+      "captured_at": "2026-10-24T15:30:25.118Z"
+    },
+    {
+      "app": "toggl",
+      "page": "home",
+      "page_label": "Marketing home",
+      "url": "https://toggl.com/",
+      "file": "evidence/toggl/screenshots/08.png",
+      "bytes": 125561,
+      "sha256": "ce912d3c3835d33b5f97da878cc6de2d8ffa6e9fd5a1921f45ad39824b05c9e3",
+      "captured_at": "2026-10-24T15:30:26.599Z"
+    },
+    {
+      "app": "toggl",
+      "page": "home",
+      "page_label": "Marketing home",
+      "url": "https://toggl.com/",
+      "file": "evidence/toggl/screenshots/09.png",
+      "bytes": 178836,
+      "sha256": "ce26d1ac0695c50e807819872377b4c2882463b322e817a60923a3bd7833e3aa",
+      "captured_at": "2026-10-24T15:30:28.095Z"
+    },
+    {
+      "app": "toggl",
+      "page": "home",
+      "page_label": "Marketing home",
+      "url": "https://toggl.com/",
+      "file": "evidence/toggl/screenshots/10.png",
+      "bytes": 95459,
+      "sha256": "56d59d1f735809e0e37cead2b7cc9446791b6fb4c009b94924b266b7671bfa27",
+      "captured_at": "2026-10-24T15:30:29.625Z"
+    },
+    {
+      "app": "toggl",
+      "page": "home",
+      "page_label": "Marketing home",
+      "url": "https://toggl.com/",
+      "file": "evidence/toggl/screenshots/11.png",
+      "bytes": 226645,
+      "sha256": "66434d9e537c56878a17d4008b5d6283466c27c5ff3b08480df6cbd9df98d233",
+      "captured_at": "2026-10-24T15:30:31.284Z"
+    },
+    {
+      "app": "toggl",
+      "page": "home",
+      "page_label": "Marketing home",
+      "url": "https://toggl.com/",
+      "file": "evidence/toggl/screenshots/12.png",
+      "bytes": 344877,
+      "sha256": "dd24320820d03bae8b489426aff662d234d73ec5d76a9ecf33ee98902c08b476",
+      "captured_at": "2026-10-24T15:30:33.565Z"
+    },
+    {
+      "app": "toggl",
+      "page": "home",
+      "page_label": "Marketing home",
+      "url": "https://toggl.com/",
+      "file": "evidence/toggl/screenshots/13.png",
+      "bytes": 194641,
+      "sha256": "ce83b9e946a305f1b5f601ef595d604fe84c7a3ac15adeca8277abf1c92fe4f5",
+      "captured_at": "2026-10-24T15:30:35.095Z"
+    },
+    {
+      "app": "toggl",
+      "page": "home",
+      "page_label": "Marketing home",
+      "url": "https://toggl.com/",
+      "file": "evidence/toggl/screenshots/14.png",
+      "bytes": 74859,
+      "sha256": "dee2f8d3053aa2a976246b681f2d453e8b67fe48e281e1e8ec6f602d496f0b6a",
+      "captured_at": "2026-10-24T15:30:36.569Z"
+    },
+    {
+      "app": "toggl",
+      "page": "home",
+      "page_label": "Marketing home",
+      "url": "https://toggl.com/",
+      "file": "evidence/toggl/screenshots/15.png",
+      "bytes": 239053,
+      "sha256": "8dfdf990c9a5eb935fafbf080e05c0bab0159e72b89221e40d422b482a6c1721",
+      "captured_at": "2026-10-24T15:30:38.057Z"
+    },
+    {
+      "app": "toggl",
+      "page": "home",
+      "page_label": "Marketing home",
+      "url": "https://toggl.com/",
+      "file": "evidence/toggl/screenshots/16.png",
+      "bytes": 238007,
+      "sha256": "f497ce8a782d121e0ad49349a31472f304fb6663879927ea91fdf92210a144dd",
+      "captured_at": "2026-10-24T15:30:39.584Z"
+    },
+    {
+      "app": "toggl",
+      "page": "home",
+      "page_label": "Marketing home",
+      "url": "https://toggl.com/",
+      "file": "evidence/toggl/screenshots/full-page.png",
+      "bytes": 2973073,
+      "sha256": "ede63f354479a5417e16d2ff2dc2354f3aa3ec91bdbf31e78be51082080608f9",
+      "captured_at": "2026-10-24T15:30:41.856Z"
+    },
+    {
+      "app": "toggl",
+      "page": "login",
+      "page_label": "Track login",
+      "url": "https://accounts.toggl.com/track/login/",
+      "file": "evidence/toggl/screenshots/login.png",
+      "bytes": 79716,
+      "sha256": "d1387f0e3415e6161505f9092b2d11689bc57573a8c99c4ce28d32db390c23f5",
+      "captured_at": "2026-10-24T14:57:46.151Z"
+    },
+    {
+      "app": "habitica",
+      "page": "home",
+      "page_label": "Marketing home",
+      "url": "https://habitica.com/static/home",
+      "file": "evidence/habitica/screenshots/00.png",
+      "bytes": 96933,
+      "sha256": "015f1f63c06abbfdc2029705d4a8bb20884a6d45846786ff734ffd4afb6a04f8",
+      "captured_at": "2026-10-24T15:30:43.430Z"
+    },
+    {
+      "app": "habitica",
+      "page": "home",
+      "page_label": "Marketing home",
+      "url": "https://habitica.com/static/home",
+      "file": "evidence/habitica/screenshots/01.png",
+      "bytes": 177226,
+      "sha256": "770c86ad8e071de1922f85a65c29e46286f30ff971818673f426a567f22a92e4",
+      "captured_at": "2026-10-24T15:30:44.914Z"
+    },
+    {
+      "app": "habitica",
+      "page": "home",
+      "page_label": "Marketing home",
+      "url": "https://habitica.com/static/home",
+      "file": "evidence/habitica/screenshots/02.png",
+      "bytes": 96819,
+      "sha256": "390c4b5b0cef6f7210c903c5b3afdf193b092d87b7393fae582fa223948e2874",
+      "captured_at": "2026-10-24T15:30:46.489Z"
+    },
+    {
+      "app": "habitica",
+      "page": "home",
+      "page_label": "Marketing home",
+      "url": "https://habitica.com/static/home",
+      "file": "evidence/habitica/screenshots/03.png",
+      "bytes": 95953,
+      "sha256": "a9a6fa9bad3320b0022f3211fc1548598fe6098e5d5caf8c6e0ed383b1a5c468",
+      "captured_at": "2026-10-24T15:30:47.946Z"
+    },
+    {
+      "app": "habitica",
+      "page": "home",
+      "page_label": "Marketing home",
+      "url": "https://habitica.com/static/home",
+      "file": "evidence/habitica/screenshots/04.png",
+      "bytes": 74005,
+      "sha256": "88368979fd047751b41404937e90f179cf3b7f52fe7d34cb063948d62a92dbfd",
+      "captured_at": "2026-10-24T15:30:49.432Z"
+    },
+    {
+      "app": "habitica",
+      "page": "home",
+      "page_label": "Marketing home",
+      "url": "https://habitica.com/static/home",
+      "file": "evidence/habitica/screenshots/05.png",
+      "bytes": 78594,
+      "sha256": "8c984537176caef049473847440afd5ba64bc66e504c907e077e8ad9464ba2ca",
+      "captured_at": "2026-10-24T15:30:51.369Z"
+    },
+    {
+      "app": "habitica",
+      "page": "home",
+      "page_label": "Marketing home",
+      "url": "https://habitica.com/static/home",
+      "file": "evidence/habitica/screenshots/full-page.png",
+      "bytes": 562191,
+      "sha256": "0fa40363799bb253fa85bd9ceddd05516e0c9accf57a760948c2655d1e3c103a",
+      "captured_at": "2026-10-24T15:30:52.991Z"
+    },
+    {
+      "app": "habitica",
+      "page": "login",
+      "page_label": "Login",
+      "url": "https://habitica.com/login",
+      "file": "evidence/habitica/screenshots/login.png",
+      "bytes": 70043,
+      "sha256": "bbeea252613bc7e36a74256b44d26ab8758a79cee5212034ebef303d426b7981",
+      "captured_at": "2026-10-24T14:50:49.398Z"
+    },
+    {
+      "app": "habitica",
+      "page": "features",
+      "page_label": "Features",
+      "url": "https://habitica.com/static/features",
+      "file": "evidence/habitica/screenshots-features/00.png",
+      "bytes": 259709,
+      "sha256": "8a5394a60995861d21dafd7b9180381751d60d25e4730348e3fa0808792c3f65",
+      "captured_at": "2026-10-24T15:36:21.203Z"
+    },
+    {
+      "app": "habitica",
+      "page": "features",
+      "page_label": "Features",
+      "url": "https://habitica.com/static/features",
+      "file": "evidence/habitica/screenshots-features/01.png",
+      "bytes": 146466,
+      "sha256": "715c743d60c7d6b89a088964499a8bfb0dd0052b24e156f507c3e653b7700d94",
+      "captured_at": "2026-10-24T15:36:22.665Z"
+    },
+    {
+      "app": "habitica",
+      "page": "features",
+      "page_label": "Features",
+      "url": "https://habitica.com/static/features",
+      "file": "evidence/habitica/screenshots-features/02.png",
+      "bytes": 226633,
+      "sha256": "b35cd6e473f3b2581f91cb50a4859d8bf3b94d4c359751fd3143a7f36ba43407",
+      "captured_at": "2026-10-24T15:36:24.134Z"
+    },
+    {
+      "app": "habitica",
+      "page": "features",
+      "page_label": "Features",
+      "url": "https://habitica.com/static/features",
+      "file": "evidence/habitica/screenshots-features/03.png",
+      "bytes": 164989,
+      "sha256": "ffd34f32f35f747fa00b007573ee9a8664f1b1179ee8be2a564d6e0215ac410a",
+      "captured_at": "2026-10-24T15:36:25.633Z"
+    },
+    {
+      "app": "habitica",
+      "page": "features",
+      "page_label": "Features",
+      "url": "https://habitica.com/static/features",
+      "file": "evidence/habitica/screenshots-features/04.png",
+      "bytes": 98141,
+      "sha256": "96e71a275b5c14c186d1ce1056c085472f8efc1b77df2873246172eed52d1cd8",
+      "captured_at": "2026-10-24T15:36:27.070Z"
+    },
+    {
+      "app": "habitica",
+      "page": "features",
+      "page_label": "Features",
+      "url": "https://habitica.com/static/features",
+      "file": "evidence/habitica/screenshots-features/full-page.png",
+      "bytes": 851497,
+      "sha256": "b9b1ab0e5d97279b4b1c9f39fb0f41e2dc312505518ed6c2ae9255dd5eaea103",
+      "captured_at": "2026-10-24T15:36:28.722Z"
+    },
+    {
+      "app": "tiimo",
+      "page": "home",
+      "page_label": "Marketing home",
+      "url": "https://www.tiimoapp.com/",
+      "file": "evidence/tiimo/screenshots/00.png",
+      "bytes": 426374,
+      "sha256": "ce31f2a8abb3e963ff82e4e2fe928429e6b48c060849c948b0b8e4b41868689e",
+      "captured_at": "2026-10-24T15:32:42.374Z"
+    },
+    {
+      "app": "tiimo",
+      "page": "home",
+      "page_label": "Marketing home",
+      "url": "https://www.tiimoapp.com/",
+      "file": "evidence/tiimo/screenshots/01.png",
+      "bytes": 1173633,
+      "sha256": "9ed4b869392f5d4b4ca4d943a4a0b60805f570e9b7e7e19fcd6b49059c8fe251",
+      "captured_at": "2026-10-24T15:32:44.892Z"
+    },
+    {
+      "app": "tiimo",
+      "page": "home",
+      "page_label": "Marketing home",
+      "url": "https://www.tiimoapp.com/",
+      "file": "evidence/tiimo/screenshots/02.png",
+      "bytes": 350125,
+      "sha256": "71f05b853513aff82ef47ef8c87a9bf1402f7a917ee6838e91b93b12d7b9d504",
+      "captured_at": "2026-10-24T15:32:46.458Z"
+    },
+    {
+      "app": "tiimo",
+      "page": "home",
+      "page_label": "Marketing home",
+      "url": "https://www.tiimoapp.com/",
+      "file": "evidence/tiimo/screenshots/03.png",
+      "bytes": 376886,
+      "sha256": "3799047ac0b31579f973170396b226e15bd82cbcb391decd75ba937a8119d65e",
+      "captured_at": "2026-10-24T15:32:48.014Z"
+    },
+    {
+      "app": "tiimo",
+      "page": "home",
+      "page_label": "Marketing home",
+      "url": "https://www.tiimoapp.com/",
+      "file": "evidence/tiimo/screenshots/04.png",
+      "bytes": 238667,
+      "sha256": "e3b924ad0e7d22eb52892775fd080e03e9841496e263840b4a1424a4fd30c1ac",
+      "captured_at": "2026-10-24T15:32:49.527Z"
+    },
+    {
+      "app": "tiimo",
+      "page": "home",
+      "page_label": "Marketing home",
+      "url": "https://www.tiimoapp.com/",
+      "file": "evidence/tiimo/screenshots/05.png",
+      "bytes": 117191,
+      "sha256": "2c7fd1a761285b80226650b86f470e02c7994237abeda9f8ff943873d0e21c13",
+      "captured_at": "2026-10-24T15:32:51.025Z"
+    },
+    {
+      "app": "tiimo",
+      "page": "home",
+      "page_label": "Marketing home",
+      "url": "https://www.tiimoapp.com/",
+      "file": "evidence/tiimo/screenshots/06.png",
+      "bytes": 169089,
+      "sha256": "5cd39a972a940a7fb3e4e58d4a4ad4adf4969065cbc6a097dd39068d01cc0d53",
+      "captured_at": "2026-10-24T15:32:52.523Z"
+    },
+    {
+      "app": "tiimo",
+      "page": "home",
+      "page_label": "Marketing home",
+      "url": "https://www.tiimoapp.com/",
+      "file": "evidence/tiimo/screenshots/07.png",
+      "bytes": 134970,
+      "sha256": "cc057a4ffd046bbc3e17b9f3338599a1ccec8af537d0a9ef6e57ce2b1938c199",
+      "captured_at": "2026-10-24T15:32:54.003Z"
+    },
+    {
+      "app": "tiimo",
+      "page": "home",
+      "page_label": "Marketing home",
+      "url": "https://www.tiimoapp.com/",
+      "file": "evidence/tiimo/screenshots/08.png",
+      "bytes": 58970,
+      "sha256": "1596fe145fe84244a0cba53b13d0f9e536f5e15c9d85dcd04f005917b5aa68d1",
+      "captured_at": "2026-10-24T15:32:55.451Z"
+    },
+    {
+      "app": "tiimo",
+      "page": "home",
+      "page_label": "Marketing home",
+      "url": "https://www.tiimoapp.com/",
+      "file": "evidence/tiimo/screenshots/09.png",
+      "bytes": 967589,
+      "sha256": "6e8accb1e2031d7351d6cb83eeb2d8ff501e92032ccd4bd5837b34a987456a95",
+      "captured_at": "2026-10-24T15:32:57.082Z"
+    },
+    {
+      "app": "tiimo",
+      "page": "home",
+      "page_label": "Marketing home",
+      "url": "https://www.tiimoapp.com/",
+      "file": "evidence/tiimo/screenshots/10.png",
+      "bytes": 1592795,
+      "sha256": "c824cf5f6b98f3f741323d75aad9e54474e777cff03d777410f738d3289ad321",
+      "captured_at": "2026-10-24T15:32:58.808Z"
+    },
+    {
+      "app": "tiimo",
+      "page": "home",
+      "page_label": "Marketing home",
+      "url": "https://www.tiimoapp.com/",
+      "file": "evidence/tiimo/screenshots/full-page.png",
+      "bytes": 4767080,
+      "sha256": "c4aba67e38113ed30c4cf24ed227334bcbd8360a9065ede49e66ed74ecef0494",
+      "captured_at": "2026-10-24T15:33:01.262Z"
+    },
+    {
+      "app": "tiimo",
+      "page": "login",
+      "page_label": "Web app sign-in",
+      "url": "https://webapp.tiimoapp.com/sign-in",
+      "file": "evidence/tiimo/screenshots/login.png",
+      "bytes": 92513,
+      "sha256": "0d170d5af1468eefe281d40622a7fd6486a3e83109d07ee1f82f1fdf9d853219",
+      "captured_at": "2026-10-24T14:50:49.590Z"
+    },
+    {
+      "app": "tiimo",
+      "page": "todolist",
+      "page_label": "To-do list product page",
+      "url": "https://www.tiimoapp.com/product/to-do-list",
+      "file": "evidence/tiimo/screenshots-todo-list/00.png",
+      "bytes": 1824860,
+      "sha256": "84e0aac2113324836d687bc1618e8c453765c0acb471cd70ebebc03b2a8eb178",
+      "captured_at": "2026-10-24T15:36:48.889Z"
+    },
+    {
+      "app": "tiimo",
+      "page": "todolist",
+      "page_label": "To-do list product page",
+      "url": "https://www.tiimoapp.com/product/to-do-list",
+      "file": "evidence/tiimo/screenshots-todo-list/01.png",
+      "bytes": 1522697,
+      "sha256": "08309fe65879208568e38a4667a27d59931d7d180743f14e1936c1fb57560cd5",
+      "captured_at": "2026-10-24T15:36:50.582Z"
+    },
+    {
+      "app": "tiimo",
+      "page": "todolist",
+      "page_label": "To-do list product page",
+      "url": "https://www.tiimoapp.com/product/to-do-list",
+      "file": "evidence/tiimo/screenshots-todo-list/02.png",
+      "bytes": 385847,
+      "sha256": "8e2b55aa1b08f14634b0c7aa939d8edee01570bc807731a5038ddbfd2d496fc1",
+      "captured_at": "2026-10-24T15:36:52.118Z"
+    },
+    {
+      "app": "tiimo",
+      "page": "todolist",
+      "page_label": "To-do list product page",
+      "url": "https://www.tiimoapp.com/product/to-do-list",
+      "file": "evidence/tiimo/screenshots-todo-list/03.png",
+      "bytes": 314428,
+      "sha256": "7228dfb5a52a30ebb7b1c57210a34166f1ad8c0158c0a050f0c3e945e6c777cd",
+      "captured_at": "2026-10-24T15:36:53.657Z"
+    },
+    {
+      "app": "tiimo",
+      "page": "todolist",
+      "page_label": "To-do list product page",
+      "url": "https://www.tiimoapp.com/product/to-do-list",
+      "file": "evidence/tiimo/screenshots-todo-list/04.png",
+      "bytes": 750044,
+      "sha256": "10adbb4cd256c3f4b166b2fa7f9bfac55d6d457ea1139388580ed1393d727b67",
+      "captured_at": "2026-10-24T15:36:55.257Z"
+    },
+    {
+      "app": "tiimo",
+      "page": "todolist",
+      "page_label": "To-do list product page",
+      "url": "https://www.tiimoapp.com/product/to-do-list",
+      "file": "evidence/tiimo/screenshots-todo-list/05.png",
+      "bytes": 919221,
+      "sha256": "0ea98ea6da77adfa942fedac22c58ee4ac588f6cb0623dfd958e7d31d6f791e9",
+      "captured_at": "2026-10-24T15:36:56.897Z"
+    },
+    {
+      "app": "tiimo",
+      "page": "todolist",
+      "page_label": "To-do list product page",
+      "url": "https://www.tiimoapp.com/product/to-do-list",
+      "file": "evidence/tiimo/screenshots-todo-list/full-page.png",
+      "bytes": 5646191,
+      "sha256": "3038b1fd8267284161cd10f9fce3cac84448f1fb673ca9f2caefcb7b58a8ed5a",
+      "captured_at": "2026-10-24T15:36:59.347Z"
+    },
+    {
+      "app": "structured",
+      "page": "home",
+      "page_label": "Marketing home",
+      "url": "https://structured.app/",
+      "file": "evidence/structured/screenshots/00.png",
+      "bytes": 1073371,
+      "sha256": "622054bd598e98a489f71ab5b7b019e8667a5d4b236466fb4d2da115f83e4283",
+      "captured_at": "2026-10-24T15:33:03.115Z"
+    },
+    {
+      "app": "structured",
+      "page": "home",
+      "page_label": "Marketing home",
+      "url": "https://structured.app/",
+      "file": "evidence/structured/screenshots/01.png",
+      "bytes": 85283,
+      "sha256": "5bef904f7e4acd0e53c1bafd6df3a5dd9bb0d27d0236305408c7f4dba8e00fa3",
+      "captured_at": "2026-10-24T15:33:04.678Z"
+    },
+    {
+      "app": "structured",
+      "page": "home",
+      "page_label": "Marketing home",
+      "url": "https://structured.app/",
+      "file": "evidence/structured/screenshots/02.png",
+      "bytes": 263494,
+      "sha256": "35f847e3350d534a411f9a8db8522526153515c7d8af2b9735856ed2ff02a238",
+      "captured_at": "2026-10-24T15:33:06.253Z"
+    },
+    {
+      "app": "structured",
+      "page": "home",
+      "page_label": "Marketing home",
+      "url": "https://structured.app/",
+      "file": "evidence/structured/screenshots/03.png",
+      "bytes": 202419,
+      "sha256": "27ee100fccdef7e8d7b8ca5db3e83c8d2ef3d0ea5f2dce2c328695b931ee6734",
+      "captured_at": "2026-10-24T15:33:08.595Z"
+    },
+    {
+      "app": "structured",
+      "page": "home",
+      "page_label": "Marketing home",
+      "url": "https://structured.app/",
+      "file": "evidence/structured/screenshots/04.png",
+      "bytes": 141935,
+      "sha256": "ec2278fde15da37270b9588794e6774dfbe866a74e2ef48d3ef37779f74f9479",
+      "captured_at": "2026-10-24T15:33:12.071Z"
+    },
+    {
+      "app": "structured",
+      "page": "home",
+      "page_label": "Marketing home",
+      "url": "https://structured.app/",
+      "file": "evidence/structured/screenshots/05.png",
+      "bytes": 104170,
+      "sha256": "6492276152e792bdc506e3d8e69001e033058d804b0599d9fc9dce279658c617",
+      "captured_at": "2026-10-24T15:33:13.581Z"
+    },
+    {
+      "app": "structured",
+      "page": "home",
+      "page_label": "Marketing home",
+      "url": "https://structured.app/",
+      "file": "evidence/structured/screenshots/06.png",
+      "bytes": 142439,
+      "sha256": "7dfe9b90ec3613e2880245cb3fa450cdda266c91a9937bea18cbc0796968e474",
+      "captured_at": "2026-10-24T15:33:17.037Z"
+    },
+    {
+      "app": "structured",
+      "page": "home",
+      "page_label": "Marketing home",
+      "url": "https://structured.app/",
+      "file": "evidence/structured/screenshots/07.png",
+      "bytes": 134050,
+      "sha256": "f77159030173f2cf3ffe56c1661925cfa95a83b630147b01f6919264837ff5dd",
+      "captured_at": "2026-10-24T15:33:20.412Z"
+    },
+    {
+      "app": "structured",
+      "page": "home",
+      "page_label": "Marketing home",
+      "url": "https://structured.app/",
+      "file": "evidence/structured/screenshots/08.png",
+      "bytes": 151539,
+      "sha256": "5275c39a81dbc32a4fb365c129896c99b4d4cccf037e0d7c53707979d95a0f78",
+      "captured_at": "2026-10-24T15:33:21.911Z"
+    },
+    {
+      "app": "structured",
+      "page": "home",
+      "page_label": "Marketing home",
+      "url": "https://structured.app/",
+      "file": "evidence/structured/screenshots/09.png",
+      "bytes": 112726,
+      "sha256": "64a6122cc8f1cc6ddf6b7056a6825f11d03615f1381e423a46a7a3d277d6660a",
+      "captured_at": "2026-10-24T15:33:23.434Z"
+    },
+    {
+      "app": "structured",
+      "page": "home",
+      "page_label": "Marketing home",
+      "url": "https://structured.app/",
+      "file": "evidence/structured/screenshots/10.png",
+      "bytes": 104998,
+      "sha256": "fa46a6f8e1a5c0c2f15cfa3e864730c62867ad0762d0d1f657b26a451b6591f5",
+      "captured_at": "2026-10-24T15:33:24.920Z"
+    },
+    {
+      "app": "structured",
+      "page": "home",
+      "page_label": "Marketing home",
+      "url": "https://structured.app/",
+      "file": "evidence/structured/screenshots/11.png",
+      "bytes": 283679,
+      "sha256": "62112e7bdb5e5b8dd9535f6100173a34e9e398c9eec3f9879407dce3ab0d3457",
+      "captured_at": "2026-10-24T15:33:26.446Z"
+    },
+    {
+      "app": "structured",
+      "page": "home",
+      "page_label": "Marketing home",
+      "url": "https://structured.app/",
+      "file": "evidence/structured/screenshots/12.png",
+      "bytes": 88518,
+      "sha256": "34733248519c9ad49c0652d8e643cfe397a3d5c83a2406acd0a36834a55b3ffb",
+      "captured_at": "2026-10-24T15:33:27.945Z"
+    },
+    {
+      "app": "structured",
+      "page": "home",
+      "page_label": "Marketing home",
+      "url": "https://structured.app/",
+      "file": "evidence/structured/screenshots/13.png",
+      "bytes": 169369,
+      "sha256": "9425388d0bbd93df6c4b53dfaabd6a2b064f858bcf60cea48107138d5b3b8607",
+      "captured_at": "2026-10-24T15:33:29.478Z"
+    },
+    {
+      "app": "structured",
+      "page": "home",
+      "page_label": "Marketing home",
+      "url": "https://structured.app/",
+      "file": "evidence/structured/screenshots/14.png",
+      "bytes": 188685,
+      "sha256": "2c0023dac8fcac9188aca33b738b2de623d159008bf59d013f6940481491456f",
+      "captured_at": "2026-10-24T15:33:30.971Z"
+    },
+    {
+      "app": "structured",
+      "page": "home",
+      "page_label": "Marketing home",
+      "url": "https://structured.app/",
+      "file": "evidence/structured/screenshots/15.png",
+      "bytes": 195708,
+      "sha256": "33c458597e6df1fb2d563252aab6eedfc4277d6061d4a9bdb021e468780b9ad6",
+      "captured_at": "2026-10-24T15:33:32.504Z"
+    },
+    {
+      "app": "structured",
+      "page": "home",
+      "page_label": "Marketing home",
+      "url": "https://structured.app/",
+      "file": "evidence/structured/screenshots/16.png",
+      "bytes": 237471,
+      "sha256": "c2dc7d177d170bb54a26861aec1b720f5890d33a03b7b305ca42edbd6d4f255d",
+      "captured_at": "2026-10-24T15:33:34.058Z"
+    },
+    {
+      "app": "structured",
+      "page": "home",
+      "page_label": "Marketing home",
+      "url": "https://structured.app/",
+      "file": "evidence/structured/screenshots/17.png",
+      "bytes": 360758,
+      "sha256": "59804c8ae0afaf9c7a5c7287c574bbf8d9ccdfc9897823fc98bb00a6921dfe54",
+      "captured_at": "2026-10-24T15:33:35.589Z"
+    },
+    {
+      "app": "structured",
+      "page": "home",
+      "page_label": "Marketing home",
+      "url": "https://structured.app/",
+      "file": "evidence/structured/screenshots/18.png",
+      "bytes": 78247,
+      "sha256": "41070d00b519258fcb8d5d01dc28e8d0946df50e93577509e96bb70ef07d15d9",
+      "captured_at": "2026-10-24T15:33:37.058Z"
+    },
+    {
+      "app": "structured",
+      "page": "home",
+      "page_label": "Marketing home",
+      "url": "https://structured.app/",
+      "file": "evidence/structured/screenshots/19.png",
+      "bytes": 114632,
+      "sha256": "637d7ad3ea48ff9ce7df9eb87ebee749737e750e18c5a247c77da435ddacc4e3",
+      "captured_at": "2026-10-24T15:33:38.549Z"
+    },
+    {
+      "app": "structured",
+      "page": "home",
+      "page_label": "Marketing home",
+      "url": "https://structured.app/",
+      "file": "evidence/structured/screenshots/20.png",
+      "bytes": 123725,
+      "sha256": "1de7e0778f567a8783d50c9e8e634580753ec8b74d173ab231a9a1a0fcc07b13",
+      "captured_at": "2026-10-24T15:33:40.057Z"
+    },
+    {
+      "app": "structured",
+      "page": "home",
+      "page_label": "Marketing home",
+      "url": "https://structured.app/",
+      "file": "evidence/structured/screenshots/21.png",
+      "bytes": 128069,
+      "sha256": "49f4414df7551b77038d8fddfa599f10abab7ebdaccdb86ff437aa0602d08c47",
+      "captured_at": "2026-10-24T15:33:41.549Z"
+    },
+    {
+      "app": "structured",
+      "page": "home",
+      "page_label": "Marketing home",
+      "url": "https://structured.app/",
+      "file": "evidence/structured/screenshots/full-page-1.png",
+      "bytes": 1812884,
+      "sha256": "d6d3464fc934b23fa95c9ef795f108ddf5fa98ce553bb618779573b77d482bfc",
+      "captured_at": "2026-10-24T15:33:43.828Z"
+    },
+    {
+      "app": "structured",
+      "page": "home",
+      "page_label": "Marketing home",
+      "url": "https://structured.app/",
+      "file": "evidence/structured/screenshots/full-page-2.png",
+      "bytes": 1183139,
+      "sha256": "9aa2603106cf1040171752c443a39cfe27cfcd60b0bfa67c6c5a5627f455a8c7",
+      "captured_at": "2026-10-24T15:33:44.325Z"
+    },
+    {
+      "app": "structured",
+      "page": "login",
+      "page_label": "Structured Web login",
+      "url": "https://web.structured.app/auth/login",
+      "file": "evidence/structured/screenshots/login.png",
+      "bytes": 711849,
+      "sha256": "3eef5d750be1ed2bfef98611b609a6a516494690880f77d7b811ca0a711e0227",
+      "captured_at": "2026-10-24T14:50:49.925Z"
+    }
+  ],
+  "rea_evidence": [
+    {
+      "app": "asana",
+      "page": "home",
+      "operation": "inspect_web_page",
+      "evidence_id": "ev_713a292912ca5f9f6b9ed9aea6282a0d10c305e526f96366bc5db471886b4fc7",
+      "target_url": "https://asana.com/",
+      "captured_at": "2026-10-24T14:57:04.775Z",
+      "file": "evidence/asana/rea-inspect-home.json",
+      "sha256": "109d390322ea49671a314b5551fc377e53304e5b71e130596fc8cb18d2d745ed"
+    },
+    {
+      "app": "asana",
+      "page": "login",
+      "operation": "inspect_web_page",
+      "evidence_id": "ev_95751853e59462bf90ffef2c816c90b10f9764f8f8d1a1ca9af04851974d6dd6",
+      "target_url": "https://app.asana.com/-/login",
+      "captured_at": "2026-10-24T14:58:15.024Z",
+      "file": "evidence/asana/rea-inspect-login.json",
+      "sha256": "8bd0d1c7f6f70b2faf62ae0d8ca02085a7d01800874875bd48c72d99c65f8645"
+    },
+    {
+      "app": "asana",
+      "page": "product",
+      "operation": "inspect_web_page",
+      "evidence_id": "ev_93c723b9e5a0e0c746307a128728f6c4075d5ed0090cd6e9c1d4eca0642c6762",
+      "target_url": "https://asana.com/product",
+      "captured_at": "2026-10-24T15:17:39.498Z",
+      "file": "evidence/asana/rea-inspect-product.json",
+      "sha256": "e0a7d5da38e33d523ad097268ffa0c64e994b541fe62bcf847f027d43c552670"
+    },
+    {
+      "app": "toggl",
+      "page": "home",
+      "operation": "inspect_web_page",
+      "evidence_id": "ev_3ba266937a111c3ef5e7dc7149c5e18330c4c3cb6c2ac337616e76db5f9a1ae9",
+      "target_url": "https://toggl.com/",
+      "captured_at": "2026-10-24T14:57:50.595Z",
+      "file": "evidence/toggl/rea-inspect-home.json",
+      "sha256": "07986a007ddcf0b7212f99b8b22179fd62c527b3a919f4c572dc15356b764a0b"
+    },
+    {
+      "app": "toggl",
+      "page": "login",
+      "operation": "inspect_web_page",
+      "evidence_id": "ev_989e75764e3b4916a32afbc3a97f46719ea85d6e10218db21ef5636465c822cf",
+      "target_url": "https://accounts.toggl.com/track/login/?returnTo=https%3A%2F%2Ftrack.toggl.com%2Flogin",
+      "captured_at": "2026-10-24T14:58:21.189Z",
+      "file": "evidence/toggl/rea-inspect-login.json",
+      "sha256": "7715d61bcabdfe570278defbb45fff68df021aaadcfdecc6bcc7d995bc185f79"
+    },
+    {
+      "app": "habitica",
+      "page": "home",
+      "operation": "inspect_web_page",
+      "evidence_id": "ev_83ab66e279b9ccca2c373f496212dd3a06573548fe403111b605231127e21d1d",
+      "target_url": "https://habitica.com/static/home",
+      "captured_at": "2026-10-24T14:57:56.836Z",
+      "file": "evidence/habitica/rea-inspect-home.json",
+      "sha256": "b88e89e1ee9806d03975650a5c06084b55e659b5c160504a0f282b29da5fbec8"
+    },
+    {
+      "app": "habitica",
+      "page": "login",
+      "operation": "inspect_web_page",
+      "evidence_id": "ev_e907c69055777b0ed47781256cfdff37c31484293eec28c6c9c98db571bbe875",
+      "target_url": "https://habitica.com/login",
+      "captured_at": "2026-10-24T14:58:27.322Z",
+      "file": "evidence/habitica/rea-inspect-login.json",
+      "sha256": "db6fb3cbf7b0c6facd3e484f15ebf064795674b1340304f68ede67bf8bfb7267"
+    },
+    {
+      "app": "habitica",
+      "page": "features",
+      "operation": "inspect_web_page",
+      "evidence_id": "ev_01c1fefa1a785bdcda15fb29d49f2daa4bdaf75f21f40670e4c2fe72a6e9711f",
+      "target_url": "https://habitica.com/static/features",
+      "captured_at": "2026-10-24T15:17:34.598Z",
+      "file": "evidence/habitica/rea-inspect-features.json",
+      "sha256": "d9096da438cc595c5d5a3611729c73dd22385c31300b1e559c474b29ba82c5ab"
+    },
+    {
+      "app": "tiimo",
+      "page": "home",
+      "operation": "inspect_web_page",
+      "evidence_id": "ev_bdba93f48c6c1f192ae5d441a5517d002d94b5583180148d9d6a91117d99c523",
+      "target_url": "https://www.tiimoapp.com/",
+      "captured_at": "2026-10-24T14:58:02.854Z",
+      "file": "evidence/tiimo/rea-inspect-home.json",
+      "sha256": "c4c6614b455801be4108abd19b83665980b6b72b89fe088e58692fd69c0e049f"
+    },
+    {
+      "app": "tiimo",
+      "page": "login",
+      "operation": "inspect_web_page",
+      "evidence_id": "ev_edda41300b0178f08ac08f5a3361a2f48719498a01f33afb033759968b7e4b94",
+      "target_url": "https://webapp.tiimoapp.com/sign-in",
+      "captured_at": "2026-10-24T14:58:33.230Z",
+      "file": "evidence/tiimo/rea-inspect-login.json",
+      "sha256": "3095978e467231958a8271cda7c5407592323abcc17e6477755b0fbbd2048f5e"
+    },
+    {
+      "app": "tiimo",
+      "page": "todolist",
+      "operation": "inspect_web_page",
+      "evidence_id": "ev_6c19b3fb66b70b39fa280e4e50f86c09707f5cff6a20303ffd08de57791010c5",
+      "target_url": "https://www.tiimoapp.com/product/to-do-list",
+      "captured_at": "2026-10-24T15:17:44.572Z",
+      "file": "evidence/tiimo/rea-inspect-todolist.json",
+      "sha256": "a56fab89d888fdcebc206cf999ac89ee308807db4e4780cda7af6b9a810bf576"
+    },
+    {
+      "app": "structured",
+      "page": "home",
+      "operation": "inspect_web_page",
+      "evidence_id": "ev_47e42d9bf4ce46caf64fa6187dbf8499a84b1a76c4c82adf5677bb4fc0212355",
+      "target_url": "https://structured.app/",
+      "captured_at": "2026-10-24T14:58:08.795Z",
+      "file": "evidence/structured/rea-inspect-home.json",
+      "sha256": "f2dea46d00a0b356739ea64fdd18b7f5baccfca6bfce226bab5413b6b44fc770"
+    },
+    {
+      "app": "structured",
+      "page": "login",
+      "operation": "inspect_web_page",
+      "evidence_id": "ev_3f193ca9dbfc9412017fc5da453a72615a9c13cc9d7f88957fbf5b4a2b0dfe13",
+      "target_url": "https://web.structured.app/auth/login",
+      "captured_at": "2026-10-24T14:58:39.406Z",
+      "file": "evidence/structured/rea-inspect-login.json",
+      "sha256": "2f3ecb9b933dbd9f28569bcc0dd0a13d1362fffe34095cff53bbeadb49e7e34f"
+    },
+    {
+      "app": "asana",
+      "page": "bundle",
+      "operation": "analyze_web_bundle",
+      "evidence_id": "ev_3eff1be6f60d5ccc197c44c9aafd971d12b97b4a22c68f815c533d124efbae9e",
+      "target_url": "https://asana.com/",
+      "captured_at": null,
+      "file": "evidence/asana/rea-bundle.json",
+      "sha256": "6df90665f912bd8c0496f640dd47e1a8d0b386fdcd344438d3af48d3815f680b"
+    },
+    {
+      "app": "toggl",
+      "page": "bundle",
+      "operation": "analyze_web_bundle",
+      "evidence_id": "ev_d5acfddc0ed78e7d06834e2a57ed4b89c1a4061323fa6cebbe10edb151e8186b",
+      "target_url": "https://toggl.com/",
+      "captured_at": null,
+      "file": "evidence/toggl/rea-bundle.json",
+      "sha256": "6b5a8bfa206cae4d9b4d80ebe4e03aedb18292bceac399018bcb0c881f3a6e6d"
+    },
+    {
+      "app": "habitica",
+      "page": "bundle",
+      "operation": "analyze_web_bundle",
+      "evidence_id": "ev_606e87a73b0ab371e5824227b623d8940c7ac7f513141a4951fa433f797d791c",
+      "target_url": "https://habitica.com/static/home",
+      "captured_at": null,
+      "file": "evidence/habitica/rea-bundle.json",
+      "sha256": "b0ec35196e526920eba5e712d3bbcedc2c33caec204be2d0e03806bf239157ab"
+    },
+    {
+      "app": "tiimo",
+      "page": "bundle",
+      "operation": "analyze_web_bundle",
+      "evidence_id": "ev_8e44f8e9695b62c32fd6f3929d2ad127f1c726d5aaba178b0f73474c706fc958",
+      "target_url": "https://www.tiimoapp.com/",
+      "captured_at": null,
+      "file": "evidence/tiimo/rea-bundle.json",
+      "sha256": "180de15bd83d4ffb2e512be4c1fa3bb72738cf3e96ca7c48fcce32df5638824b"
+    },
+    {
+      "app": "structured",
+      "page": "bundle",
+      "operation": "analyze_web_bundle",
+      "evidence_id": "ev_496f8dfad3b8e025076a5f03ecf5a83f56a6503df8cee8e92e636e9c3552c9f4",
+      "target_url": "https://structured.app/",
+      "captured_at": null,
+      "file": "evidence/structured/rea-bundle.json",
+      "sha256": "ad14433d56f0db6bb1d8df29508f2b2bd188155c250900609803f58dc67d6031"
+    }
+  ]
+}

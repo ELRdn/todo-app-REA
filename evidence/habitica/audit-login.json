@@ -1,0 +1,939 @@
+{
+  "url": "https://habitica.com/login",
+  "title": "Log In | Habitica",
+  "meta": {
+    "description": "Habitica is a free habit and productivity app that treats your real life like a game. Habitica can help you achieve your goals to become healthy and happy.",
+    "themeColor": null,
+    "viewport": "width=device-width, initial-scale=1",
+    "generator": null,
+    "ogSite": null
+  },
+  "viewport": {
+    "w": 1424,
+    "h": 865,
+    "docH": 1264
+  },
+  "counts": {
+    "elements": 148,
+    "nodes": 199,
+    "images": 0
+  },
+  "palette": {
+    "text": [
+      {
+        "value": "rgb(189, 168, 255)",
+        "count": 86
+      },
+      {
+        "value": "rgb(78, 74, 87)",
+        "count": 36
+      },
+      {
+        "value": "rgb(97, 51, 180)",
+        "count": 9
+      },
+      {
+        "value": "rgb(255, 255, 255)",
+        "count": 7
+      },
+      {
+        "value": "rgb(146, 92, 243)",
+        "count": 6
+      },
+      {
+        "value": "rgb(195, 192, 199)",
+        "count": 2
+      },
+      {
+        "value": "rgb(135, 129, 144)",
+        "count": 1
+      },
+      {
+        "value": "rgb(128, 128, 128)",
+        "count": 1
+      }
+    ],
+    "background": [
+      {
+        "value": "rgba(0, 0, 0, 0)",
+        "count": 132
+      },
+      {
+        "value": "rgb(54, 32, 93)",
+        "count": 8
+      },
+      {
+        "value": "rgb(255, 255, 255)",
+        "count": 3
+      },
+      {
+        "value": "rgb(67, 40, 116)",
+        "count": 2
+      },
+      {
+        "value": "rgb(39, 27, 61)",
+        "count": 2
+      },
+      {
+        "value": "rgb(97, 51, 180)",
+        "count": 1
+      }
+    ],
+    "border": [
+      {
+        "value": "2px solid rgba(0, 0, 0, 0)",
+        "count": 3
+      },
+      {
+        "value": "1px solid rgb(97, 51, 180)",
+        "count": 2
+      },
+      {
+        "value": "1px solid rgb(67, 40, 116)",
+        "count": 1
+      }
+    ],
+    "radius": [
+      {
+        "value": "0px",
+        "count": 139
+      },
+      {
+        "value": "4px",
+        "count": 7
+      },
+      {
+        "value": "3px",
+        "count": 2
+      }
+    ],
+    "shadow": [
+      {
+        "value": "rgba(26, 24, 29, 0.12) 0px 1px 3px 0px, rgba(26, 24, 29, 0.24) 0px 1px 2px 0px",
+        "count": 2
+      }
+    ],
+    "gap": [
+      {
+        "value": "8px",
+        "count": 3
+      }
+    ],
+    "fontSize": [
+      {
+        "value": "14px",
+        "count": 148
+      }
+    ],
+    "fontWeight": [
+      {
+        "value": "400",
+        "count": 123
+      },
+      {
+        "value": "700",
+        "count": 25
+      }
+    ],
+    "lineHeight": [
+      {
+        "value": "20.02px",
+        "count": 115
+      },
+      {
+        "value": "23.996px",
+        "count": 19
+      },
+      {
+        "value": "23.94px",
+        "count": 13
+      },
+      {
+        "value": "24px",
+        "count": 1
+      }
+    ],
+    "letterSpacing": [
+      {
+        "value": "normal",
+        "count": 148
+      }
+    ],
+    "fontFamily": [
+      {
+        "value": "Roboto, sans-serif",
+        "count": 148
+      }
+    ]
+  },
+  "cssVariables": {
+    "--blue": "#007bff",
+    "--indigo": "#6610f2",
+    "--purple": "#6f42c1",
+    "--pink": "#e83e8c",
+    "--red": "#dc3545",
+    "--orange": "#fd7e14",
+    "--yellow": "#ffc107",
+    "--green": "#28a745",
+    "--teal": "#20c997",
+    "--cyan": "#17a2b8",
+    "--white": "#fff",
+    "--gray": "#6c757d",
+    "--gray-dark": "#343a40",
+    "--primary": "#007bff",
+    "--secondary": "#6c757d",
+    "--success": "#28a745",
+    "--info": "#17a2b8",
+    "--warning": "#ffc107",
+    "--danger": "#dc3545",
+    "--light": "#f8f9fa",
+    "--dark": "#343a40",
+    "--breakpoint-xs": "0",
+    "--breakpoint-sm": "576px",
+    "--breakpoint-md": "768px",
+    "--breakpoint-lg": "992px",
+    "--breakpoint-xl": "1200px",
+    "--font-family-sans-serif": "-apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, \"Noto Sans\", \"Liberation Sans\", sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+    "--font-family-monospace": "SFMono-Regular, Menlo, Monaco, Consolas, \"Liberation Mono\", \"Courier New\", monospace"
+  },
+  "typography": [
+    {
+      "tag": "span",
+      "text": "OR",
+      "font": "Roboto",
+      "size": "14px",
+      "weight": "700",
+      "lineHeight": "23.996px",
+      "letterSpacing": "normal",
+      "color": "rgb(255, 255, 255)",
+      "transform": "none"
+    },
+    {
+      "tag": "a",
+      "text": "Forgot Password?",
+      "font": "Roboto",
+      "size": "14px",
+      "weight": "400",
+      "lineHeight": "20.02px",
+      "letterSpacing": "normal",
+      "color": "rgb(189, 168, 255)",
+      "transform": "none"
+    },
+    {
+      "tag": "button",
+      "text": "Log In",
+      "font": "Roboto",
+      "size": "14px",
+      "weight": "700",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "color": "rgb(135, 129, 144)",
+      "transform": "none"
+    },
+    {
+      "tag": "a",
+      "text": "Don’t have a Habitica account? Sign up.",
+      "font": "Roboto",
+      "size": "14px",
+      "weight": "400",
+      "lineHeight": "20.02px",
+      "letterSpacing": "normal",
+      "color": "rgb(97, 51, 180)",
+      "transform": "none"
+    },
+    {
+      "tag": "a",
+      "text": "Don’t have a Habitica account? Sign up.",
+      "font": "Roboto",
+      "size": "14px",
+      "weight": "400",
+      "lineHeight": "20.02px",
+      "letterSpacing": "normal",
+      "color": "rgb(255, 255, 255)",
+      "transform": "none"
+    },
+    {
+      "tag": "h3",
+      "text": "Product",
+      "font": "Roboto",
+      "size": "14px",
+      "weight": "700",
+      "lineHeight": "23.94px",
+      "letterSpacing": "normal",
+      "color": "rgb(146, 92, 243)",
+      "transform": "none"
+    },
+    {
+      "tag": "a",
+      "text": "iOS App",
+      "font": "Roboto",
+      "size": "14px",
+      "weight": "400",
+      "lineHeight": "20.02px",
+      "letterSpacing": "normal",
+      "color": "rgb(189, 168, 255)",
+      "transform": "none"
+    },
+    {
+      "tag": "a",
+      "text": "Android App",
+      "font": "Roboto",
+      "size": "14px",
+      "weight": "400",
+      "lineHeight": "20.02px",
+      "letterSpacing": "normal",
+      "color": "rgb(189, 168, 255)",
+      "transform": "none"
+    },
+    {
+      "tag": "a",
+      "text": "Group Plans",
+      "font": "Roboto",
+      "size": "14px",
+      "weight": "400",
+      "lineHeight": "20.02px",
+      "letterSpacing": "normal",
+      "color": "rgb(189, 168, 255)",
+      "transform": "none"
+    },
+    {
+      "tag": "a",
+      "text": "How It Works",
+      "font": "Roboto",
+      "size": "14px",
+      "weight": "400",
+      "lineHeight": "20.02px",
+      "letterSpacing": "normal",
+      "color": "rgb(189, 168, 255)",
+      "transform": "none"
+    },
+    {
+      "tag": "h3",
+      "text": "Company",
+      "font": "Roboto",
+      "size": "14px",
+      "weight": "700",
+      "lineHeight": "23.94px",
+      "letterSpacing": "normal",
+      "color": "rgb(146, 92, 243)",
+      "transform": "none"
+    },
+    {
+      "tag": "a",
+      "text": "Contact Us",
+      "font": "Roboto",
+      "size": "14px",
+      "weight": "400",
+      "lineHeight": "20.02px",
+      "letterSpacing": "normal",
+      "color": "rgb(189, 168, 255)",
+      "transform": "none"
+    },
+    {
+      "tag": "a",
+      "text": "Press Kit",
+      "font": "Roboto",
+      "size": "14px",
+      "weight": "400",
+      "lineHeight": "20.02px",
+      "letterSpacing": "normal",
+      "color": "rgb(189, 168, 255)",
+      "transform": "none"
+    },
+    {
+      "tag": "a",
+      "text": "Blog",
+      "font": "Roboto",
+      "size": "14px",
+      "weight": "400",
+      "lineHeight": "20.02px",
+      "letterSpacing": "normal",
+      "color": "rgb(189, 168, 255)",
+      "transform": "none"
+    },
+    {
+      "tag": "a",
+      "text": "News",
+      "font": "Roboto",
+      "size": "14px",
+      "weight": "400",
+      "lineHeight": "20.02px",
+      "letterSpacing": "normal",
+      "color": "rgb(189, 168, 255)",
+      "transform": "none"
+    },
+    {
+      "tag": "h3",
+      "text": "Community",
+      "font": "Roboto",
+      "size": "14px",
+      "weight": "700",
+      "lineHeight": "23.94px",
+      "letterSpacing": "normal",
+      "color": "rgb(146, 92, 243)",
+      "transform": "none"
+    },
+    {
+      "tag": "a",
+      "text": "Community Guidelines",
+      "font": "Roboto",
+      "size": "14px",
+      "weight": "400",
+      "lineHeight": "20.02px",
+      "letterSpacing": "normal",
+      "color": "rgb(189, 168, 255)",
+      "transform": "none"
+    },
+    {
+      "tag": "a",
+      "text": "Hall of Heroes",
+      "font": "Roboto",
+      "size": "14px",
+      "weight": "400",
+      "lineHeight": "20.02px",
+      "letterSpacing": "normal",
+      "color": "rgb(189, 168, 255)",
+      "transform": "none"
+    },
+    {
+      "tag": "a",
+      "text": "Contributing to Habitica",
+      "font": "Roboto",
+      "size": "14px",
+      "weight": "400",
+      "lineHeight": "20.02px",
+      "letterSpacing": "normal",
+      "color": "rgb(189, 168, 255)",
+      "transform": "none"
+    },
+    {
+      "tag": "a",
+      "text": "Translate Habitica",
+      "font": "Roboto",
+      "size": "14px",
+      "weight": "400",
+      "lineHeight": "20.02px",
+      "letterSpacing": "normal",
+      "color": "rgb(189, 168, 255)",
+      "transform": "none"
+    },
+    {
+      "tag": "h3",
+      "text": "Support",
+      "font": "Roboto",
+      "size": "14px",
+      "weight": "700",
+      "lineHeight": "23.94px",
+      "letterSpacing": "normal",
+      "color": "rgb(146, 92, 243)",
+      "transform": "none"
+    },
+    {
+      "tag": "a",
+      "text": "FAQ",
+      "font": "Roboto",
+      "size": "14px",
+      "weight": "400",
+      "lineHeight": "20.02px",
+      "letterSpacing": "normal",
+      "color": "rgb(189, 168, 255)",
+      "transform": "none"
+    },
+    {
+      "tag": "a",
+      "text": "Report a Bug",
+      "font": "Roboto",
+      "size": "14px",
+      "weight": "400",
+      "lineHeight": "20.02px",
+      "letterSpacing": "normal",
+      "color": "rgb(189, 168, 255)",
+      "transform": "none"
+    },
+    {
+      "tag": "a",
+      "text": "Request a Feature",
+      "font": "Roboto",
+      "size": "14px",
+      "weight": "400",
+      "lineHeight": "20.02px",
+      "letterSpacing": "normal",
+      "color": "rgb(189, 168, 255)",
+      "transform": "none"
+    },
+    {
+      "tag": "h3",
+      "text": "Developers",
+      "font": "Roboto",
+      "size": "14px",
+      "weight": "700",
+      "lineHeight": "23.94px",
+      "letterSpacing": "normal",
+      "color": "rgb(146, 92, 243)",
+      "transform": "none"
+    },
+    {
+      "tag": "a",
+      "text": "API v3",
+      "font": "Roboto",
+      "size": "14px",
+      "weight": "400",
+      "lineHeight": "20.02px",
+      "letterSpacing": "normal",
+      "color": "rgb(189, 168, 255)",
+      "transform": "none"
+    },
+    {
+      "tag": "a",
+      "text": "Data Display Tool",
+      "font": "Roboto",
+      "size": "14px",
+      "weight": "400",
+      "lineHeight": "20.02px",
+      "letterSpacing": "normal",
+      "color": "rgb(189, 168, 255)",
+      "transform": "none"
+    },
+    {
+      "tag": "a",
+      "text": "Guidance for Blacksmiths",
+      "font": "Roboto",
+      "size": "14px",
+      "weight": "400",
+      "lineHeight": "20.02px",
+      "letterSpacing": "normal",
+      "color": "rgb(189, 168, 255)",
+      "transform": "none"
+    },
+    {
+      "tag": "h3",
+      "text": "Social",
+      "font": "Roboto",
+      "size": "14px",
+      "weight": "700",
+      "lineHeight": "23.94px",
+      "letterSpacing": "normal",
+      "color": "rgb(146, 92, 243)",
+      "transform": "none"
+    },
+    {
+      "tag": "a",
+      "text": "Instagram",
+      "font": "Roboto",
+      "size": "14px",
+      "weight": "400",
+      "lineHeight": "20.02px",
+      "letterSpacing": "normal",
+      "color": "rgb(189, 168, 255)",
+      "transform": "none"
+    },
+    {
+      "tag": "a",
+      "text": "Bluesky",
+      "font": "Roboto",
+      "size": "14px",
+      "weight": "400",
+      "lineHeight": "20.02px",
+      "letterSpacing": "normal",
+      "color": "rgb(189, 168, 255)",
+      "transform": "none"
+    },
+    {
+      "tag": "a",
+      "text": "Facebook",
+      "font": "Roboto",
+      "size": "14px",
+      "weight": "400",
+      "lineHeight": "20.02px",
+      "letterSpacing": "normal",
+      "color": "rgb(189, 168, 255)",
+      "transform": "none"
+    },
+    {
+      "tag": "a",
+      "text": "Tumblr",
+      "font": "Roboto",
+      "size": "14px",
+      "weight": "400",
+      "lineHeight": "20.02px",
+      "letterSpacing": "normal",
+      "color": "rgb(189, 168, 255)",
+      "transform": "none"
+    },
+    {
+      "tag": "span",
+      "text": "Privacy Policy",
+      "font": "Roboto",
+      "size": "14px",
+      "weight": "400",
+      "lineHeight": "23.94px",
+      "letterSpacing": "normal",
+      "color": "rgb(189, 168, 255)",
+      "transform": "none"
+    },
+    {
+      "tag": "a",
+      "text": "Privacy Policy",
+      "font": "Roboto",
+      "size": "14px",
+      "weight": "400",
+      "lineHeight": "23.94px",
+      "letterSpacing": "normal",
+      "color": "rgb(189, 168, 255)",
+      "transform": "none"
+    },
+    {
+      "tag": "span",
+      "text": "Terms of Service",
+      "font": "Roboto",
+      "size": "14px",
+      "weight": "400",
+      "lineHeight": "23.94px",
+      "letterSpacing": "normal",
+      "color": "rgb(189, 168, 255)",
+      "transform": "none"
+    },
+    {
+      "tag": "a",
+      "text": "Terms of Service",
+      "font": "Roboto",
+      "size": "14px",
+      "weight": "400",
+      "lineHeight": "23.94px",
+      "letterSpacing": "normal",
+      "color": "rgb(189, 168, 255)",
+      "transform": "none"
+    }
+  ],
+  "headings": [
+    {
+      "tag": "h3",
+      "text": "Product",
+      "size": "14px",
+      "weight": "700",
+      "lineHeight": "23.94px",
+      "letterSpacing": "normal",
+      "font": "Roboto",
+      "color": "rgb(146, 92, 243)",
+      "top": 882,
+      "w": 83
+    },
+    {
+      "tag": "h3",
+      "text": "Company",
+      "size": "14px",
+      "weight": "700",
+      "lineHeight": "23.94px",
+      "letterSpacing": "normal",
+      "font": "Roboto",
+      "color": "rgb(146, 92, 243)",
+      "top": 882,
+      "w": 69
+    },
+    {
+      "tag": "h3",
+      "text": "Community",
+      "size": "14px",
+      "weight": "700",
+      "lineHeight": "23.94px",
+      "letterSpacing": "normal",
+      "font": "Roboto",
+      "color": "rgb(146, 92, 243)",
+      "top": 882,
+      "w": 148
+    },
+    {
+      "tag": "h3",
+      "text": "Support",
+      "size": "14px",
+      "weight": "700",
+      "lineHeight": "23.94px",
+      "letterSpacing": "normal",
+      "font": "Roboto",
+      "color": "rgb(146, 92, 243)",
+      "top": 882,
+      "w": 113
+    },
+    {
+      "tag": "h3",
+      "text": "Developers",
+      "size": "14px",
+      "weight": "700",
+      "lineHeight": "23.94px",
+      "letterSpacing": "normal",
+      "font": "Roboto",
+      "color": "rgb(146, 92, 243)",
+      "top": 882,
+      "w": 160
+    },
+    {
+      "tag": "h3",
+      "text": "Social",
+      "size": "14px",
+      "weight": "700",
+      "lineHeight": "23.94px",
+      "letterSpacing": "normal",
+      "font": "Roboto",
+      "color": "rgb(146, 92, 243)",
+      "top": 882,
+      "w": 95
+    }
+  ],
+  "buttons": [
+    {
+      "text": "Continue with Google",
+      "tag": "div",
+      "w": 448,
+      "h": 32,
+      "bg": "rgb(255, 255, 255)",
+      "color": "rgb(78, 74, 87)",
+      "radius": "4px",
+      "border": "2px solid rgba(0, 0, 0, 0)",
+      "font": "Roboto",
+      "size": "14px",
+      "weight": "700",
+      "padding": "2px 12px"
+    },
+    {
+      "text": "Continue with Apple",
+      "tag": "div",
+      "w": 448,
+      "h": 32,
+      "bg": "rgb(255, 255, 255)",
+      "color": "rgb(78, 74, 87)",
+      "radius": "4px",
+      "border": "2px solid rgba(0, 0, 0, 0)",
+      "font": "Roboto",
+      "size": "14px",
+      "weight": "700",
+      "padding": "2px 12px"
+    },
+    {
+      "text": "Log In",
+      "tag": "button",
+      "w": 448,
+      "h": 32,
+      "bg": "rgb(255, 255, 255)",
+      "color": "rgb(135, 129, 144)",
+      "radius": "4px",
+      "border": "2px solid rgba(0, 0, 0, 0)",
+      "font": "Roboto",
+      "size": "14px",
+      "weight": "700",
+      "padding": "4px 12px"
+    }
+  ],
+  "landmarks": [
+    {
+      "tag": "footer",
+      "role": null,
+      "label": null,
+      "class": "",
+      "top": 850,
+      "w": 1424,
+      "h": 274,
+      "bg": "rgba(0, 0, 0, 0)",
+      "padding": "32px 142px 40px",
+      "position": "static",
+      "z": "auto"
+    }
+  ],
+  "fontsLoaded": [
+    {
+      "family": "Roboto",
+      "weight": "400",
+      "style": "italic",
+      "status": "unloaded"
+    },
+    {
+      "family": "Roboto",
+      "weight": "400",
+      "style": "italic",
+      "status": "unloaded"
+    },
+    {
+      "family": "Roboto",
+      "weight": "400",
+      "style": "italic",
+      "status": "unloaded"
+    },
+    {
+      "family": "Roboto",
+      "weight": "400",
+      "style": "italic",
+      "status": "unloaded"
+    },
+    {
+      "family": "Roboto",
+      "weight": "400",
+      "style": "italic",
+      "status": "unloaded"
+    },
+    {
+      "family": "Roboto",
+      "weight": "400",
+      "style": "italic",
+      "status": "unloaded"
+    },
+    {
+      "family": "Roboto",
+      "weight": "400",
+      "style": "italic",
+      "status": "unloaded"
+    },
+    {
+      "family": "Roboto",
+      "weight": "400",
+      "style": "italic",
+      "status": "unloaded"
+    },
+    {
+      "family": "Roboto",
+      "weight": "400",
+      "style": "italic",
+      "status": "unloaded"
+    },
+    {
+      "family": "Roboto",
+      "weight": "700",
+      "style": "italic",
+      "status": "unloaded"
+    },
+    {
+      "family": "Roboto",
+      "weight": "700",
+      "style": "italic",
+      "status": "unloaded"
+    },
+    {
+      "family": "Roboto",
+      "weight": "700",
+      "style": "italic",
+      "status": "unloaded"
+    },
+    {
+      "family": "Roboto",
+      "weight": "700",
+      "style": "italic",
+      "status": "unloaded"
+    },
+    {
+      "family": "Roboto",
+      "weight": "700",
+      "style": "italic",
+      "status": "unloaded"
+    },
+    {
+      "family": "Roboto",
+      "weight": "700",
+      "style": "italic",
+      "status": "unloaded"
+    },
+    {
+      "family": "Roboto",
+      "weight": "700",
+      "style": "italic",
+      "status": "unloaded"
+    },
+    {
+      "family": "Roboto",
+      "weight": "700",
+      "style": "italic",
+      "status": "unloaded"
+    },
+    {
+      "family": "Roboto",
+      "weight": "700",
+      "style": "italic",
+      "status": "unloaded"
+    },
+    {
+      "family": "Roboto",
+      "weight": "400",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Roboto",
+      "weight": "400",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Roboto",
+      "weight": "400",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Roboto",
+      "weight": "400",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Roboto",
+      "weight": "400",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Roboto",
+      "weight": "400",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Roboto",
+      "weight": "400",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Roboto",
+      "weight": "400",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Roboto",
+      "weight": "400",
+      "style": "normal",
+      "status": "loaded"
+    },
+    {
+      "family": "Roboto",
+      "weight": "700",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Roboto",
+      "weight": "700",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Roboto",
+      "weight": "700",
+      "style": "normal",
+      "status": "unloaded"
+    }
+  ],
+  "cssLinks": [
+    "https://fonts.googleapis.com/css?family=Roboto+Condensed:400,400i,700,700i|Roboto:400,400i,700,700i",
+    "https://habitica.com/assets/index-vd1XIeic.css",
+    "https://habitica.com/assets/closeX-DES5uthp.css",
+    "https://habitica.com/assets/list-DJiw40r1.css",
+    "https://habitica.com/assets/toggleSwitch-Bw6PmqsG.css",
+    "https://habitica.com/assets/appFooter-D0zPv4NO.css",
+    "https://habitica.com/assets/staticWrapper-CDfEtBZt.css",
+    "https://habitica.com/assets/privacy-CwwbmIUE.css",
+    "https://habitica.com/assets/registerLoginReset-C_gByfkC.css"
+  ],
+  "scripts": [
+    "https://habitica.com/assets/index-CuiOjjKh.js",
+    "https://cloudfront.loggly.com/js/loggly.tracker-latest.min.js",
+    "https://habitica.com/api/v4/i18n/core"
+  ]
+}

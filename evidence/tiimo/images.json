@@ -1,0 +1,282 @@
+{
+  "result": {
+    "type": "object",
+    "value": {
+      "count": 34,
+      "items": [
+        {
+          "src": "https://cdn.prod.website-files.com/64786b619e5c33d650d5499e/68af0bde58edac8686f4a97e_300bf37c74e11348a3a5467ab6620b22_focus%20%281%29.png",
+          "alt": "Tiimo focus timer screen showing a laundry task countdown with progress ring, checklist st",
+          "w": 353,
+          "h": 500,
+          "nw": 1275,
+          "nh": 1873
+        },
+        {
+          "src": "https://cdn.prod.website-files.com/64786b619e5c33d650d5499e/68af49fd00d2d66c4043df3b_a7cb189af8ed5519c1e13132a39a9a37_tiimoapp_visual_plan_routine.png",
+          "alt": "Tiimo daily planner app showing a structured schedule with tasks like paying bills, mornin",
+          "w": 353,
+          "h": 500,
+          "nw": 1275,
+          "nh": 1873
+        },
+        {
+          "src": "https://cdn.prod.website-files.com/64786b619e5c33d650d5499e/68b1ac4e61106fce812252d3_e6ffe9f73d05ed3bef27b8e26afc5e52_makeityours-light-1-3.png",
+          "alt": "Tiimo planner customization screen on light background showing a grid of activity icons su",
+          "w": 353,
+          "h": 500,
+          "nw": 1275,
+          "nh": 1873
+        },
+        {
+          "src": "https://cdn.prod.website-files.com/64786b619e5c33d650d5499e/68afffbc70c5b5cf691b7d3d_5e0dbdb2350d441d9a6a3fb9d30e2b28_widgets.png",
+          "alt": "Tiimo iOS home screen widgets showing to-do list with tasks like call mom, yoga, and refil",
+          "w": 353,
+          "h": 500,
+          "nw": 1275,
+          "nh": 1873
+        },
+        {
+          "src": "https://cdn.prod.website-files.com/64786b619e5c33d650d5499e/693195e41187ff0ebc0eb432_Mel_Hel_Winner_1x1-p-1600.jpg",
+          "alt": "",
+          "w": 508,
+          "h": 508,
+          "nw": 1424,
+          "nh": 1424
+        },
+        {
+          "src": "https://cdn.prod.website-files.com/64786b619e5c33d650d5499e/69f88523834cd7758f9d03dc_Article_Image_AndroidLaunch_Square-p-1600.webp",
+          "alt": "",
+          "w": 462,
+          "h": 462,
+          "nw": 1424,
+          "nh": 1424
+        },
+        {
+          "src": "https://cdn.prod.website-files.com/64786b619e5c33d650d5499e/68b043f0eb04e7ca2b1b04b8_3ae4c88ef7b4604dd2f43c1c63ef5aec_prompt-p-1600.png",
+          "alt": "Tiimo AI planner mobile screen where users can type or speak tasks like buying groceries a",
+          "w": 508,
+          "h": 508,
+          "nw": 1424,
+          "nh": 1424
+        },
+        {
+          "src": "https://cdn.prod.website-files.com/64786b619e5c33d650d5499e/68b04f08f4a96b5ff2d9df6d_tiimoapp_ai_prompt_output-p-1600.png",
+          "alt": "Tiimo AI co-planner creating a task list from natural language input, showing scheduled ac",
+          "w": 508,
+          "h": 508,
+          "nw": 1424,
+          "nh": 1424
+        },
+        {
+          "src": "https://cdn.prod.website-files.com/64786b619e5c33d650d5499e/69ef1b43a2c51a08518c57c5_tiimoapp-todo-multiple-lists-neutral.webp",
+          "alt": "",
+          "w": 508,
+          "h": 508,
+          "nw": 1424,
+          "nh": 1424
+        },
+        {
+          "src": "https://cdn.prod.website-files.com/64786b619e5c33d650d5499e/69ef1b5f39ee429ea5975ddd_tiimoapp-todo-multiple-lists.webp",
+          "alt": "",
+          "w": 508,
+          "h": 508,
+          "nw": 1424,
+          "nh": 1424
+        },
+        {
+          "src": "https://cdn.prod.website-files.com/64786b619e5c33d650d5499e/68aeef5095bdcb332f34e526_9303da47facb161e882f24d410d44fbd_tiimoapp_desktop_week.png",
+          "alt": "Tiimo on desktop in browser showing weekly view with tasks like morning routine, meds, lau",
+          "w": 508,
+          "h": 508,
+          "nw": 1424,
+          "nh": 1424
+        },
+        {
+          "src": "https://cdn.prod.website-files.com/64786b619e5c33d650d5499e/68af048a0be8eeefcf52a111_cfe808fa59f08848d821821dbef44cd7_tiimoapp_mood_neutral.png",
+          "alt": "Tiimo mood tracker interface with slider set to neutral, helping users log how they felt o",
+          "w": 508,
+          "h": 508,
+          "nw": 1424,
+          "nh": 1424
+        },
+        {
+          "src": "https://cdn.prod.website-files.com/64786b619e5c33d650d5499e/68af048a940fc4db4ab04d0a_c8275d36ebb257ab2dee397b404a9117_tiimoapp_mood_pleasant-p-1600.png",
+          "alt": "Tiimo mood tracking screen with slider set to pleasant and smiling star icon, letting user",
+          "w": 508,
+          "h": 508,
+          "nw": 1424,
+          "nh": 1424
+        },
+        {
+          "src": "https://cdn.prod.website-files.com/64786b619e5c33d650d5499e/6a2675589e3530f027664648_eb5b57b6c6f9687f39599ac939501563_wwdc26_front_website-p-1600.png",
+          "alt": "Tiimo app interface displaying Todo list called Japan Trip with subtasks like Sunglasses, ",
+          "w": 1010,
+          "h": 534,
+          "nw": 1424,
+          "nh": 752
+        },
+        {
+          "src": "https://cdn.prod.website-files.com/64786b619e5c33d650d5499e/6aa8ff8d8be80a8156c123a2_tiimo-app-icon-ios27.png",
+          "alt": "",
+          "w": 42,
+          "h": 42,
+          "nw": 1024,
+          "nh": 1024
+        },
+        {
+          "src": "https://cdn.prod.website-files.com/64786b619e5c33d650d5499e/64809c5763d99c4e4e1d6546_Tiimo%20-%20Logo%20Type%20Black.avif",
+          "alt": "Expanded Tiimo logo in puffy, black letters.",
+          "w": 50,
+          "h": 14,
+          "nw": 345,
+          "nh": 96
+        },
+        {
+          "src": "https://cdn.prod.website-files.com/64786b619e5c33d650d5499e/67222596b9bb6d5997ba7724_B%C3%B8rsen_3.svg",
+          "alt": "Børsen logo",
+          "w": 228,
+          "h": 95,
+          "nw": 280,
+          "nh": 116
+        },
+        {
+          "src": "https://cdn.prod.website-files.com/64786b619e5c33d650d5499e/6722259695ccd3fbd634b040_Forbes_1.svg",
+          "alt": "Forbes logo",
+          "w": 228,
+          "h": 95,
+          "nw": 280,
+          "nh": 116
+        },
+        {
+          "src": "https://cdn.prod.website-files.com/64786b619e5c33d650d5499e/67222596a40a6bd2d5da8e39_Rising_stars_2.svg",
+          "alt": "Apple Rising Star nomination",
+          "w": 228,
+          "h": 95,
+          "nw": 280,
+          "nh": 116
+        },
+        {
+          "src": "https://cdn.prod.website-files.com/64786b619e5c33d650d5499e/6722259620b73325bf97d5ab_sifted_4.svg",
+          "alt": "Sifted logo",
+          "w": 228,
+          "h": 95,
+          "nw": 280,
+          "nh": 116
+        },
+        {
+          "src": "https://cdn.prod.website-files.com/64786b619e5c33d650d5499e/672b265f7faaf85e22d657f2_Get%20The%20App%20Available.avif",
+          "alt": "Smartwatch, mobile, tablet, and laptop illustrations.",
+          "w": 156,
+          "h": 22,
+          "nw": 404,
+          "nh": 57
+        },
+        {
+          "src": "https://cdn.prod.website-files.com/64786b619e5c33d650d5499e/650ac2e1130beb68ae87bede_Tiimo%20Open%20Blue%20Beige.avif",
+          "alt": "Illustration of hand holding a pencil, pinky raised.",
+          "w": 83,
+          "h": 112,
+          "nw": 113,
+          "nh": 152
+        },
+        {
+          "src": "https://cdn.prod.website-files.com/64786b619e5c33d650d5499e/6a2683208470a4381984b0c5_aoy_2025.svg",
+          "alt": "",
+          "w": 300,
+          "h": 39,
+          "nw": 309,
+          "nh": 40
+        },
+        {
+          "src": "https://cdn.prod.website-files.com/64786b619e5c33d650d5499e/67d937c008a75dd3c4cfc2c7_fast_company_logo.svg",
+          "alt": "fast company logo",
+          "w": 228,
+          "h": 95,
+          "nw": 239,
+          "nh": 47
+        },
+        {
+          "src": "https://cdn.prod.website-files.com/64786b619e5c33d650d5499e/693340c8f4348f7729c0919b_app_of_the_year_web.svg",
+          "alt": "iPhone App of the Year 2025",
+          "w": 228,
+          "h": 95,
+          "nw": 186,
+          "nh": 60
+        },
+        {
+          "src": "https://cdn.prod.website-files.com/64786b619e5c33d650d5499e/6731b8b7fd38463ce54bcc87_arrow-lg.svg",
+          "alt": "Black right-facing arrow.",
+          "w": 45,
+          "h": 45,
+          "nw": 46,
+          "nh": 46
+        },
+        {
+          "src": "https://cdn.prod.website-files.com/64786b619e5c33d650d5499e/672dd3cf3116580d25eea8c9_stars.svg",
+          "alt": "Yellow five star review symbol.",
+          "w": 102,
+          "h": 18,
+          "nw": 102,
+          "nh": 18
+        },
+        {
+          "src": "https://cdn.prod.website-files.com/64786b619e5c33d650d5499e/6750558214e059a2fcb548b8_caret.svg",
+          "alt": "Downward facing arrow.",
+          "w": 24,
+          "h": 24,
+          "nw": 24,
+          "nh": 24
+        },
+        {
+          "src": "https://cdn.prod.website-files.com/64786b619e5c33d650d5499e/67597ab5e3b9e944124de181_globe.svg",
+          "alt": "Globe-shaped illustration.",
+          "w": 12,
+          "h": 12,
+          "nw": 12,
+          "nh": 12
+        },
+        {
+          "src": "https://cdn.prod.website-files.com/64786b619e5c33d650d5499e/67597ab5e3b9e944124de180_caret-gray.svg",
+          "alt": "Downward facing arrow.",
+          "w": 12,
+          "h": 12,
+          "nw": 12,
+          "nh": 12
+        },
+        {
+          "src": "https://cdn.prod.website-files.com/64786b619e5c33d650d5499e/67222596edb15552d1fa32f5_Design_award_8.svg",
+          "alt": "Apple 2024 Design Award Finalist",
+          "w": 228,
+          "h": 95,
+          "nw": 0,
+          "nh": 0
+        },
+        {
+          "src": "https://cdn.prod.website-files.com/64786b619e5c33d650d5499e/6722259662f2984a6b98673d_Blaze_5.svg",
+          "alt": "Blaze Inclusion Awards logo",
+          "w": 228,
+          "h": 95,
+          "nw": 0,
+          "nh": 0
+        },
+        {
+          "src": "https://cdn.prod.website-files.com/64786b619e5c33d650d5499e/6722259659f7b2ad48619399_Productivity_6.svg",
+          "alt": "Apple Best App for Productivity nomination",
+          "w": 228,
+          "h": 95,
+          "nw": 0,
+          "nh": 0
+        },
+        {
+          "src": "https://cdn.prod.website-files.com/64786b619e5c33d650d5499e/67222596fc6cc30820290417_Wirecutter_7.svg",
+          "alt": "New York Times Wirecutter logo",
+          "w": 228,
+          "h": 95,
+          "nw": 0,
+          "nh": 0
+        }
+      ]
+    }
+  }
+}

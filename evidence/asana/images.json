@@ -1,0 +1,330 @@
+{
+  "result": {
+    "type": "object",
+    "value": {
+      "count": 43,
+      "items": [
+        {
+          "src": "https://assets.asana.biz/transform/08201954-5379-4f38-af03-d82ba84d859a/SD040-web-nav-CheckNavIcon-en-US",
+          "alt": "",
+          "w": 0,
+          "h": 0,
+          "nw": 3840,
+          "nh": 3840
+        },
+        {
+          "src": "https://assets.asana.biz/transform/671e36ab-0fea-4b81-bffa-c5d73fa079c6/SD040-web-nav-BellNavIcon-en-US",
+          "alt": "",
+          "w": 0,
+          "h": 0,
+          "nw": 3840,
+          "nh": 3840
+        },
+        {
+          "src": "https://assets.asana.biz/transform/e85c6f3c-ee6a-4f69-85cf-4f759a29c266/SD040-web-nav-SettingsIcon-en-US",
+          "alt": "",
+          "w": 0,
+          "h": 0,
+          "nw": 3840,
+          "nh": 3840
+        },
+        {
+          "src": "https://assets.asana.biz/transform/91099fa6-631a-473a-bcdb-e5b0c73b7d23/SD040-web-nav-QuestionMarkCircleIcon-en-US",
+          "alt": "",
+          "w": 0,
+          "h": 0,
+          "nw": 3840,
+          "nh": 3840
+        },
+        {
+          "src": "https://assets.asana.biz/transform/3ac30492-304b-4644-a39b-e89fad0df303/SD040-web-nav-GlobeIcon-en-US",
+          "alt": "",
+          "w": 0,
+          "h": 0,
+          "nw": 3840,
+          "nh": 3840
+        },
+        {
+          "src": "https://assets.asana.biz/transform/2603c4c3-768f-4e45-af40-0ac03be4084d/SD040-web-nav-ForwardArrowIcon-en-US",
+          "alt": "",
+          "w": 0,
+          "h": 0,
+          "nw": 3840,
+          "nh": 3840
+        },
+        {
+          "src": "https://assets.asana.biz/transform/4d26964c-d4d4-4cad-831d-99dc4d4012ec/homepage_asanaenterpriseworkgraph?io=transform:fill,width:2560&format=webp",
+          "alt": "Network diagram showing Asana's connected work graph with Goals, Portfolios, Projects, Tic",
+          "w": 0,
+          "h": 0,
+          "nw": 1815,
+          "nh": 1818
+        },
+        {
+          "src": "https://assets.asana.biz/transform/ce3d26c9-df8f-4c48-ad6d-c15685532f47/homepage_multiplayer?io=transform:fill,width:2560&format=webp",
+          "alt": "Asana task comments showing a conversation between teammates and Beacon AI, which retrieve",
+          "w": 0,
+          "h": 0,
+          "nw": 1815,
+          "nh": 1818
+        },
+        {
+          "src": "https://assets.asana.biz/transform/7ff0f829-3d14-4280-bb79-e0fdd9776fe1/homepage_sharedmemory?io=transform:fill,width:2560&format=webp",
+          "alt": "Asana AI teammate Penny's profile showing its memory log with learned preferences for pric",
+          "w": 0,
+          "h": 0,
+          "nw": 1815,
+          "nh": 1815
+        },
+        {
+          "src": "https://assets.asana.biz/transform/5175011e-3e7f-476c-87e6-df9df138f5c6/homepage_enterprisegovernance?io=transform:fill,width:2560&format=webp",
+          "alt": "Asana AI Teammates dashboard listing 24 active AI agents with usage stats, including Conte",
+          "w": 0,
+          "h": 0,
+          "nw": 1812,
+          "nh": 1815
+        },
+        {
+          "src": "https://assets.asana.biz/transform/9fa1bcdb-7e83-4934-af3e-4e9292a722ea/homepage_AWM_tabbedmedia?io=transform:fill,width:2560&format=webp",
+          "alt": "Asana UI displaying a \"Summer Campaign Launch Readiness\" project list. Sections include mi",
+          "w": 691,
+          "h": 399,
+          "nw": 1761,
+          "nh": 1016
+        },
+        {
+          "src": "https://assets.asana.biz/transform/111083fb-bd8d-451a-b4cf-6b30ce245207/homepage_stackai_tabbedmedia?io=transform:fill,width:2560&format=webp",
+          "alt": "[HP] StackAI",
+          "w": 691,
+          "h": 399,
+          "nw": 1760,
+          "nh": 1016
+        },
+        {
+          "src": "https://assets.asana.biz/transform/c4895f30-0882-407d-b4c7-731db74ff196/homepage_AsanaService_tabbedmedia?io=transform:fill,width:2560&format=webp",
+          "alt": "Dark mode IT ticket UI. A chat shows Service AI fulfilling a user's Figma license request.",
+          "w": 691,
+          "h": 399,
+          "nw": 1760,
+          "nh": 1016
+        },
+        {
+          "src": "https://assets.asana.biz/transform/96c250fa-416b-4e88-ae28-b06893193f43/AI-Teammate_Marketing_Launch-Coordinator?io=transform:fill,width:1440&format=webp",
+          "alt": "Asana AI Teammate mascot representing the Launch Coordinator",
+          "w": 297,
+          "h": 127,
+          "nw": 1424,
+          "nh": 610
+        },
+        {
+          "src": "https://assets.asana.biz/transform/848356db-4423-425d-ad37-ba2e140e8bbd/AI-Teammate_PMO_Portfolio-Advisor?io=transform:fill,width:1440&format=webp",
+          "alt": "Asana AI Teammate mascot representing the Portfolio Advisor",
+          "w": 297,
+          "h": 127,
+          "nw": 1424,
+          "nh": 610
+        },
+        {
+          "src": "https://assets.asana.biz/transform/72b6cdc6-f6aa-41d1-9cbc-ea0f13db192c/AI-Teammate_IT_Compliance-Manager?io=transform:fill,width:1440&format=webp",
+          "alt": "Asana AI Teammate mascot representing the Compliance Manager",
+          "w": 297,
+          "h": 127,
+          "nw": 1424,
+          "nh": 610
+        },
+        {
+          "src": "https://assets.asana.biz/transform/ed56bbc1-5cff-46c7-a88a-8e96a1361ce7/AI-Teammate_Essential_Project-Manager?io=transform:fill,width:1440&format=webp",
+          "alt": "Asana AI Teammate mascot representing the Project Manager",
+          "w": 297,
+          "h": 127,
+          "nw": 1424,
+          "nh": 610
+        },
+        {
+          "src": "https://assets.asana.biz/transform/a480f1cf-f0c8-4936-9aa4-f20ec3724df0/AI-Teammate_Essential_Content-Writer?io=transform:fill,width:1440&format=webp",
+          "alt": "Asana AI Teammate mascot representing the Content Writer",
+          "w": 297,
+          "h": 127,
+          "nw": 1424,
+          "nh": 610
+        },
+        {
+          "src": "https://cdn.cookielaw.org/logos/cca9340c-a88b-4c4c-a235-5c49e3d407de/1763a00e-b7d3-471b-95c8-ee21f8bd6d86/da8202fb-3d30-45ad-884e-0b14b8ff0475/Asana-Logo-Horizontal-Coral-Black.png",
+          "alt": "Company Logo",
+          "w": 0,
+          "h": 0,
+          "nw": 2000,
+          "nh": 395
+        },
+        {
+          "src": "https://assets.asana.biz/transform/082d1c2a-0166-40c7-abcd-f115f4d07c59/Homepage_COS_quote?io=transform:fill,width:1120&format=webp",
+          "alt": "COS quote image",
+          "w": 619,
+          "h": 413,
+          "nw": 1050,
+          "nh": 701
+        },
+        {
+          "src": "https://assets.asana.biz/transform/b118e66b-9eee-4c10-9e21-43a1ad1c99d8/Homepage_banner?io=transform:fill,width:1440&format=webp",
+          "alt": "Abstract workflow graphic showing a horizontal connecting line. It links a node with a wom",
+          "w": 1261,
+          "h": 125,
+          "nw": 1424,
+          "nh": 140
+        },
+        {
+          "src": "https://assets.asana.biz/transform/ea0d422d-d8ee-4168-81e5-01fc4d3fdcb4/Homepage_banner2?io=transform:fill,width:1440&format=webp",
+          "alt": "Abstract workflow graphic showing a connecting line. A central node features a man's heads",
+          "w": 1261,
+          "h": 125,
+          "nw": 1424,
+          "nh": 140
+        },
+        {
+          "src": "https://assets.asana.biz/transform/94a2af9e-55e7-489b-bcd9-7f2836f5e45f/amazon?io=transform:fill,width:375&format=webp",
+          "alt": "Amazon",
+          "w": 148,
+          "h": 99,
+          "nw": 300,
+          "nh": 200
+        },
+        {
+          "src": "https://assets.asana.biz/transform/7aa89522-d837-49fc-ae5b-d8701de258fd/accenture?io=transform:fill,width:375&format=webp",
+          "alt": "Accenture",
+          "w": 148,
+          "h": 99,
+          "nw": 300,
+          "nh": 200
+        },
+        {
+          "src": "https://assets.asana.biz/transform/64c6de51-290f-40fa-808a-241c6bae8528/JJ?io=transform:fill,width:375&format=webp",
+          "alt": "Johnson & Johnson",
+          "w": 148,
+          "h": 99,
+          "nw": 300,
+          "nh": 200
+        },
+        {
+          "src": "https://assets.asana.biz/transform/29c5cd4b-7a60-4557-8004-f78cbb8c5ffc/dell?io=transform:fill,width:375&format=webp",
+          "alt": "Dell",
+          "w": 148,
+          "h": 99,
+          "nw": 300,
+          "nh": 200
+        },
+        {
+          "src": "https://assets.asana.biz/transform/8d9b2024-7c0b-463b-88c0-ee3107d4f5fe/merck?io=transform:fill,width:375&format=webp",
+          "alt": "Merck",
+          "w": 148,
+          "h": 99,
+          "nw": 300,
+          "nh": 200
+        },
+        {
+          "src": "https://cdn.cookielaw.org/logos/static/powered_by_logo.svg",
+          "alt": "Powered by Onetrust",
+          "w": 0,
+          "h": 0,
+          "nw": 568,
+          "nh": 53
+        },
+        {
+          "src": "https://assets.asana.biz/m/2830b6f5895bc51c/original/Google_Play_EN.svg",
+          "alt": "Download app from Google Play",
+          "w": 135,
+          "h": 40,
+          "nw": 300,
+          "nh": 89
+        },
+        {
+          "src": "https://assets.asana.biz/asset/bc4abb85-5fe0-47a3-8a2f-bb5e1ef50978/asana-product-icon-serviceManagement.svg",
+          "alt": "Large Product Icon Asana Services Management",
+          "w": 52,
+          "h": 52,
+          "nw": 72,
+          "nh": 72
+        },
+        {
+          "src": "https://assets.asana.biz/m/789462af5a590563/original/Download_App_Store_Badge_US.svg",
+          "alt": "Download the Asana iOS app",
+          "w": 120,
+          "h": 40,
+          "nw": 120,
+          "nh": 40
+        },
+        {
+          "src": "https://assets.asana.biz/asset/fcb10565-b852-4c7b-b119-345fc9021827/homepage_tabbedmedia_icon_AWM.svg",
+          "alt": "Large Product Icon Agentic Work Management",
+          "w": 52,
+          "h": 52,
+          "nw": 65,
+          "nh": 65
+        },
+        {
+          "src": "https://assets.asana.biz/transform/ef8a5549-050b-4080-8ce9-d6abd1751828/image-937?io=transform:fill,width:1440&format=webp",
+          "alt": "COS logo",
+          "w": 571,
+          "h": 40,
+          "nw": 88,
+          "nh": 33
+        },
+        {
+          "src": "https://assets.asana.biz/m/73a25865d079752/original/ENT23-web-usesProjectManagement-rules-icon-1x.svg",
+          "alt": "rules icon",
+          "w": 48,
+          "h": 48,
+          "nw": 41,
+          "nh": 41
+        },
+        {
+          "src": "https://assets.asana.biz/m/2f8c8a463c0ca617/original/ENT23-web-usesTaskManagement-web-tasks-icon-1x.svg",
+          "alt": "time tracking icon",
+          "w": 48,
+          "h": 48,
+          "nw": 41,
+          "nh": 40
+        },
+        {
+          "src": "https://assets.asana.biz/m/22c524303641ba9c/original/ENT23-web-usesTaskManagement-web-dependency-icon-1x.svg",
+          "alt": "dependencies icon",
+          "w": 48,
+          "h": 48,
+          "nw": 41,
+          "nh": 40
+        },
+        {
+          "src": "https://assets.asana.biz/m/569f076a36e0b113/original/logo-integrations-Microsoft.svg",
+          "alt": "Microsoft icon",
+          "w": 18,
+          "h": 18,
+          "nw": 40,
+          "nh": 40
+        },
+        {
+          "src": "https://assets.asana.biz/asset/578f348a-a2f0-41f7-ada5-a20937de7d99/logo-slack-40.svg",
+          "alt": "Slack logo",
+          "w": 18,
+          "h": 18,
+          "nw": 40,
+          "nh": 40
+        },
+        {
+          "src": "https://assets.asana.biz/m/7467e3cb8f0eb6c0/original/logo-outlook-40.svg",
+          "alt": "Microsoft Outlook icon",
+          "w": 18,
+          "h": 18,
+          "nw": 40,
+          "nh": 40
+        },
+        {
+          "src": "https://assets.asana.biz/m/371efbfcf6d60287/original/logo-app-Hubspot.svg",
+          "alt": "hubspot logo",
+          "w": 18,
+          "h": 18,
+          "nw": 40,
+          "nh": 40
+        }
+      ]
+    }
+  }
+}

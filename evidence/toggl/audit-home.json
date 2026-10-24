@@ -1,0 +1,2653 @@
+{
+  "url": "https://toggl.com/",
+  "title": "Toggl: Time Tracking Software & Capacity Planning Tool",
+  "meta": {
+    "description": "The best time tracker and capacity planning software. Track employee time, plan capacity, manage tasks and projects, and calculate profitability. Try for free.",
+    "themeColor": null,
+    "viewport": "width=device-width, initial-scale=1",
+    "generator": "Webflow",
+    "ogSite": null
+  },
+  "viewport": {
+    "w": 1424,
+    "h": 865,
+    "docH": 13619
+  },
+  "counts": {
+    "elements": 1379,
+    "nodes": 4208,
+    "images": 134
+  },
+  "palette": {
+    "text": [
+      {
+        "value": "rgb(54, 49, 55)",
+        "count": 668
+      },
+      {
+        "value": "rgb(66, 74, 18)",
+        "count": 163
+      },
+      {
+        "value": "rgb(250, 224, 254)",
+        "count": 151
+      },
+      {
+        "value": "rgb(240, 248, 208)",
+        "count": 60
+      },
+      {
+        "value": "rgb(78, 14, 88)",
+        "count": 56
+      },
+      {
+        "value": "rgb(238, 173, 251)",
+        "count": 47
+      },
+      {
+        "value": "rgb(157, 152, 152)",
+        "count": 44
+      },
+      {
+        "value": "rgb(174, 64, 192)",
+        "count": 42
+      },
+      {
+        "value": "rgb(139, 41, 155)",
+        "count": 28
+      },
+      {
+        "value": "rgb(236, 132, 255)",
+        "count": 26
+      },
+      {
+        "value": "rgb(206, 222, 113)",
+        "count": 24
+      },
+      {
+        "value": "rgb(233, 244, 179)",
+        "count": 20
+      },
+      {
+        "value": "rgb(248, 247, 241)",
+        "count": 19
+      },
+      {
+        "value": "rgb(55, 8, 62)",
+        "count": 15
+      },
+      {
+        "value": "rgb(47, 53, 19)",
+        "count": 4
+      }
+    ],
+    "background": [
+      {
+        "value": "rgba(0, 0, 0, 0)",
+        "count": 1223
+      },
+      {
+        "value": "rgb(255, 255, 255)",
+        "count": 23
+      },
+      {
+        "value": "rgb(233, 244, 179)",
+        "count": 22
+      },
+      {
+        "value": "rgb(236, 132, 255)",
+        "count": 18
+      },
+      {
+        "value": "rgb(246, 222, 244)",
+        "count": 16
+      },
+      {
+        "value": "rgb(206, 222, 113)",
+        "count": 15
+      },
+      {
+        "value": "rgb(218, 225, 176)",
+        "count": 12
+      },
+      {
+        "value": "rgb(203, 201, 191)",
+        "count": 9
+      },
+      {
+        "value": "rgb(250, 224, 254)",
+        "count": 8
+      },
+      {
+        "value": "rgb(231, 229, 218)",
+        "count": 6
+      },
+      {
+        "value": "rgb(55, 8, 62)",
+        "count": 4
+      },
+      {
+        "value": "rgb(238, 173, 251)",
+        "count": 3
+      },
+      {
+        "value": "rgb(174, 64, 192)",
+        "count": 3
+      },
+      {
+        "value": "rgba(248, 247, 241, 0.2)",
+        "count": 3
+      },
+      {
+        "value": "rgb(235, 243, 190)",
+        "count": 3
+      }
+    ],
+    "border": [
+      {
+        "value": "1px solid rgb(206, 222, 113)",
+        "count": 8
+      },
+      {
+        "value": "1px solid rgb(239, 222, 236)",
+        "count": 6
+      },
+      {
+        "value": "1px solid rgb(231, 229, 218)",
+        "count": 4
+      },
+      {
+        "value": "1px solid rgb(236, 132, 255)",
+        "count": 2
+      },
+      {
+        "value": "1px solid rgba(236, 132, 255, 0.2)",
+        "count": 1
+      },
+      {
+        "value": "1px solid rgba(236, 132, 255, 0.4)",
+        "count": 1
+      },
+      {
+        "value": "1px solid rgb(238, 173, 251)",
+        "count": 1
+      },
+      {
+        "value": "2px inset rgb(54, 49, 55)",
+        "count": 1
+      }
+    ],
+    "radius": [
+      {
+        "value": "0px",
+        "count": 1272
+      },
+      {
+        "value": "1424px",
+        "count": 28
+      },
+      {
+        "value": "7.12px",
+        "count": 25
+      },
+      {
+        "value": "10.68px",
+        "count": 20
+      },
+      {
+        "value": "445px",
+        "count": 11
+      },
+      {
+        "value": "14.24px",
+        "count": 10
+      },
+      {
+        "value": "9.79px",
+        "count": 8
+      },
+      {
+        "value": "50%",
+        "count": 3
+      },
+      {
+        "value": "7.12px 7.12px 0px 0px",
+        "count": 2
+      }
+    ],
+    "shadow": [
+      {
+        "value": "rgba(0, 0, 0, 0.06) 0px 0px 24px 0px",
+        "count": 2
+      },
+      {
+        "value": "rgba(236, 132, 255, 0.08) 0px 1.78px 28.48px 0px",
+        "count": 2
+      },
+      {
+        "value": "rgb(250, 224, 254) 0px 0px 0px 4px",
+        "count": 2
+      },
+      {
+        "value": "rgb(250, 224, 254) 0px 0px 0px 2.67px",
+        "count": 1
+      }
+    ],
+    "gap": [
+      {
+        "value": "10.68px",
+        "count": 75
+      },
+      {
+        "value": "1.78px",
+        "count": 52
+      },
+      {
+        "value": "5.34px",
+        "count": 30
+      },
+      {
+        "value": "7.12px",
+        "count": 30
+      },
+      {
+        "value": "14.24px",
+        "count": 21
+      },
+      {
+        "value": "42.72px",
+        "count": 12
+      },
+      {
+        "value": "35.6px",
+        "count": 12
+      },
+      {
+        "value": "17.8px",
+        "count": 11
+      },
+      {
+        "value": "0px",
+        "count": 9
+      },
+      {
+        "value": "28.48px",
+        "count": 8
+      },
+      {
+        "value": "14.24px 7.12px",
+        "count": 6
+      },
+      {
+        "value": "12.46px",
+        "count": 5
+      }
+    ],
+    "fontSize": [
+      {
+        "value": "14.24px",
+        "count": 1204
+      },
+      {
+        "value": "17.8px",
+        "count": 46
+      },
+      {
+        "value": "12.46px",
+        "count": 22
+      },
+      {
+        "value": "16.02px",
+        "count": 22
+      },
+      {
+        "value": "21.36px",
+        "count": 19
+      },
+      {
+        "value": "40.94px",
+        "count": 18
+      },
+      {
+        "value": "74.76px",
+        "count": 16
+      },
+      {
+        "value": "60.52px",
+        "count": 10
+      },
+      {
+        "value": "7.84624px",
+        "count": 8
+      },
+      {
+        "value": "30.26px",
+        "count": 7
+      },
+      {
+        "value": "24.92px",
+        "count": 2
+      },
+      {
+        "value": "138.84px",
+        "count": 2
+      },
+      {
+        "value": "7.12px",
+        "count": 1
+      },
+      {
+        "value": "11.748px",
+        "count": 1
+      },
+      {
+        "value": "131.72px",
+        "count": 1
+      }
+    ],
+    "fontWeight": [
+      {
+        "value": "400",
+        "count": 1174
+      },
+      {
+        "value": "500",
+        "count": 165
+      },
+      {
+        "value": "600",
+        "count": 32
+      },
+      {
+        "value": "700",
+        "count": 8
+      }
+    ],
+    "lineHeight": [
+      {
+        "value": "19.936px",
+        "count": 1076
+      },
+      {
+        "value": "21.36px",
+        "count": 126
+      },
+      {
+        "value": "26.7px",
+        "count": 29
+      },
+      {
+        "value": "14.24px",
+        "count": 24
+      },
+      {
+        "value": "16.198px",
+        "count": 22
+      },
+      {
+        "value": "40.94px",
+        "count": 18
+      },
+      {
+        "value": "20.826px",
+        "count": 18
+      },
+      {
+        "value": "71.022px",
+        "count": 16
+      },
+      {
+        "value": "24.564px",
+        "count": 12
+      },
+      {
+        "value": "60.52px",
+        "count": 10
+      }
+    ],
+    "letterSpacing": [
+      {
+        "value": "normal",
+        "count": 1102
+      },
+      {
+        "value": "0.1424px",
+        "count": 102
+      },
+      {
+        "value": "0.178px",
+        "count": 41
+      },
+      {
+        "value": "-0.1424px",
+        "count": 23
+      },
+      {
+        "value": "0.1246px",
+        "count": 22
+      },
+      {
+        "value": "0.2136px",
+        "count": 18
+      },
+      {
+        "value": "0.1602px",
+        "count": 18
+      },
+      {
+        "value": "-1.4952px",
+        "count": 16
+      },
+      {
+        "value": "-0.6052px",
+        "count": 10
+      },
+      {
+        "value": "0.0784624px",
+        "count": 8
+      }
+    ],
+    "fontFamily": [
+      {
+        "value": "Aeonik, Arial, sans-serif",
+        "count": 1220
+      },
+      {
+        "value": "Aeoniksoft, Arial, sans-serif",
+        "count": 159
+      }
+    ]
+  },
+  "cssVariables": {
+    "--_colorsystem---surface": "var(--_colorpalette---gray--25)",
+    "--_typeset---fontfamily--secondary": "Aeonik, Arial, sans-serif",
+    "--_colorsystem---onsurface-soft": "var(--_colorpalette---gray--700)",
+    "--_colorsystem---surface-1": "var(--_colorpalette---neutral--white)",
+    "--_colorsystem---surface-2": "var(--_colorpalette---gray--50)",
+    "--_colorpalette---lime--950": "#0d1000",
+    "--_colorpalette---lime--900": "#151808",
+    "--_colorsystem---brand--secondary-1": "var(--_colorpalette---lime--50)",
+    "--_layout---sectionpadding--s": "5rem",
+    "--_colorsystem---brand--primary-5": "var(--_colorpalette---magenta--950)",
+    "--_colorpalette---gray--50": "#e7e5da",
+    "--_colorpalette---gray--25": "#f8f7f1",
+    "--_typeset---fontfamily--primary": "Aeoniksoft, Arial, sans-serif",
+    "--_typeset---fontsize--h0": "9.75rem",
+    "--_typeset---fontweight--medium": "500",
+    "--_typeset---fontsize--h1": "5.25rem",
+    "--_typeset---fontsize--h4": "2.875rem",
+    "--_typeset---fontweight--semibold": "600",
+    "--_colorpalette---magenta--500": "#8b299b",
+    "--_typeset---fontsize--h2": "4.25rem",
+    "--_colorpalette---neutral--white": "white",
+    "--_colorpalette---magenta--700": "#4e0e58",
+    "--_colorpalette---lime--50": "#e9f4b3",
+    "--_colorpalette---lime--700": "#2f3513",
+    "--_typeset---fontsize--h5": "2.125rem",
+    "--_colorpalette---lime--600": "#424a12",
+    "--_typeset---fontsize--h6": "1.75rem",
+    "--_typeset---fontsize--t1": "1.125rem",
+    "--_colorpalette---magenta--50": "#fae0fe",
+    "--_colorpalette---gray--800": "#242025",
+    "--_colorpalette---magenta--950": "#18061b",
+    "--_colorpalette---magenta--800": "#37083e",
+    "--_colorpalette---gray--300": "#9d9898",
+    "--_typeset---fontsize--h7": "1.5rem",
+    "--_typeset---fontweight--regular": "400",
+    "--_typeset---fontsize--h8": "1.25rem",
+    "--_typeset---fontsize--t3": ".875rem",
+    "--_colorpalette---gray--700": "#363137",
+    "--_colorpalette---magenta--600": "#691977",
+    "--_typeset---fontsize--t2": "1rem",
+    "--_colorpalette---magenta--300": "#d25de6",
+    "--_colorpalette---lime--25": "#f0f8d0",
+    "--_layout---sectionpadding--xs": "4.25rem",
+    "--_layout---sectionpadding--m": "6rem",
+    "--_layout---sectionpadding--l": "7.5rem",
+    "--_layout---sectionpadding--xl": "9rem",
+    "--_layout---sectionpadding--xxl": "10.25rem",
+    "--_layout---sectionpadding--xxs": "1.5rem",
+    "--xxm": "3rem",
+    "--_layout---cornerradius--l": "1rem",
+    "--_layout---cornerradius--100vw": "31.25rem",
+    "--_colorsystem---brand--primary-4": "var(--_colorpalette---magenta--800)",
+    "--_colorsystem---onsurface": "var(--_colorpalette---magenta--700)",
+    "--_colorsystem---brand--onprimary-softer": "var(--_colorpalette---magenta--50)",
+    "--_colorsystem---brand--primary-2": "var(--_colorpalette---magenta--100)",
+    "--_colorsystem---brand--primary-3": "var(--_colorpalette---magenta--200)",
+    "--_colorsystem---brand--onprimary-darker": "var(--_colorpalette---magenta--800)",
+    "--_colorsystem---brand--secondary-2": "var(--_colorpalette---lime--100)",
+    "--_colorsystem---brand--secondary-3": "var(--_colorpalette---lime--200)",
+    "--_colorpalette---lime--800": "#20240f",
+    "--_colorpalette---magenta--100": "#eeadfb",
+    "--_colorpalette---lime--100": "#cede71",
+    "--_colorpalette---magenta--900": "#25062a",
+    "--_layout---cornerradius--m": ".75rem",
+    "--_layout---cornerradius--s": ".5rem",
+    "--_layout---borderwidth--s": ".05rem",
+    "--_colorsystem---brand--onsecondary": "var(--_colorpalette---lime--600)",
+    "--_colorsystem---brand--primary-1": "var(--_colorpalette---magenta--50)",
+    "--_colorsystem---brand--onprimary": "var(--_colorpalette---magenta--500)",
+    "--_colorpalette---magenta--400": "#ae40c0",
+    "--_colorsystem---brand--onsecondary-softer": "var(--_colorpalette---lime--50)",
+    "--_colorpalette---lime--400": "#73820b",
+    "--_colorsystem---onsurface-weaker": "var(--_colorpalette---gray--300)",
+    "--_colorpalette---gray--100": "#cbc9bf",
+    "--_layout---cornerradius--xs": ".375rem",
+    "--_colorpalette---magenta--25": "#fdf0ff",
+    "--_layout---sitegrid--gutter": "1.25rem",
+    "--_colorpalette---neutral--black": "#000",
+    "--_colorpalette---lime--300": "#90a213",
+    "--_typeset---fontsize--h3": "3.5rem",
+    "--_colorpalette---magenta--200": "#ec84ff",
+    "--_colorpalette---gray--500": "#676169",
+    "--lime": "#e5f2aa",
+    "--_colorpalette---gray--200": "#b6b5ab",
+    "--hairline": "#300c3524",
+    "--_layout---sitegrid--column-count": ".625rem",
+    "--_colorpalette---gray--900": "#171418",
+    "--_layout---sitegrid--margin": "2.5rem",
+    "--_colorpalette---lime--200": "#c0d154",
+    "--_layout---sitegrid--width": "90rem",
+    "--_colorpalette---lime--500": "#596510",
+    "--_colorpalette---gray--950": "#131114",
+    "--magenta": "#300c35",
+    "--magenta-soft": "#f7f0f8",
+    "--sand": "#f7f6ef",
+    "--_colorpalette---gray--400": "#827b80",
+    "--_colorpalette---gray--600": "#4d474e",
+    "--mds-easing-1": "cubic-bezier(0.48, 1.4, 0.52, 1)",
+    "--mds-easing-2": "cubic-bezier(0.48, 1, 0.52, 1)",
+    "--mds-duration-1": "500ms",
+    "--mds-duration-2": "333ms",
+    "--mds-duration-3": "1000ms",
+    "--mds-delay-1": "500ms",
+    "--mds-delay-2": "250ms",
+    "--mds-delay-3": "750ms",
+    "--eas-1": "cubic-bezier(0.17, 0.25, 0.3, 1)",
+    "--eas-2": "cubic-bezier(0, 0, 0, 1)",
+    "--dur-1": "1s",
+    "--dur-2": "2s",
+    "--dur-3": "0.5s",
+    "--dur-btn": "0.3s",
+    "--dur-btn-fast": "0.15s",
+    "--stagger": "0.133s",
+    "--scale-big": "1.2",
+    "--scale-medium": "1.1",
+    "--scale-small": "0.8",
+    "--transition-duration": "250ms",
+    "--label-font-size": "0.875em",
+    "--label-line-height": "1.2",
+    "--label-letter-spacing": "0em",
+    "--label-color": "var(--color--grey-300)",
+    "--label-font-weight": "400",
+    "--input-border-radius": "0.25em",
+    "--input-border": "1px solid #C9CCE5",
+    "--input-hover-border": "#C9CCE5",
+    "--input-focus-border": "#C9CCE5",
+    "--input-error-border": "#FFA6A6",
+    "--input-error-hover-border": "#CF2020",
+    "--input-background-color": "#FFFFFF",
+    "--input-focus-background": "#FFFFFF",
+    "--input-error-background": "#FAF4F4",
+    "--input-padding": "0.75em",
+    "--input-font-size": "1em",
+    "--input-line-height": "1.2",
+    "--input-font-weight": "400",
+    "--input-font-color": "var(--lightmode--onsurface-subtle)",
+    "--input-focus-placeholder-color": "#4E5271",
+    "--input-filled-font-color": "var(--lightmode--onsurface)",
+    "--input-error-font-color": "var(--lightmode--onsurface-subtle)",
+    "--input-bottom-margin": "1em",
+    "--error-message-color": "#CF2020",
+    "--error-message-wrapper-color": "#FFA6A6",
+    "--error-message-font-size": "0.75em",
+    "--error-message-font-weight": "500",
+    "--error-message-line-height": "1.2",
+    "--error-message-letter-spacing": "-0.0225em",
+    "--error-message-bottom-padding": "1.5em",
+    "--richtext-font-size": "0.875em",
+    "--richtext-font-weight": "400",
+    "--richtext-line-height": "1.34",
+    "--richtext-letter-spacing": "-0.01875em",
+    "--richtext-color": "#4E5271",
+    "--checkbox-list-style": "none",
+    "--checkbox-list-padding": "0",
+    "--checkbox-list-margin": "0",
+    "--checkbox-margin-top": "1em",
+    "--checkbox-margin-bottom": "1em",
+    "--checkbox-cursor": "pointer",
+    "--checkbox-border": "1px solid #C9CCE5",
+    "--checkbox-background": "#FFFFFF",
+    "--button-wrapper-top-margin": "1.5em",
+    "--actions-display": "flex",
+    "--actions-align-items": "center",
+    "--actions-justify-content": "flex-start",
+    "--button-padding-x": "1.25em",
+    "--button-padding-y": "0.75em",
+    "--button-font-size": "1rem",
+    "--button-font-weight": "400",
+    "--button-line-height": "1.3",
+    "--button-text-transform": "uppercase",
+    "--button-letter-spacing": "0.01em",
+    "--button-bg-color": "#1F49D4",
+    "--button-text-color": "#FFFFFF",
+    "--button-hover-bg-color": "#1F49D4",
+    "--button-border-radius": "0.25em",
+    "--button-transition": "background-color var(--transition-duration) ease-in-out",
+    "--button-grid-gap": "0.75em",
+    "--ease-menu": "cubic-bezier(0.48, 1, 0.52, 1)",
+    "--dur-menu": "333ms"
+  },
+  "typography": [
+    {
+      "tag": "a",
+      "text": "Login to Toggl Track",
+      "font": "Aeonik",
+      "size": "14.24px",
+      "weight": "400",
+      "lineHeight": "19.936px",
+      "letterSpacing": "normal",
+      "color": "rgb(78, 14, 88)",
+      "transform": "none"
+    },
+    {
+      "tag": "p",
+      "text": "Login to Toggl Track",
+      "font": "Aeoniksoft",
+      "size": "14.24px",
+      "weight": "500",
+      "lineHeight": "14.24px",
+      "letterSpacing": "-0.1424px",
+      "color": "rgb(78, 14, 88)",
+      "transform": "none"
+    },
+    {
+      "tag": "a",
+      "text": "Login to Toggl Plan",
+      "font": "Aeonik",
+      "size": "14.24px",
+      "weight": "400",
+      "lineHeight": "19.936px",
+      "letterSpacing": "normal",
+      "color": "rgb(55, 8, 62)",
+      "transform": "none"
+    },
+    {
+      "tag": "p",
+      "text": "Login to Toggl Plan",
+      "font": "Aeoniksoft",
+      "size": "14.24px",
+      "weight": "500",
+      "lineHeight": "14.24px",
+      "letterSpacing": "-0.1424px",
+      "color": "rgb(55, 8, 62)",
+      "transform": "none"
+    },
+    {
+      "tag": "a",
+      "text": "Skip to main content",
+      "font": "Aeonik",
+      "size": "14.24px",
+      "weight": "400",
+      "lineHeight": "19.936px",
+      "letterSpacing": "normal",
+      "color": "rgb(54, 49, 55)",
+      "transform": "none"
+    },
+    {
+      "tag": "span",
+      "text": "Skip to main content",
+      "font": "Aeonik",
+      "size": "14.24px",
+      "weight": "400",
+      "lineHeight": "19.936px",
+      "letterSpacing": "normal",
+      "color": "rgb(54, 49, 55)",
+      "transform": "none"
+    },
+    {
+      "tag": "button",
+      "text": "Product",
+      "font": "Aeonik",
+      "size": "14.24px",
+      "weight": "400",
+      "lineHeight": "19.936px",
+      "letterSpacing": "normal",
+      "color": "rgb(78, 14, 88)",
+      "transform": "none"
+    },
+    {
+      "tag": "button",
+      "text": "Solutions",
+      "font": "Aeonik",
+      "size": "14.24px",
+      "weight": "400",
+      "lineHeight": "19.936px",
+      "letterSpacing": "normal",
+      "color": "rgb(78, 14, 88)",
+      "transform": "none"
+    },
+    {
+      "tag": "button",
+      "text": "Resources",
+      "font": "Aeonik",
+      "size": "14.24px",
+      "weight": "400",
+      "lineHeight": "19.936px",
+      "letterSpacing": "normal",
+      "color": "rgb(78, 14, 88)",
+      "transform": "none"
+    },
+    {
+      "tag": "a",
+      "text": "Enterprise",
+      "font": "Aeonik",
+      "size": "14.24px",
+      "weight": "400",
+      "lineHeight": "19.936px",
+      "letterSpacing": "normal",
+      "color": "rgb(78, 14, 88)",
+      "transform": "none"
+    },
+    {
+      "tag": "a",
+      "text": "Pricing",
+      "font": "Aeonik",
+      "size": "14.24px",
+      "weight": "400",
+      "lineHeight": "19.936px",
+      "letterSpacing": "normal",
+      "color": "rgb(78, 14, 88)",
+      "transform": "none"
+    },
+    {
+      "tag": "a",
+      "text": "Book Demo",
+      "font": "Aeonik",
+      "size": "14.24px",
+      "weight": "400",
+      "lineHeight": "19.936px",
+      "letterSpacing": "normal",
+      "color": "rgb(78, 14, 88)",
+      "transform": "none"
+    },
+    {
+      "tag": "p",
+      "text": "Book Demo",
+      "font": "Aeonik",
+      "size": "14.24px",
+      "weight": "500",
+      "lineHeight": "21.36px",
+      "letterSpacing": "0.1424px",
+      "color": "rgb(78, 14, 88)",
+      "transform": "none"
+    },
+    {
+      "tag": "a",
+      "text": "Login",
+      "font": "Aeonik",
+      "size": "14.24px",
+      "weight": "400",
+      "lineHeight": "19.936px",
+      "letterSpacing": "normal",
+      "color": "rgb(78, 14, 88)",
+      "transform": "none"
+    },
+    {
+      "tag": "p",
+      "text": "Login",
+      "font": "Aeonik",
+      "size": "14.24px",
+      "weight": "500",
+      "lineHeight": "21.36px",
+      "letterSpacing": "0.1424px",
+      "color": "rgb(78, 14, 88)",
+      "transform": "none"
+    },
+    {
+      "tag": "a",
+      "text": "Try for free",
+      "font": "Aeonik",
+      "size": "14.24px",
+      "weight": "400",
+      "lineHeight": "19.936px",
+      "letterSpacing": "normal",
+      "color": "rgb(250, 224, 254)",
+      "transform": "none"
+    },
+    {
+      "tag": "p",
+      "text": "Try for free",
+      "font": "Aeoniksoft",
+      "size": "14.24px",
+      "weight": "500",
+      "lineHeight": "14.24px",
+      "letterSpacing": "-0.1424px",
+      "color": "rgb(250, 224, 254)",
+      "transform": "none"
+    },
+    {
+      "tag": "h1",
+      "text": "The time tracker millions trust",
+      "font": "Aeoniksoft",
+      "size": "74.76px",
+      "weight": "500",
+      "lineHeight": "71.022px",
+      "letterSpacing": "-1.4952px",
+      "color": "rgb(78, 14, 88)",
+      "transform": "none"
+    },
+    {
+      "tag": "a",
+      "text": "Start tracking for free",
+      "font": "Aeonik",
+      "size": "14.24px",
+      "weight": "400",
+      "lineHeight": "19.936px",
+      "letterSpacing": "normal",
+      "color": "rgb(250, 224, 254)",
+      "transform": "none"
+    },
+    {
+      "tag": "p",
+      "text": "Start tracking for free",
+      "font": "Aeoniksoft",
+      "size": "14.24px",
+      "weight": "500",
+      "lineHeight": "14.24px",
+      "letterSpacing": "-0.1424px",
+      "color": "rgb(250, 224, 254)",
+      "transform": "none"
+    },
+    {
+      "tag": "a",
+      "text": "Watch 1-min tour",
+      "font": "Aeonik",
+      "size": "14.24px",
+      "weight": "400",
+      "lineHeight": "19.936px",
+      "letterSpacing": "normal",
+      "color": "rgb(54, 49, 55)",
+      "transform": "none"
+    },
+    {
+      "tag": "h2",
+      "text": "Revenue disappears because there is a gap between planned and actual work",
+      "font": "Aeoniksoft",
+      "size": "40.94px",
+      "weight": "500",
+      "lineHeight": "40.94px",
+      "letterSpacing": "normal",
+      "color": "rgb(78, 14, 88)",
+      "transform": "none"
+    },
+    {
+      "tag": "span",
+      "text": "gap",
+      "font": "Aeoniksoft",
+      "size": "40.94px",
+      "weight": "500",
+      "lineHeight": "40.94px",
+      "letterSpacing": "normal",
+      "color": "rgb(78, 14, 88)",
+      "transform": "none"
+    },
+    {
+      "tag": "p",
+      "text": "WHAT TOGGL DOES DIFFERENTLY",
+      "font": "Aeonik",
+      "size": "12.46px",
+      "weight": "600",
+      "lineHeight": "16.198px",
+      "letterSpacing": "0.1246px",
+      "color": "rgb(139, 41, 155)",
+      "transform": "none"
+    },
+    {
+      "tag": "h2",
+      "text": "Toggl brings together time tracking and capacity planning in one platform.",
+      "font": "Aeoniksoft",
+      "size": "74.76px",
+      "weight": "500",
+      "lineHeight": "71.022px",
+      "letterSpacing": "-1.4952px",
+      "color": "rgb(139, 41, 155)",
+      "transform": "none"
+    },
+    {
+      "tag": "p",
+      "text": "We built Toggl so time data is the foundation, not an afterthought.",
+      "font": "Aeoniksoft",
+      "size": "30.26px",
+      "weight": "600",
+      "lineHeight": "30.26px",
+      "letterSpacing": "0.3026px",
+      "color": "rgb(66, 74, 18)",
+      "transform": "none"
+    },
+    {
+      "tag": "p",
+      "text": "Stop scoping new work from memory. Stop pulling time data into a spreadsheet to answer a q",
+      "font": "Aeonik",
+      "size": "17.8px",
+      "weight": "400",
+      "lineHeight": "26.7px",
+      "letterSpacing": "0.178px",
+      "color": "rgb(54, 49, 55)",
+      "transform": "none"
+    },
+    {
+      "tag": "span",
+      "text": "08:00",
+      "font": "Aeonik",
+      "size": "16.02px",
+      "weight": "500",
+      "lineHeight": "20.826px",
+      "letterSpacing": "0.1602px",
+      "color": "rgb(157, 152, 152)",
+      "transform": "none"
+    },
+    {
+      "tag": "span",
+      "text": "09:00",
+      "font": "Aeonik",
+      "size": "16.02px",
+      "weight": "500",
+      "lineHeight": "20.826px",
+      "letterSpacing": "0.1602px",
+      "color": "rgb(157, 152, 152)",
+      "transform": "none"
+    },
+    {
+      "tag": "span",
+      "text": "10:00",
+      "font": "Aeonik",
+      "size": "16.02px",
+      "weight": "500",
+      "lineHeight": "20.826px",
+      "letterSpacing": "0.1602px",
+      "color": "rgb(157, 152, 152)",
+      "transform": "none"
+    },
+    {
+      "tag": "span",
+      "text": "11:00",
+      "font": "Aeonik",
+      "size": "16.02px",
+      "weight": "500",
+      "lineHeight": "20.826px",
+      "letterSpacing": "0.1602px",
+      "color": "rgb(157, 152, 152)",
+      "transform": "none"
+    },
+    {
+      "tag": "span",
+      "text": "12:00",
+      "font": "Aeonik",
+      "size": "16.02px",
+      "weight": "500",
+      "lineHeight": "20.826px",
+      "letterSpacing": "0.1602px",
+      "color": "rgb(157, 152, 152)",
+      "transform": "none"
+    },
+    {
+      "tag": "span",
+      "text": "13:00",
+      "font": "Aeonik",
+      "size": "16.02px",
+      "weight": "500",
+      "lineHeight": "20.826px",
+      "letterSpacing": "0.1602px",
+      "color": "rgb(157, 152, 152)",
+      "transform": "none"
+    },
+    {
+      "tag": "span",
+      "text": "14:00",
+      "font": "Aeonik",
+      "size": "16.02px",
+      "weight": "500",
+      "lineHeight": "20.826px",
+      "letterSpacing": "0.1602px",
+      "color": "rgb(157, 152, 152)",
+      "transform": "none"
+    },
+    {
+      "tag": "span",
+      "text": "15:00",
+      "font": "Aeonik",
+      "size": "16.02px",
+      "weight": "500",
+      "lineHeight": "20.826px",
+      "letterSpacing": "0.1602px",
+      "color": "rgb(157, 152, 152)",
+      "transform": "none"
+    },
+    {
+      "tag": "span",
+      "text": "16:00",
+      "font": "Aeonik",
+      "size": "16.02px",
+      "weight": "500",
+      "lineHeight": "20.826px",
+      "letterSpacing": "0.1602px",
+      "color": "rgb(157, 152, 152)",
+      "transform": "none"
+    },
+    {
+      "tag": "p",
+      "text": "Weekly design meeting",
+      "font": "Aeoniksoft",
+      "size": "24.92px",
+      "weight": "500",
+      "lineHeight": "28.658px",
+      "letterSpacing": "0.2492px",
+      "color": "rgb(174, 64, 192)",
+      "transform": "none"
+    },
+    {
+      "tag": "p",
+      "text": "anthony@RGBagency.com (Google Calendar)",
+      "font": "Aeonik",
+      "size": "17.8px",
+      "weight": "400",
+      "lineHeight": "26.7px",
+      "letterSpacing": "0.178px",
+      "color": "rgb(157, 152, 152)",
+      "transform": "none"
+    },
+    {
+      "tag": "p",
+      "text": "09:00 - 11:00",
+      "font": "Aeonik",
+      "size": "17.8px",
+      "weight": "400",
+      "lineHeight": "26.7px",
+      "letterSpacing": "0.178px",
+      "color": "rgb(54, 49, 55)",
+      "transform": "none"
+    },
+    {
+      "tag": "h3",
+      "text": "Brainstorm session",
+      "font": "Aeoniksoft",
+      "size": "17.8px",
+      "weight": "500",
+      "lineHeight": "21.36px",
+      "letterSpacing": "0.178px",
+      "color": "rgb(115, 130, 11)",
+      "transform": "none"
+    },
+    {
+      "tag": "p",
+      "text": "11:00 - 12:00",
+      "font": "Aeonik",
+      "size": "17.8px",
+      "weight": "400",
+      "lineHeight": "26.7px",
+      "letterSpacing": "0.178px",
+      "color": "rgb(54, 49, 55)",
+      "transform": "none"
+    },
+    {
+      "tag": "p",
+      "text": "Today, 14 Apr",
+      "font": "Aeoniksoft",
+      "size": "17.8px",
+      "weight": "500",
+      "lineHeight": "21.36px",
+      "letterSpacing": "-0.178px",
+      "color": "rgb(54, 49, 55)",
+      "transform": "none"
+    },
+    {
+      "tag": "p",
+      "text": "7:15:50",
+      "font": "Aeoniksoft",
+      "size": "17.8px",
+      "weight": "500",
+      "lineHeight": "21.36px",
+      "letterSpacing": "-0.178px",
+      "color": "rgb(54, 49, 55)",
+      "transform": "none"
+    },
+    {
+      "tag": "p",
+      "text": "Illustrations",
+      "font": "Aeonik",
+      "size": "21.36px",
+      "weight": "400",
+      "lineHeight": "27.768px",
+      "letterSpacing": "0.2136px",
+      "color": "rgb(54, 49, 55)",
+      "transform": "none"
+    },
+    {
+      "tag": "p",
+      "text": "2:12:50",
+      "font": "Aeonik",
+      "size": "21.36px",
+      "weight": "400",
+      "lineHeight": "27.768px",
+      "letterSpacing": "0.2136px",
+      "color": "rgb(54, 49, 55)",
+      "transform": "none"
+    },
+    {
+      "tag": "p",
+      "text": "Branding",
+      "font": "Aeonik",
+      "size": "16.02px",
+      "weight": "500",
+      "lineHeight": "20.826px",
+      "letterSpacing": "0.1602px",
+      "color": "rgb(174, 64, 192)",
+      "transform": "none"
+    },
+    {
+      "tag": "p",
+      "text": "Avo & Toast Co.",
+      "font": "Aeonik",
+      "size": "16.02px",
+      "weight": "500",
+      "lineHeight": "20.826px",
+      "letterSpacing": "0.1602px",
+      "color": "rgb(157, 152, 152)",
+      "transform": "none"
+    },
+    {
+      "tag": "p",
+      "text": "5 billable hours every day",
+      "font": "Aeonik",
+      "size": "16.02px",
+      "weight": "500",
+      "lineHeight": "20.826px",
+      "letterSpacing": "0.1602px",
+      "color": "rgb(54, 49, 55)",
+      "transform": "none"
+    },
+    {
+      "tag": "p",
+      "text": "3/5 hours",
+      "font": "Aeonik",
+      "size": "17.8px",
+      "weight": "400",
+      "lineHeight": "26.7px",
+      "letterSpacing": "0.178px",
+      "color": "rgb(157, 152, 152)",
+      "transform": "none"
+    },
+    {
+      "tag": "p",
+      "text": "REACHED",
+      "font": "Aeonik",
+      "size": "7.84624px",
+      "weight": "400",
+      "lineHeight": "10.2001px",
+      "letterSpacing": "0.0784624px",
+      "color": "rgb(206, 222, 113)",
+      "transform": "none"
+    },
+    {
+      "tag": "p",
+      "text": "NEW WEBSITE",
+      "font": "Aeonik",
+      "size": "7.84624px",
+      "weight": "400",
+      "lineHeight": "10.2001px",
+      "letterSpacing": "0.0784624px",
+      "color": "rgb(238, 173, 251)",
+      "transform": "none"
+    },
+    {
+      "tag": "p",
+      "text": "“This has neatly consolidated my old workflow of juggling Google Tasks and Toggl. The comb",
+      "font": "Aeoniksoft",
+      "size": "40.94px",
+      "weight": "500",
+      "lineHeight": "40.94px",
+      "letterSpacing": "normal",
+      "color": "rgb(54, 49, 55)",
+      "transform": "none"
+    },
+    {
+      "tag": "h2",
+      "text": "Everything your time can tell you",
+      "font": "Aeoniksoft",
+      "size": "60.52px",
+      "weight": "600",
+      "lineHeight": "60.52px",
+      "letterSpacing": "-0.6052px",
+      "color": "rgb(248, 247, 241)",
+      "transform": "none"
+    },
+    {
+      "tag": "a",
+      "text": "Manage projects profitably",
+      "font": "Aeonik",
+      "size": "14.24px",
+      "weight": "500",
+      "lineHeight": "19.936px",
+      "letterSpacing": "normal",
+      "color": "rgb(55, 8, 62)",
+      "transform": "none"
+    },
+    {
+      "tag": "a",
+      "text": "Plan capacity and scope",
+      "font": "Aeonik",
+      "size": "14.24px",
+      "weight": "500",
+      "lineHeight": "19.936px",
+      "letterSpacing": "normal",
+      "color": "rgb(248, 247, 241)",
+      "transform": "none"
+    },
+    {
+      "tag": "a",
+      "text": "Get insights in seconds",
+      "font": "Aeonik",
+      "size": "14.24px",
+      "weight": "500",
+      "lineHeight": "19.936px",
+      "letterSpacing": "normal",
+      "color": "rgb(248, 247, 241)",
+      "transform": "none"
+    },
+    {
+      "tag": "a",
+      "text": "Increase efficiency and revenue",
+      "font": "Aeonik",
+      "size": "14.24px",
+      "weight": "500",
+      "lineHeight": "19.936px",
+      "letterSpacing": "normal",
+      "color": "rgb(248, 247, 241)",
+      "transform": "none"
+    },
+    {
+      "tag": "a",
+      "text": "Strengthen client relationships",
+      "font": "Aeonik",
+      "size": "14.24px",
+      "weight": "500",
+      "lineHeight": "19.936px",
+      "letterSpacing": "normal",
+      "color": "rgb(248, 247, 241)",
+      "transform": "none"
+    },
+    {
+      "tag": "a",
+      "text": "Support team growth",
+      "font": "Aeonik",
+      "size": "14.24px",
+      "weight": "500",
+      "lineHeight": "19.936px",
+      "letterSpacing": "normal",
+      "color": "rgb(248, 247, 241)",
+      "transform": "none"
+    },
+    {
+      "tag": "h3",
+      "text": "Track project performance",
+      "font": "Aeoniksoft",
+      "size": "40.94px",
+      "weight": "500",
+      "lineHeight": "40.94px",
+      "letterSpacing": "normal",
+      "color": "rgb(78, 14, 88)",
+      "transform": "none"
+    },
+    {
+      "tag": "p",
+      "text": "Compare estimated and actual time to stay on budget and manage resources effectively",
+      "font": "Aeonik",
+      "size": "17.8px",
+      "weight": "400",
+      "lineHeight": "26.7px",
+      "letterSpacing": "0.178px",
+      "color": "rgb(54, 49, 55)",
+      "transform": "none"
+    },
+    {
+      "tag": "p",
+      "text": "Use time tracking insights to spot where profitability is won or lost, and plan future cos",
+      "font": "Aeonik",
+      "size": "17.8px",
+      "weight": "400",
+      "lineHeight": "26.7px",
+      "letterSpacing": "0.178px",
+      "color": "rgb(54, 49, 55)",
+      "transform": "none"
+    },
+    {
+      "tag": "p",
+      "text": "Plan and manage project work using boards, Gantt charts, and a calendar planner",
+      "font": "Aeonik",
+      "size": "17.8px",
+      "weight": "400",
+      "lineHeight": "26.7px",
+      "letterSpacing": "0.178px",
+      "color": "rgb(54, 49, 55)",
+      "transform": "none"
+    },
+    {
+      "tag": "a",
+      "text": "20% increase in profitability Read case study Sweat+Co used Toggl to scope out inefficienc",
+      "font": "Aeonik",
+      "size": "14.24px",
+      "weight": "400",
+      "lineHeight": "19.936px",
+      "letterSpacing": "normal",
+      "color": "rgb(54, 49, 55)",
+      "transform": "none"
+    },
+    {
+      "tag": "p",
+      "text": "Sweat+Co used Toggl to scope out inefficiencies and areas where they were over-servicing, ",
+      "font": "Aeonik",
+      "size": "14.24px",
+      "weight": "400",
+      "lineHeight": "21.36px",
+      "letterSpacing": "normal",
+      "color": "rgb(54, 49, 55)",
+      "transform": "none"
+    },
+    {
+      "tag": "a",
+      "text": "Learn more",
+      "font": "Aeonik",
+      "size": "14.24px",
+      "weight": "400",
+      "lineHeight": "19.936px",
+      "letterSpacing": "normal",
+      "color": "rgb(54, 49, 55)",
+      "transform": "none"
+    },
+    {
+      "tag": "p",
+      "text": "Learn more",
+      "font": "Aeoniksoft",
+      "size": "14.24px",
+      "weight": "500",
+      "lineHeight": "14.24px",
+      "letterSpacing": "-0.1424px",
+      "color": "rgb(54, 49, 55)",
+      "transform": "none"
+    },
+    {
+      "tag": "a",
+      "text": "Learn more",
+      "font": "Aeonik",
+      "size": "14.24px",
+      "weight": "400",
+      "lineHeight": "19.936px",
+      "letterSpacing": "normal",
+      "color": "rgb(54, 49, 55)",
+      "transform": "none"
+    },
+    {
+      "tag": "p",
+      "text": "Learn more",
+      "font": "Aeoniksoft",
+      "size": "14.24px",
+      "weight": "500",
+      "lineHeight": "14.24px",
+      "letterSpacing": "-0.1424px",
+      "color": "rgb(54, 49, 55)",
+      "transform": "none"
+    },
+    {
+      "tag": "a",
+      "text": "Learn more",
+      "font": "Aeonik",
+      "size": "14.24px",
+      "weight": "400",
+      "lineHeight": "19.936px",
+      "letterSpacing": "normal",
+      "color": "rgb(54, 49, 55)",
+      "transform": "none"
+    },
+    {
+      "tag": "p",
+      "text": "Learn more",
+      "font": "Aeoniksoft",
+      "size": "14.24px",
+      "weight": "500",
+      "lineHeight": "14.24px",
+      "letterSpacing": "-0.1424px",
+      "color": "rgb(54, 49, 55)",
+      "transform": "none"
+    },
+    {
+      "tag": "a",
+      "text": "Learn more",
+      "font": "Aeonik",
+      "size": "14.24px",
+      "weight": "400",
+      "lineHeight": "19.936px",
+      "letterSpacing": "normal",
+      "color": "rgb(54, 49, 55)",
+      "transform": "none"
+    },
+    {
+      "tag": "p",
+      "text": "Learn more",
+      "font": "Aeoniksoft",
+      "size": "14.24px",
+      "weight": "500",
+      "lineHeight": "14.24px",
+      "letterSpacing": "-0.1424px",
+      "color": "rgb(54, 49, 55)",
+      "transform": "none"
+    },
+    {
+      "tag": "a",
+      "text": "Learn more",
+      "font": "Aeonik",
+      "size": "14.24px",
+      "weight": "400",
+      "lineHeight": "19.936px",
+      "letterSpacing": "normal",
+      "color": "rgb(54, 49, 55)",
+      "transform": "none"
+    },
+    {
+      "tag": "p",
+      "text": "Learn more",
+      "font": "Aeoniksoft",
+      "size": "14.24px",
+      "weight": "500",
+      "lineHeight": "14.24px",
+      "letterSpacing": "-0.1424px",
+      "color": "rgb(54, 49, 55)",
+      "transform": "none"
+    },
+    {
+      "tag": "a",
+      "text": "Learn more",
+      "font": "Aeonik",
+      "size": "14.24px",
+      "weight": "400",
+      "lineHeight": "19.936px",
+      "letterSpacing": "normal",
+      "color": "rgb(54, 49, 55)",
+      "transform": "none"
+    },
+    {
+      "tag": "p",
+      "text": "Learn more",
+      "font": "Aeoniksoft",
+      "size": "14.24px",
+      "weight": "500",
+      "lineHeight": "14.24px",
+      "letterSpacing": "-0.1424px",
+      "color": "rgb(54, 49, 55)",
+      "transform": "none"
+    },
+    {
+      "tag": "a",
+      "text": "Learn more",
+      "font": "Aeonik",
+      "size": "14.24px",
+      "weight": "400",
+      "lineHeight": "19.936px",
+      "letterSpacing": "normal",
+      "color": "rgb(54, 49, 55)",
+      "transform": "none"
+    },
+    {
+      "tag": "p",
+      "text": "Learn more",
+      "font": "Aeoniksoft",
+      "size": "14.24px",
+      "weight": "500",
+      "lineHeight": "14.24px",
+      "letterSpacing": "-0.1424px",
+      "color": "rgb(54, 49, 55)",
+      "transform": "none"
+    },
+    {
+      "tag": "a",
+      "text": "Learn more",
+      "font": "Aeonik",
+      "size": "14.24px",
+      "weight": "400",
+      "lineHeight": "19.936px",
+      "letterSpacing": "normal",
+      "color": "rgb(54, 49, 55)",
+      "transform": "none"
+    },
+    {
+      "tag": "p",
+      "text": "Learn more",
+      "font": "Aeoniksoft",
+      "size": "14.24px",
+      "weight": "500",
+      "lineHeight": "14.24px",
+      "letterSpacing": "-0.1424px",
+      "color": "rgb(54, 49, 55)",
+      "transform": "none"
+    },
+    {
+      "tag": "h2",
+      "text": "The time tracker that brings clarity to high-performing teams",
+      "font": "Aeoniksoft",
+      "size": "60.52px",
+      "weight": "600",
+      "lineHeight": "60.52px",
+      "letterSpacing": "-0.6052px",
+      "color": "rgb(78, 14, 88)",
+      "transform": "none"
+    },
+    {
+      "tag": "p",
+      "text": "Agencies & professional services teams · Software & IT teams · Law firms · Accounting & fi",
+      "font": "Aeonik",
+      "size": "14.24px",
+      "weight": "400",
+      "lineHeight": "21.36px",
+      "letterSpacing": "normal",
+      "color": "rgb(54, 49, 55)",
+      "transform": "none"
+    },
+    {
+      "tag": "h2",
+      "text": "Agencies & professional services teams",
+      "font": "Aeoniksoft",
+      "size": "40.94px",
+      "weight": "500",
+      "lineHeight": "40.94px",
+      "letterSpacing": "normal",
+      "color": "rgb(47, 53, 19)",
+      "transform": "none"
+    },
+    {
+      "tag": "p",
+      "text": "Capture every billable hour to scope new work from real project history, not memory. See w",
+      "font": "Aeonik",
+      "size": "17.8px",
+      "weight": "400",
+      "lineHeight": "26.7px",
+      "letterSpacing": "0.178px",
+      "color": "rgb(66, 74, 18)",
+      "transform": "none"
+    },
+    {
+      "tag": "p",
+      "text": "Billable rates, revenue and profitability reports",
+      "font": "Aeonik",
+      "size": "14.24px",
+      "weight": "500",
+      "lineHeight": "21.36px",
+      "letterSpacing": "0.1424px",
+      "color": "rgb(66, 74, 18)",
+      "transform": "none"
+    },
+    {
+      "tag": "p",
+      "text": "Recurring projects for retainer clients",
+      "font": "Aeonik",
+      "size": "14.24px",
+      "weight": "500",
+      "lineHeight": "21.36px",
+      "letterSpacing": "0.1424px",
+      "color": "rgb(66, 74, 18)",
+      "transform": "none"
+    },
+    {
+      "tag": "p",
+      "text": "Estimated vs. actual time on every project",
+      "font": "Aeonik",
+      "size": "14.24px",
+      "weight": "500",
+      "lineHeight": "21.36px",
+      "letterSpacing": "0.1424px",
+      "color": "rgb(66, 74, 18)",
+      "transform": "none"
+    },
+    {
+      "tag": "p",
+      "text": "Capacity planning across clients and people, including PTO and public holidays",
+      "font": "Aeonik",
+      "size": "14.24px",
+      "weight": "500",
+      "lineHeight": "21.36px",
+      "letterSpacing": "0.1424px",
+      "color": "rgb(66, 74, 18)",
+      "transform": "none"
+    },
+    {
+      "tag": "p",
+      "text": "Win more pitches with transparent, time-backed quotes. Know which projects are profitable.",
+      "font": "Aeoniksoft",
+      "size": "21.36px",
+      "weight": "500",
+      "lineHeight": "24.564px",
+      "letterSpacing": "0.2136px",
+      "color": "rgb(54, 49, 55)",
+      "transform": "none"
+    },
+    {
+      "tag": "h2",
+      "text": "Software & IT teams",
+      "font": "Aeoniksoft",
+      "size": "40.94px",
+      "weight": "500",
+      "lineHeight": "40.94px",
+      "letterSpacing": "normal",
+      "color": "rgb(47, 53, 19)",
+      "transform": "none"
+    },
+    {
+      "tag": "p",
+      "text": "Track time inside Jira, Asana, and the tools your engineers already use. Plan sprints and ",
+      "font": "Aeonik",
+      "size": "17.8px",
+      "weight": "400",
+      "lineHeight": "26.7px",
+      "letterSpacing": "0.178px",
+      "color": "rgb(66, 74, 18)",
+      "transform": "none"
+    },
+    {
+      "tag": "p",
+      "text": "Estimated vs. actual time on every task",
+      "font": "Aeonik",
+      "size": "14.24px",
+      "weight": "500",
+      "lineHeight": "21.36px",
+      "letterSpacing": "0.1424px",
+      "color": "rgb(66, 74, 18)",
+      "transform": "none"
+    },
+    {
+      "tag": "p",
+      "text": "Simple and accurate time tracking in Jira",
+      "font": "Aeonik",
+      "size": "14.24px",
+      "weight": "500",
+      "lineHeight": "21.36px",
+      "letterSpacing": "0.1424px",
+      "color": "rgb(66, 74, 18)",
+      "transform": "none"
+    },
+    {
+      "tag": "p",
+      "text": "Automated background tracking that’s 100% private",
+      "font": "Aeonik",
+      "size": "14.24px",
+      "weight": "500",
+      "lineHeight": "21.36px",
+      "letterSpacing": "0.1424px",
+      "color": "rgb(66, 74, 18)",
+      "transform": "none"
+    },
+    {
+      "tag": "p",
+      "text": "Boards and timelines for sprint and capacity planning",
+      "font": "Aeonik",
+      "size": "14.24px",
+      "weight": "500",
+      "lineHeight": "21.36px",
+      "letterSpacing": "0.1424px",
+      "color": "rgb(66, 74, 18)",
+      "transform": "none"
+    },
+    {
+      "tag": "p",
+      "text": "Plan and reality stay in one view, so nothing gets forgotten at the end of the week.",
+      "font": "Aeoniksoft",
+      "size": "21.36px",
+      "weight": "500",
+      "lineHeight": "24.564px",
+      "letterSpacing": "0.2136px",
+      "color": "rgb(54, 49, 55)",
+      "transform": "none"
+    },
+    {
+      "tag": "h2",
+      "text": "Law firms",
+      "font": "Aeoniksoft",
+      "size": "40.94px",
+      "weight": "500",
+      "lineHeight": "40.94px",
+      "letterSpacing": "normal",
+      "color": "rgb(47, 53, 19)",
+      "transform": "none"
+    },
+    {
+      "tag": "p",
+      "text": "Capture every billable minute across matters, then invoice with confidence. Accurate recor",
+      "font": "Aeonik",
+      "size": "17.8px",
+      "weight": "400",
+      "lineHeight": "26.7px",
+      "letterSpacing": "0.178px",
+      "color": "rgb(66, 74, 18)",
+      "transform": "none"
+    },
+    {
+      "tag": "p",
+      "text": "Detailed time reports",
+      "font": "Aeonik",
+      "size": "14.24px",
+      "weight": "500",
+      "lineHeight": "21.36px",
+      "letterSpacing": "0.1424px",
+      "color": "rgb(66, 74, 18)",
+      "transform": "none"
+    },
+    {
+      "tag": "p",
+      "text": "Built-in security and GDPR compliance",
+      "font": "Aeonik",
+      "size": "14.24px",
+      "weight": "500",
+      "lineHeight": "21.36px",
+      "letterSpacing": "0.1424px",
+      "color": "rgb(66, 74, 18)",
+      "transform": "none"
+    },
+    {
+      "tag": "p",
+      "text": "Billable rates with 6-minute increments",
+      "font": "Aeonik",
+      "size": "14.24px",
+      "weight": "500",
+      "lineHeight": "21.36px",
+      "letterSpacing": "0.1424px",
+      "color": "rgb(66, 74, 18)",
+      "transform": "none"
+    },
+    {
+      "tag": "p",
+      "text": "Time tracking on the go with mobile apps",
+      "font": "Aeonik",
+      "size": "14.24px",
+      "weight": "500",
+      "lineHeight": "21.36px",
+      "letterSpacing": "0.1424px",
+      "color": "rgb(66, 74, 18)",
+      "transform": "none"
+    },
+    {
+      "tag": "p",
+      "text": "No screenshots, no keystroke logging, just accurate, respectful records.",
+      "font": "Aeoniksoft",
+      "size": "21.36px",
+      "weight": "500",
+      "lineHeight": "24.564px",
+      "letterSpacing": "0.2136px",
+      "color": "rgb(54, 49, 55)",
+      "transform": "none"
+    },
+    {
+      "tag": "h2",
+      "text": "Accounting & finance teams",
+      "font": "Aeoniksoft",
+      "size": "40.94px",
+      "weight": "500",
+      "lineHeight": "40.94px",
+      "letterSpacing": "normal",
+      "color": "rgb(47, 53, 19)",
+      "transform": "none"
+    },
+    {
+      "tag": "p",
+      "text": "Keep client work profitable with precise time records and financial reports. See where hou",
+      "font": "Aeonik",
+      "size": "17.8px",
+      "weight": "400",
+      "lineHeight": "26.7px",
+      "letterSpacing": "0.178px",
+      "color": "rgb(66, 74, 18)",
+      "transform": "none"
+    },
+    {
+      "tag": "p",
+      "text": "Billable hours and invoicing",
+      "font": "Aeonik",
+      "size": "14.24px",
+      "weight": "500",
+      "lineHeight": "21.36px",
+      "letterSpacing": "0.1424px",
+      "color": "rgb(66, 74, 18)",
+      "transform": "none"
+    },
+    {
+      "tag": "p",
+      "text": "Financial and profitability reports",
+      "font": "Aeonik",
+      "size": "14.24px",
+      "weight": "500",
+      "lineHeight": "21.36px",
+      "letterSpacing": "0.1424px",
+      "color": "rgb(66, 74, 18)",
+      "transform": "none"
+    },
+    {
+      "tag": "p",
+      "text": "Capacity planning around busy season and PTO",
+      "font": "Aeonik",
+      "size": "14.24px",
+      "weight": "500",
+      "lineHeight": "21.36px",
+      "letterSpacing": "0.1424px",
+      "color": "rgb(66, 74, 18)",
+      "transform": "none"
+    },
+    {
+      "tag": "p",
+      "text": "Estimated vs actual time on every engagement",
+      "font": "Aeonik",
+      "size": "14.24px",
+      "weight": "500",
+      "lineHeight": "21.36px",
+      "letterSpacing": "0.1424px",
+      "color": "rgb(66, 74, 18)",
+      "transform": "none"
+    },
+    {
+      "tag": "p",
+      "text": "Profitability reports by client, project, and team member",
+      "font": "Aeonik",
+      "size": "14.24px",
+      "weight": "500",
+      "lineHeight": "21.36px",
+      "letterSpacing": "0.1424px",
+      "color": "rgb(66, 74, 18)",
+      "transform": "none"
+    },
+    {
+      "tag": "p",
+      "text": "Real-time data behind every cost, price, and forecast.",
+      "font": "Aeoniksoft",
+      "size": "21.36px",
+      "weight": "500",
+      "lineHeight": "24.564px",
+      "letterSpacing": "0.2136px",
+      "color": "rgb(54, 49, 55)",
+      "transform": "none"
+    },
+    {
+      "tag": "p",
+      "text": "Real teams, real results",
+      "font": "Aeoniksoft",
+      "size": "138.84px",
+      "weight": "500",
+      "lineHeight": "131.898px",
+      "letterSpacing": "-2.7768px",
+      "color": "rgb(174, 64, 192)",
+      "transform": "none"
+    },
+    {
+      "tag": "span",
+      "text": "real results",
+      "font": "Aeoniksoft",
+      "size": "138.84px",
+      "weight": "500",
+      "lineHeight": "131.898px",
+      "letterSpacing": "-2.7768px",
+      "color": "rgb(174, 64, 192)",
+      "transform": "none"
+    },
+    {
+      "tag": "h3",
+      "text": "How teams use time intelligence",
+      "font": "Aeoniksoft",
+      "size": "40.94px",
+      "weight": "500",
+      "lineHeight": "40.94px",
+      "letterSpacing": "normal",
+      "color": "rgb(66, 74, 18)",
+      "transform": "none"
+    },
+    {
+      "tag": "p",
+      "text": "80 hours",
+      "font": "Aeoniksoft",
+      "size": "74.76px",
+      "weight": "600",
+      "lineHeight": "71.022px",
+      "letterSpacing": "-1.4952px",
+      "color": "rgb(66, 74, 18)",
+      "transform": "none"
+    },
+    {
+      "tag": "p",
+      "text": "saved monthly with Toggl's user-friendly interface",
+      "font": "Aeonik",
+      "size": "14.24px",
+      "weight": "500",
+      "lineHeight": "21.36px",
+      "letterSpacing": "0.1424px",
+      "color": "rgb(66, 74, 18)",
+      "transform": "none"
+    },
+    {
+      "tag": "p",
+      "text": "“We chose Toggl, and it took our agency’s time tracking compliance to the next level.”",
+      "font": "Aeonik",
+      "size": "16.02px",
+      "weight": "500",
+      "lineHeight": "20.826px",
+      "letterSpacing": "0.1602px",
+      "color": "rgb(66, 74, 18)",
+      "transform": "none"
+    },
+    {
+      "tag": "a",
+      "text": "Read case study",
+      "font": "Aeonik",
+      "size": "14.24px",
+      "weight": "400",
+      "lineHeight": "19.936px",
+      "letterSpacing": "normal",
+      "color": "rgb(66, 74, 18)",
+      "transform": "none"
+    },
+    {
+      "tag": "p",
+      "text": "Read case study",
+      "font": "Aeoniksoft",
+      "size": "14.24px",
+      "weight": "500",
+      "lineHeight": "14.24px",
+      "letterSpacing": "-0.1424px",
+      "color": "rgb(66, 74, 18)",
+      "transform": "none"
+    }
+  ],
+  "headings": [
+    {
+      "tag": "h1",
+      "text": "The time tracker millions trust",
+      "size": "74.76px",
+      "weight": "500",
+      "lineHeight": "71.022px",
+      "letterSpacing": "-1.4952px",
+      "font": "Aeoniksoft",
+      "color": "rgb(78, 14, 88)",
+      "top": 188,
+      "w": 612
+    },
+    {
+      "tag": "h2",
+      "text": "Revenue disappears because there is a gap between planned and actual work",
+      "size": "40.94px",
+      "weight": "500",
+      "lineHeight": "40.94px",
+      "letterSpacing": "normal",
+      "font": "Aeoniksoft",
+      "color": "rgb(78, 14, 88)",
+      "top": 2980,
+      "w": 285
+    },
+    {
+      "tag": "h2",
+      "text": "Toggl brings together time tracking and capacity planning in one platform.",
+      "size": "74.76px",
+      "weight": "500",
+      "lineHeight": "71.022px",
+      "letterSpacing": "-1.4952px",
+      "font": "Aeoniksoft",
+      "color": "rgb(139, 41, 155)",
+      "top": 3098,
+      "w": 1037
+    },
+    {
+      "tag": "h3",
+      "text": "Brainstorm session",
+      "size": "17.8px",
+      "weight": "500",
+      "lineHeight": "21.36px",
+      "letterSpacing": "0.178px",
+      "font": "Aeoniksoft",
+      "color": "rgb(115, 130, 11)",
+      "top": 3777,
+      "w": 157
+    },
+    {
+      "tag": "h2",
+      "text": "Everything your time can tell you",
+      "size": "60.52px",
+      "weight": "600",
+      "lineHeight": "60.52px",
+      "letterSpacing": "-0.6052px",
+      "font": "Aeoniksoft",
+      "color": "rgb(248, 247, 241)",
+      "top": 4914,
+      "w": 1353
+    },
+    {
+      "tag": "h3",
+      "text": "Track project performance",
+      "size": "40.94px",
+      "weight": "500",
+      "lineHeight": "40.94px",
+      "letterSpacing": "normal",
+      "font": "Aeoniksoft",
+      "color": "rgb(78, 14, 88)",
+      "top": 5196,
+      "w": 456
+    },
+    {
+      "tag": "h2",
+      "text": "The time tracker that brings clarity to high-performing teams",
+      "size": "60.52px",
+      "weight": "600",
+      "lineHeight": "60.52px",
+      "letterSpacing": "-0.6052px",
+      "font": "Aeoniksoft",
+      "color": "rgb(78, 14, 88)",
+      "top": 7210,
+      "w": 901
+    },
+    {
+      "tag": "h2",
+      "text": "Agencies & professional services teams",
+      "size": "40.94px",
+      "weight": "500",
+      "lineHeight": "40.94px",
+      "letterSpacing": "normal",
+      "font": "Aeoniksoft",
+      "color": "rgb(47, 53, 19)",
+      "top": 7519,
+      "w": 566
+    },
+    {
+      "tag": "h2",
+      "text": "Software & IT teams",
+      "size": "40.94px",
+      "weight": "500",
+      "lineHeight": "40.94px",
+      "letterSpacing": "normal",
+      "font": "Aeoniksoft",
+      "color": "rgb(47, 53, 19)",
+      "top": 7519,
+      "w": 566
+    },
+    {
+      "tag": "h2",
+      "text": "Law firms",
+      "size": "40.94px",
+      "weight": "500",
+      "lineHeight": "40.94px",
+      "letterSpacing": "normal",
+      "font": "Aeoniksoft",
+      "color": "rgb(47, 53, 19)",
+      "top": 8162,
+      "w": 566
+    },
+    {
+      "tag": "h2",
+      "text": "Accounting & finance teams",
+      "size": "40.94px",
+      "weight": "500",
+      "lineHeight": "40.94px",
+      "letterSpacing": "normal",
+      "font": "Aeoniksoft",
+      "color": "rgb(47, 53, 19)",
+      "top": 8162,
+      "w": 566
+    },
+    {
+      "tag": "h3",
+      "text": "How teams use time intelligence",
+      "size": "40.94px",
+      "weight": "500",
+      "lineHeight": "40.94px",
+      "letterSpacing": "normal",
+      "font": "Aeoniksoft",
+      "color": "rgb(66, 74, 18)",
+      "top": 9055,
+      "w": 385
+    },
+    {
+      "tag": "h2",
+      "text": "One tool, however you work",
+      "size": "60.52px",
+      "weight": "500",
+      "lineHeight": "60.52px",
+      "letterSpacing": "-0.6052px",
+      "font": "Aeoniksoft",
+      "color": "rgb(255, 255, 255)",
+      "top": 10030,
+      "w": 570
+    },
+    {
+      "tag": "h2",
+      "text": "For freelancers",
+      "size": "30.26px",
+      "weight": "600",
+      "lineHeight": "30.26px",
+      "letterSpacing": "0.3026px",
+      "font": "Aeoniksoft",
+      "color": "rgb(66, 74, 18)",
+      "top": 10345,
+      "w": 401
+    },
+    {
+      "tag": "h2",
+      "text": "For growing teams",
+      "size": "30.26px",
+      "weight": "600",
+      "lineHeight": "30.26px",
+      "letterSpacing": "0.3026px",
+      "font": "Aeoniksoft",
+      "color": "rgb(66, 74, 18)",
+      "top": 10345,
+      "w": 401
+    },
+    {
+      "tag": "h2",
+      "text": "For large organizations",
+      "size": "30.26px",
+      "weight": "600",
+      "lineHeight": "30.26px",
+      "letterSpacing": "0.3026px",
+      "font": "Aeoniksoft",
+      "color": "rgb(233, 244, 179)",
+      "top": 10759,
+      "w": 401
+    },
+    {
+      "tag": "h3",
+      "text": "Brainstorm session",
+      "size": "17.8px",
+      "weight": "500",
+      "lineHeight": "21.36px",
+      "letterSpacing": "0.178px",
+      "font": "Aeoniksoft",
+      "color": "rgb(54, 49, 55)",
+      "top": 11744,
+      "w": 157
+    },
+    {
+      "tag": "h2",
+      "text": "Want to get team buy-in without the fuss?",
+      "size": "40.94px",
+      "weight": "500",
+      "lineHeight": "40.94px",
+      "letterSpacing": "normal",
+      "font": "Aeoniksoft",
+      "color": "rgb(78, 14, 88)",
+      "top": 12451,
+      "w": 470
+    }
+  ],
+  "buttons": [
+    {
+      "text": "Login to Toggl Track Login to Toggl Plan",
+      "tag": "div",
+      "w": 317,
+      "h": 37,
+      "bg": "rgba(0, 0, 0, 0)",
+      "color": "rgb(54, 49, 55)",
+      "radius": "0px",
+      "border": "0px none rgb(54, 49, 55)",
+      "font": "Aeonik",
+      "size": "14.24px",
+      "weight": "400",
+      "padding": "0px"
+    },
+    {
+      "text": "Product",
+      "tag": "button",
+      "w": 88,
+      "h": 21,
+      "bg": "rgb(255, 255, 255)",
+      "color": "rgb(78, 14, 88)",
+      "radius": "0px",
+      "border": "0px none rgb(78, 14, 88)",
+      "font": "Aeonik",
+      "size": "14.24px",
+      "weight": "400",
+      "padding": "0px 8.01px"
+    },
+    {
+      "text": "Solutions",
+      "tag": "button",
+      "w": 98,
+      "h": 21,
+      "bg": "rgb(255, 255, 255)",
+      "color": "rgb(78, 14, 88)",
+      "radius": "0px",
+      "border": "0px none rgb(78, 14, 88)",
+      "font": "Aeonik",
+      "size": "14.24px",
+      "weight": "400",
+      "padding": "0px 8.01px"
+    },
+    {
+      "text": "Resources",
+      "tag": "button",
+      "w": 105,
+      "h": 21,
+      "bg": "rgb(255, 255, 255)",
+      "color": "rgb(78, 14, 88)",
+      "radius": "0px",
+      "border": "0px none rgb(78, 14, 88)",
+      "font": "Aeonik",
+      "size": "14.24px",
+      "weight": "400",
+      "padding": "0px 8.01px"
+    },
+    {
+      "text": "Learn more",
+      "tag": "div",
+      "w": 287,
+      "h": 14,
+      "bg": "rgba(0, 0, 0, 0)",
+      "color": "rgb(54, 49, 55)",
+      "radius": "0px",
+      "border": "0px none rgb(54, 49, 55)",
+      "font": "Aeonik",
+      "size": "14.24px",
+      "weight": "400",
+      "padding": "0px"
+    },
+    {
+      "text": "Learn more",
+      "tag": "div",
+      "w": 287,
+      "h": 14,
+      "bg": "rgba(0, 0, 0, 0)",
+      "color": "rgb(54, 49, 55)",
+      "radius": "0px",
+      "border": "0px none rgb(54, 49, 55)",
+      "font": "Aeonik",
+      "size": "14.24px",
+      "weight": "400",
+      "padding": "0px"
+    },
+    {
+      "text": "Learn more",
+      "tag": "div",
+      "w": 287,
+      "h": 14,
+      "bg": "rgba(0, 0, 0, 0)",
+      "color": "rgb(54, 49, 55)",
+      "radius": "0px",
+      "border": "0px none rgb(54, 49, 55)",
+      "font": "Aeonik",
+      "size": "14.24px",
+      "weight": "400",
+      "padding": "0px"
+    },
+    {
+      "text": "Learn more",
+      "tag": "div",
+      "w": 287,
+      "h": 14,
+      "bg": "rgba(0, 0, 0, 0)",
+      "color": "rgb(54, 49, 55)",
+      "radius": "0px",
+      "border": "0px none rgb(54, 49, 55)",
+      "font": "Aeonik",
+      "size": "14.24px",
+      "weight": "400",
+      "padding": "0px"
+    },
+    {
+      "text": "Learn more",
+      "tag": "div",
+      "w": 287,
+      "h": 41,
+      "bg": "rgba(0, 0, 0, 0)",
+      "color": "rgb(54, 49, 55)",
+      "radius": "0px",
+      "border": "0px none rgb(54, 49, 55)",
+      "font": "Aeonik",
+      "size": "14.24px",
+      "weight": "400",
+      "padding": "0px"
+    },
+    {
+      "text": "Learn more",
+      "tag": "div",
+      "w": 287,
+      "h": 41,
+      "bg": "rgba(0, 0, 0, 0)",
+      "color": "rgb(54, 49, 55)",
+      "radius": "0px",
+      "border": "0px none rgb(54, 49, 55)",
+      "font": "Aeonik",
+      "size": "14.24px",
+      "weight": "400",
+      "padding": "0px"
+    },
+    {
+      "text": "Learn more",
+      "tag": "div",
+      "w": 287,
+      "h": 14,
+      "bg": "rgba(0, 0, 0, 0)",
+      "color": "rgb(54, 49, 55)",
+      "radius": "0px",
+      "border": "0px none rgb(54, 49, 55)",
+      "font": "Aeonik",
+      "size": "14.24px",
+      "weight": "400",
+      "padding": "0px"
+    },
+    {
+      "text": "Learn more",
+      "tag": "div",
+      "w": 287,
+      "h": 14,
+      "bg": "rgba(0, 0, 0, 0)",
+      "color": "rgb(54, 49, 55)",
+      "radius": "0px",
+      "border": "0px none rgb(54, 49, 55)",
+      "font": "Aeonik",
+      "size": "14.24px",
+      "weight": "400",
+      "padding": "0px"
+    },
+    {
+      "text": "Start tracking for free",
+      "tag": "div",
+      "w": 260,
+      "h": 55,
+      "bg": "rgba(0, 0, 0, 0)",
+      "color": "rgb(54, 49, 55)",
+      "radius": "0px",
+      "border": "0px none rgb(54, 49, 55)",
+      "font": "Aeonik",
+      "size": "14.24px",
+      "weight": "400",
+      "padding": "0px"
+    }
+  ],
+  "landmarks": [
+    {
+      "tag": "div",
+      "role": "banner",
+      "label": null,
+      "class": "c-navbar w-nav",
+      "top": 12754,
+      "w": 1424,
+      "h": 164,
+      "bg": "rgba(0, 0, 0, 0)",
+      "padding": "89px 28.48px 17.8px",
+      "position": "fixed",
+      "z": "901"
+    },
+    {
+      "tag": "nav",
+      "role": "navigation",
+      "label": null,
+      "class": "c-nav_mobile w-nav-menu",
+      "top": 12861,
+      "w": 417,
+      "h": 21,
+      "bg": "rgba(0, 0, 0, 0)",
+      "padding": "0px",
+      "position": "relative",
+      "z": "auto"
+    },
+    {
+      "tag": "section",
+      "role": null,
+      "label": null,
+      "class": "n-hero",
+      "top": 71,
+      "w": 1424,
+      "h": 869,
+      "bg": "rgb(248, 247, 241)",
+      "padding": "0px",
+      "position": "relative",
+      "z": "auto"
+    },
+    {
+      "tag": "section",
+      "role": null,
+      "label": null,
+      "class": "n-timeline",
+      "top": 940,
+      "w": 1424,
+      "h": 3846,
+      "bg": "rgba(0, 0, 0, 0)",
+      "padding": "0px",
+      "position": "relative",
+      "z": "auto"
+    },
+    {
+      "tag": "section",
+      "role": null,
+      "label": null,
+      "class": "c-section cc-problem",
+      "top": 2670,
+      "w": 1424,
+      "h": 694,
+      "bg": "rgba(0, 0, 0, 0)",
+      "padding": "0px",
+      "position": "relative",
+      "z": "auto"
+    },
+    {
+      "tag": "section",
+      "role": null,
+      "label": null,
+      "class": "c-section cc-lime",
+      "top": 2931,
+      "w": 1424,
+      "h": 486,
+      "bg": "rgba(0, 0, 0, 0)",
+      "padding": "0px",
+      "position": "relative",
+      "z": "auto"
+    },
+    {
+      "tag": "section",
+      "role": null,
+      "label": null,
+      "class": "c-section c-foundation",
+      "top": 3418,
+      "w": 1424,
+      "h": 878,
+      "bg": "rgba(0, 0, 0, 0)",
+      "padding": "0px",
+      "position": "relative",
+      "z": "auto"
+    },
+    {
+      "tag": "section",
+      "role": null,
+      "label": null,
+      "class": "c-section cc-timeline",
+      "top": 4296,
+      "w": 1424,
+      "h": 489,
+      "bg": "rgba(0, 0, 0, 0)",
+      "padding": "199.36px 0px 0px",
+      "position": "relative",
+      "z": "2"
+    },
+    {
+      "tag": "section",
+      "role": null,
+      "label": null,
+      "class": "c-section",
+      "top": 4786,
+      "w": 1424,
+      "h": 1162,
+      "bg": "rgba(0, 0, 0, 0)",
+      "padding": "0px",
+      "position": "relative",
+      "z": "auto"
+    },
+    {
+      "tag": "section",
+      "role": null,
+      "label": null,
+      "class": "c-section",
+      "top": 5948,
+      "w": 1424,
+      "h": 1134,
+      "bg": "rgba(0, 0, 0, 0)",
+      "padding": "0px",
+      "position": "relative",
+      "z": "auto"
+    },
+    {
+      "tag": "section",
+      "role": null,
+      "label": "Use cases",
+      "class": "n-section cc-white",
+      "top": 7082,
+      "w": 1424,
+      "h": 1680,
+      "bg": "rgb(255, 255, 255)",
+      "padding": "0px",
+      "position": "relative",
+      "z": "auto"
+    },
+    {
+      "tag": "section",
+      "role": null,
+      "label": null,
+      "class": "c-section cc-surface",
+      "top": 8762,
+      "w": 1424,
+      "h": 1140,
+      "bg": "rgb(255, 255, 255)",
+      "padding": "0px",
+      "position": "relative",
+      "z": "auto"
+    },
+    {
+      "tag": "section",
+      "role": null,
+      "label": "Use cases",
+      "class": "n-section n-use-cases",
+      "top": 9902,
+      "w": 1424,
+      "h": 1500,
+      "bg": "rgba(0, 0, 0, 0)",
+      "padding": "0px",
+      "position": "relative",
+      "z": "auto"
+    },
+    {
+      "tag": "section",
+      "role": null,
+      "label": null,
+      "class": "c-section",
+      "top": 11402,
+      "w": 1424,
+      "h": 765,
+      "bg": "rgba(0, 0, 0, 0)",
+      "padding": "0px",
+      "position": "relative",
+      "z": "auto"
+    },
+    {
+      "tag": "section",
+      "role": null,
+      "label": null,
+      "class": "c-section cc-cta",
+      "top": 12166,
+      "w": 1424,
+      "h": 680,
+      "bg": "rgba(0, 0, 0, 0)",
+      "padding": "284.8px 0px 0px",
+      "position": "relative",
+      "z": "auto"
+    },
+    {
+      "tag": "footer",
+      "role": null,
+      "label": null,
+      "class": "c-footer",
+      "top": 12847,
+      "w": 1424,
+      "h": 772,
+      "bg": "rgb(24, 6, 27)",
+      "padding": "0px 0px 17.8px",
+      "position": "relative",
+      "z": "auto"
+    },
+    {
+      "tag": "nav",
+      "role": null,
+      "label": "Footer navigation",
+      "class": "c-footer_nav",
+      "top": 13036,
+      "w": 1353,
+      "h": 448,
+      "bg": "rgba(0, 0, 0, 0)",
+      "padding": "0px",
+      "position": "static",
+      "z": "auto"
+    }
+  ],
+  "fontsLoaded": [
+    {
+      "family": "webflow-icons",
+      "weight": "normal",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Aeoniksoft",
+      "weight": "400",
+      "style": "normal",
+      "status": "loaded"
+    },
+    {
+      "family": "Aeonik",
+      "weight": "500",
+      "style": "normal",
+      "status": "loaded"
+    },
+    {
+      "family": "Aeonik",
+      "weight": "400",
+      "style": "normal",
+      "status": "loaded"
+    },
+    {
+      "family": "Aeoniksoft",
+      "weight": "600",
+      "style": "normal",
+      "status": "loaded"
+    },
+    {
+      "family": "Aeoniksoft",
+      "weight": "500",
+      "style": "normal",
+      "status": "loaded"
+    },
+    {
+      "family": "Aeonik",
+      "weight": "600",
+      "style": "normal",
+      "status": "loaded"
+    }
+  ],
+  "cssLinks": [
+    "https://cdn.prod.website-files.com/69d5a66e796fcbe57f498e94/css/toggl-2026.webflow.shared.2d6a9448a.css"
+  ],
+  "scripts": [
+    "https://consentcdn.cookiebot.com/consentconfig/cdbd3bbf-7c98-4d02-a856-95a4c6a34ffb/state.js",
+    "https://sc.lfeeder.com/lftracker_v1_bElvO73zJYK8ZMqj.js",
+    "https://tag.demandbase.com/6b262b17d4543ad5.min.js",
+    "https://www.redditstatic.com/ads/pixel.js",
+    "https://snap.licdn.com/li.lms-analytics/insight.min.js",
+    "https://www.googletagmanager.com/gtag/destination?id=AW-956548435&cx=c&gtm=4e6al1",
+    "https://consent.cookiebot.com/logconsent.ashx?action=decline&nocache=1792853067539&cbid=cdbd3bbf-7c98-4d02-a856-95a4c6a34ffb&cbt=leveloptin&method=strict&hasdata=true&usercountry=JP&referer=https%3A%2F%2Ftoggl.com&rc=false",
+    "https://www.googletagmanager.com/gtag/js?id=G-MP93489PR6&cx=c&gtm=4e6al1",
+    "https://consent.cookiebot.com/cdbd3bbf-7c98-4d02-a856-95a4c6a34ffb/cc.js?renew=false&referer=toggl.com&dnt=false&init=false",
+    "https://www.googletagmanager.com/gtm.js?id=GTM-P9FVGMK",
+    "https://consent.cookiebot.com/uc.js",
+    "https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js?site=69d5a66e796fcbe57f498e94",
+    "https://cdn.prod.website-files.com/69d5a66e796fcbe57f498e94/js/webflow.schunk.f2efb3c5440a81cf.js",
+    "https://cdn.prod.website-files.com/69d5a66e796fcbe57f498e94/js/webflow.21891ffa.00bb4c44bec70dca.js",
+    "https://public-assets.toggl.com/n/main.js"
+  ]
+}

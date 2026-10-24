@@ -1,0 +1,633 @@
+{
+  "url": "https://webapp.tiimoapp.com/sign-in",
+  "title": "Tiimo for Web | ADHD-Friendly Planning",
+  "meta": {
+    "description": "Stay focused with Tiimo's flexible planning tools. Simplify your routine, reduce stress, and feel good about your day!",
+    "themeColor": null,
+    "viewport": "width=device-width, initial-scale=1",
+    "generator": null,
+    "ogSite": null
+  },
+  "viewport": {
+    "w": 1424,
+    "h": 865,
+    "docH": 865
+  },
+  "counts": {
+    "elements": 42,
+    "nodes": 104,
+    "images": 2
+  },
+  "palette": {
+    "text": [
+      {
+        "value": "rgb(17, 23, 23)",
+        "count": 31
+      },
+      {
+        "value": "rgb(255, 255, 255)",
+        "count": 9
+      },
+      {
+        "value": "rgba(0, 0, 0, 0)",
+        "count": 1
+      },
+      {
+        "value": "rgb(167, 167, 167)",
+        "count": 1
+      }
+    ],
+    "background": [
+      {
+        "value": "rgba(0, 0, 0, 0)",
+        "count": 33
+      },
+      {
+        "value": "rgb(22, 18, 18)",
+        "count": 2
+      },
+      {
+        "value": "rgb(167, 167, 167)",
+        "count": 2
+      },
+      {
+        "value": "rgb(255, 255, 255)",
+        "count": 2
+      },
+      {
+        "value": "rgb(252, 252, 252)",
+        "count": 1
+      },
+      {
+        "value": "rgb(246, 245, 244)",
+        "count": 1
+      },
+      {
+        "value": "rgb(229, 224, 218)",
+        "count": 1
+      }
+    ],
+    "border": [
+      {
+        "value": "2px solid rgb(242, 241, 240)",
+        "count": 2
+      }
+    ],
+    "radius": [
+      {
+        "value": "0px",
+        "count": 37
+      },
+      {
+        "value": "3.35544e+07px",
+        "count": 3
+      },
+      {
+        "value": "8px",
+        "count": 2
+      }
+    ],
+    "shadow": [],
+    "gap": [
+      {
+        "value": "8px",
+        "count": 3
+      },
+      {
+        "value": "16px",
+        "count": 2
+      },
+      {
+        "value": "4px",
+        "count": 2
+      },
+      {
+        "value": "12px",
+        "count": 1
+      }
+    ],
+    "fontSize": [
+      {
+        "value": "16px",
+        "count": 37
+      },
+      {
+        "value": "12px",
+        "count": 3
+      },
+      {
+        "value": "24px",
+        "count": 1
+      },
+      {
+        "value": "36px",
+        "count": 1
+      }
+    ],
+    "fontWeight": [
+      {
+        "value": "400",
+        "count": 22
+      },
+      {
+        "value": "700",
+        "count": 16
+      },
+      {
+        "value": "500",
+        "count": 4
+      }
+    ],
+    "lineHeight": [
+      {
+        "value": "24px",
+        "count": 37
+      },
+      {
+        "value": "16px",
+        "count": 3
+      },
+      {
+        "value": "32px",
+        "count": 1
+      },
+      {
+        "value": "40px",
+        "count": 1
+      }
+    ],
+    "letterSpacing": [
+      {
+        "value": "normal",
+        "count": 42
+      }
+    ],
+    "fontFamily": [
+      {
+        "value": "Inter, \"Inter Fallback\", Arial, Helvetica, sans-serif",
+        "count": 40
+      },
+      {
+        "value": "Recoleta, sans-serif",
+        "count": 2
+      }
+    ]
+  },
+  "cssVariables": {
+    "--background": "#fff",
+    "--foreground": "#111717",
+    "--surface": "#fff",
+    "--surface-5": "#fcfcfc",
+    "--surface-10": "#f6f5f4",
+    "--surface-15": "#f2f1f0",
+    "--surface-20": "#edebe9",
+    "--surface-30": "#e6e3e0",
+    "--surface-40": "#d9d6d2",
+    "--surface-50": "#cdc9c5",
+    "--surface-60": "#b1ada9",
+    "--surface-70": "#938f8a",
+    "--surface-80": "#6c6865",
+    "--surface-90": "#494745",
+    "--surface-100": "#161412",
+    "--text-10": "#fff",
+    "--text-20": "#a7a7a7",
+    "--text-25": "gray",
+    "--text-30": "#646464",
+    "--text-40": "#363636",
+    "--text-50": "#111717",
+    "--action-primary-20": "#fccfcf",
+    "--action-primary-30": "#e3baba",
+    "--action-primary-40": "#c9a5a5",
+    "--action-primary-50": "#b09090",
+    "--action-primary-60": "#967b7b",
+    "--action-primary-70": "#7d6666",
+    "--action-primary-80": "#4a3d3d",
+    "--action-primary-90": "#302828",
+    "--action-primary-100": "#161212",
+    "--action-secondary-60": "#999692",
+    "--action-secondary-70": "#b2afaa",
+    "--action-secondary-80": "#ccc8c2",
+    "--action-secondary-90": "#e5e0da",
+    "--purple-10": "#f5f3ff",
+    "--purple-20": "#ece7ff",
+    "--purple-30": "#e2daff",
+    "--purple-40": "#d9ceff",
+    "--purple-50": "#d7c6ff",
+    "--purple-60": "#c5b6ff",
+    "--purple-70": "#bcaaff",
+    "--purple-90": "#a991ff",
+    "--purple-100": "#9f85ff",
+    "--orange-10": "#fff2ed",
+    "--orange-20": "#ffe5db",
+    "--orange-30": "#ffd8c8",
+    "--orange-40": "#ffcbb6",
+    "--orange-70": "#ffa580",
+    "--orange-90": "#ff8b5b",
+    "--blue-20": "#f3f5ff",
+    "--blue-40": "#e7ebff",
+    "--blue-70": "#d5ddff",
+    "--pink-20": "#fff0f8",
+    "--pink-40": "#ffe0f0",
+    "--pink-50": "#ffd9ed",
+    "--pink-70": "#ffc9e5",
+    "--beige-20": "#fdf9f5",
+    "--beige-40": "#fbf3eb",
+    "--beige-70": "#f7eadd",
+    "--green-20": "#e5ebe4",
+    "--green-40": "#ccd7ca",
+    "--green-70": "#a5b8a2",
+    "--green-90": "#8ca487",
+    "--green-100": "#cce696",
+    "--green-connect": "#76b86f",
+    "--logo-20": "#def0e7",
+    "--logo-30": "#cee9db",
+    "--logo-40": "#bee1cf",
+    "--logo-70": "#8dcbab",
+    "--logo-100": "#5cb587",
+    "--red-10": "#ffe0e1",
+    "--red-30": "#bd5658",
+    "--red-100": "#a03e40",
+    "--prio-high-10": "#fbecec",
+    "--prio-high-30": "#d34d4b",
+    "--prio-high-50": "#dc7b79b3",
+    "--prio-mid-10": "#fbeee1",
+    "--prio-mid-30": "#e7913c",
+    "--prio-mid-50": "#e5b382b3",
+    "--prio-low-10": "#e5eaf7",
+    "--prio-low-30": "#7c90c6",
+    "--prio-low-50": "#92a2cfb3",
+    "--prio-green-10": "#e3ede8",
+    "--morning": "#fff2ed",
+    "--day": "#f0f3ff",
+    "--evening": "#efe8ff",
+    "--shadow-color-1": "#0000000d",
+    "--shadow-color-2": "#0000330f",
+    "--shadow-color-3": "#00000040",
+    "--shadow-color-4": "#0a0a0a08",
+    "--purple-gradient": "linear-gradient(115deg, #dfd1ff 1.81%, #efe8ff 96.22%)",
+    "--discount": "#eee7ff",
+    "--discount-border": "#d4d0cb"
+  },
+  "typography": [
+    {
+      "tag": "h2",
+      "text": "Welcome back! Ready to dive in and continue where you left off?",
+      "font": "Recoleta",
+      "size": "24px",
+      "weight": "400",
+      "lineHeight": "32px",
+      "letterSpacing": "normal",
+      "color": "rgb(17, 23, 23)",
+      "transform": "none"
+    },
+    {
+      "tag": "h1",
+      "text": "Sign in to Tiimo",
+      "font": "Recoleta",
+      "size": "36px",
+      "weight": "500",
+      "lineHeight": "40px",
+      "letterSpacing": "normal",
+      "color": "rgb(17, 23, 23)",
+      "transform": "none"
+    },
+    {
+      "tag": "button",
+      "text": "Continue with Apple",
+      "font": "Inter",
+      "size": "16px",
+      "weight": "700",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "color": "rgb(17, 23, 23)",
+      "transform": "none"
+    },
+    {
+      "tag": "span",
+      "text": "Continue with Apple",
+      "font": "Inter",
+      "size": "16px",
+      "weight": "700",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "color": "rgb(17, 23, 23)",
+      "transform": "none"
+    },
+    {
+      "tag": "button",
+      "text": "Continue with Google",
+      "font": "Inter",
+      "size": "16px",
+      "weight": "700",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "color": "rgb(255, 255, 255)",
+      "transform": "none"
+    },
+    {
+      "tag": "span",
+      "text": "Continue with Google",
+      "font": "Inter",
+      "size": "16px",
+      "weight": "700",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "color": "rgb(255, 255, 255)",
+      "transform": "none"
+    },
+    {
+      "tag": "span",
+      "text": "Sign in with Apple, Google or Email",
+      "font": "Inter",
+      "size": "12px",
+      "weight": "500",
+      "lineHeight": "16px",
+      "letterSpacing": "normal",
+      "color": "rgb(167, 167, 167)",
+      "transform": "none"
+    },
+    {
+      "tag": "button",
+      "text": "Sign in",
+      "font": "Inter",
+      "size": "16px",
+      "weight": "700",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "color": "rgb(255, 255, 255)",
+      "transform": "none"
+    },
+    {
+      "tag": "span",
+      "text": "Sign in",
+      "font": "Inter",
+      "size": "16px",
+      "weight": "700",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "color": "rgb(255, 255, 255)",
+      "transform": "none"
+    },
+    {
+      "tag": "button",
+      "text": "Reset password",
+      "font": "Inter",
+      "size": "16px",
+      "weight": "700",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "color": "rgb(17, 23, 23)",
+      "transform": "none"
+    },
+    {
+      "tag": "a",
+      "text": "Create new account",
+      "font": "Inter",
+      "size": "16px",
+      "weight": "700",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "color": "rgb(17, 23, 23)",
+      "transform": "none"
+    }
+  ],
+  "headings": [
+    {
+      "tag": "h2",
+      "text": "Welcome back! Ready to dive in and continue where you left off?",
+      "size": "24px",
+      "weight": "400",
+      "lineHeight": "32px",
+      "letterSpacing": "normal",
+      "font": "Recoleta",
+      "color": "rgb(17, 23, 23)",
+      "top": 753,
+      "w": 474
+    },
+    {
+      "tag": "h1",
+      "text": "Sign in to Tiimo",
+      "size": "36px",
+      "weight": "500",
+      "lineHeight": "40px",
+      "letterSpacing": "normal",
+      "font": "Recoleta",
+      "color": "rgb(17, 23, 23)",
+      "top": 255,
+      "w": 450
+    }
+  ],
+  "buttons": [
+    {
+      "text": "Continue with Apple",
+      "tag": "button",
+      "w": 450,
+      "h": 50,
+      "bg": "rgb(229, 224, 218)",
+      "color": "rgb(17, 23, 23)",
+      "radius": "3.35544e+07px",
+      "border": "0px solid lab(91.6229 -0.159115 -2.26791)",
+      "font": "Inter",
+      "size": "16px",
+      "weight": "700",
+      "padding": "12px 24px"
+    },
+    {
+      "text": "Continue with Google",
+      "tag": "button",
+      "w": 450,
+      "h": 48,
+      "bg": "rgb(22, 18, 18)",
+      "color": "rgb(255, 255, 255)",
+      "radius": "3.35544e+07px",
+      "border": "0px solid lab(91.6229 -0.159115 -2.26791)",
+      "font": "Inter",
+      "size": "16px",
+      "weight": "700",
+      "padding": "12px 24px"
+    },
+    {
+      "text": "Sign in",
+      "tag": "button",
+      "w": 450,
+      "h": 48,
+      "bg": "rgb(22, 18, 18)",
+      "color": "rgb(255, 255, 255)",
+      "radius": "3.35544e+07px",
+      "border": "0px solid lab(91.6229 -0.159115 -2.26791)",
+      "font": "Inter",
+      "size": "16px",
+      "weight": "700",
+      "padding": "12px 24px"
+    },
+    {
+      "text": "Reset password",
+      "tag": "button",
+      "w": 125,
+      "h": 24,
+      "bg": "rgba(0, 0, 0, 0)",
+      "color": "rgb(17, 23, 23)",
+      "radius": "0px",
+      "border": "0px solid lab(91.6229 -0.159115 -2.26791)",
+      "font": "Inter",
+      "size": "16px",
+      "weight": "700",
+      "padding": "0px"
+    }
+  ],
+  "landmarks": [
+    {
+      "tag": "main",
+      "role": null,
+      "label": null,
+      "class": "h-screen",
+      "top": 0,
+      "w": 1424,
+      "h": 865,
+      "bg": "rgba(0, 0, 0, 0)",
+      "padding": "0px",
+      "position": "static",
+      "z": "auto"
+    }
+  ],
+  "fontsLoaded": [
+    {
+      "family": "Inter",
+      "weight": "100 900",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Inter",
+      "weight": "100 900",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Inter",
+      "weight": "100 900",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Inter",
+      "weight": "100 900",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Inter",
+      "weight": "100 900",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Inter",
+      "weight": "100 900",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Inter",
+      "weight": "100 900",
+      "style": "normal",
+      "status": "loaded"
+    },
+    {
+      "family": "Inter Fallback",
+      "weight": "normal",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "recoleta",
+      "weight": "900",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "recoleta",
+      "weight": "700",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "recoleta",
+      "weight": "600",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "recoleta",
+      "weight": "500",
+      "style": "normal",
+      "status": "loaded"
+    },
+    {
+      "family": "recoleta",
+      "weight": "400",
+      "style": "normal",
+      "status": "loaded"
+    },
+    {
+      "family": "recoleta",
+      "weight": "300",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "recoleta",
+      "weight": "100",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "recoleta Fallback",
+      "weight": "normal",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "FontAwesome",
+      "weight": "normal",
+      "style": "normal",
+      "status": "unloaded"
+    }
+  ],
+  "cssLinks": [
+    "https://webapp.tiimoapp.com/_next/static/immutable/chunks/0yjj9qv_2q_5a.css",
+    "https://use.fontawesome.com/7f85a56ba4.css"
+  ],
+  "scripts": [
+    "https://www.googletagmanager.com/gtag/js?id=G-1WGXRE4L5J&cx=c&gtm=4e6al1",
+    "https://policy.app.cookieinformation.com/uc.js?language=SQ&gcmEnabledByConsentLibrary=false",
+    "https://webapp.tiimoapp.com/_next/static/immutable/chunks/3dcm-etnit4qx.js",
+    "https://webapp.tiimoapp.com/_next/static/immutable/chunks/3k3aq722k4r2p.js",
+    "https://webapp.tiimoapp.com/_next/static/immutable/chunks/0n6wvx6_x68eg.js",
+    "https://webapp.tiimoapp.com/_next/static/immutable/chunks/2_u8_agag0tfv.js",
+    "https://webapp.tiimoapp.com/_next/static/immutable/chunks/turbopack-2_04ewhudzrza.js",
+    "https://webapp.tiimoapp.com/_next/static/immutable/chunks/31hi6tuw8tm7n.js",
+    "https://webapp.tiimoapp.com/_next/static/immutable/chunks/38989aqps_v3m.js",
+    "https://webapp.tiimoapp.com/_next/static/immutable/chunks/35-cf97fit7u6.js",
+    "https://webapp.tiimoapp.com/_next/static/immutable/chunks/3wuz2brgr517l.js",
+    "https://webapp.tiimoapp.com/_next/static/immutable/chunks/3d3139aon2z37.js",
+    "https://webapp.tiimoapp.com/_next/static/immutable/chunks/015p7tcb_jl_o.js",
+    "https://webapp.tiimoapp.com/_next/static/immutable/chunks/0-56uhiwgp8c8.js",
+    "https://webapp.tiimoapp.com/_next/static/immutable/chunks/2fpzqg557t3sd.js",
+    "https://webapp.tiimoapp.com/_next/static/immutable/chunks/100vyepp75rr3.js",
+    "https://webapp.tiimoapp.com/_next/static/immutable/chunks/1e2082f_ja421.js",
+    "https://webapp.tiimoapp.com/_next/static/immutable/chunks/0zq4aj_t2p5pk.js",
+    "https://webapp.tiimoapp.com/_next/static/immutable/chunks/28c-qa3-6o8bx.js",
+    "https://webapp.tiimoapp.com/_next/static/immutable/chunks/0lwhww2jf53w9.js",
+    "https://webapp.tiimoapp.com/_next/static/immutable/chunks/3p4k8d8v32k-4.js",
+    "https://webapp.tiimoapp.com/_next/static/immutable/chunks/1x6glcn-8cl2b.js",
+    "https://webapp.tiimoapp.com/_next/static/immutable/chunks/0c0hxoamwjsbw.js",
+    "https://webapp.tiimoapp.com/_next/static/immutable/chunks/3qe7s-9k94s0r.js",
+    "https://webapp.tiimoapp.com/_next/static/immutable/chunks/0k65amdfugv2t.js",
+    "https://webapp.tiimoapp.com/_next/static/immutable/chunks/3k2ukscj2uc0w.js",
+    "https://webapp.tiimoapp.com/_next/static/immutable/chunks/22cil4zltt_ee.js",
+    "https://webapp.tiimoapp.com/_next/static/immutable/chunks/3l1bghr6fwutj.js",
+    "https://www.googletagmanager.com/gtm.js?id=GTM-TNN7SFNP",
+    "https://policy.app.cookieinformation.com/latest/webapp.tiimoapp.com/sq.js"
+  ]
+}

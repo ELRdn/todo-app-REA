@@ -1,0 +1,1073 @@
+<!doctype html>
+<html lang="ja" data-theme="light">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Spine — a calm, time-aware todo app</title>
+<link rel="stylesheet" href="../design/tokens.css" />
+<style>
+  *, *::before, *::after { box-sizing: border-box; }
+  html, body { height: 100%; }
+  body {
+    margin: 0;
+    background: var(--color-bg);
+    color: var(--color-ink);
+    font-family: var(--font-sans);
+    font-size: var(--text-body);
+    line-height: var(--leading-body);
+    -webkit-font-smoothing: antialiased;
+  }
+  button, input { font: inherit; color: inherit; }
+  button { cursor: pointer; background: none; border: 0; }
+  :focus-visible { outline: none; box-shadow: 0 0 0 3px var(--color-focus); border-radius: 8px; }
+
+  .app {
+    display: grid;
+    grid-template-columns: var(--rail) var(--sidebar) minmax(0, 1fr);
+    height: 100vh;
+    overflow: hidden;
+  }
+
+  /* ---------- rail ---------- */
+  .rail {
+    border-right: 1px solid var(--color-line);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 6px;
+    padding: 14px 0;
+    background: var(--color-surface);
+  }
+  .rail .mark {
+    width: 34px; height: 34px; border-radius: 10px;
+    background: var(--color-primary);
+    display: grid; place-items: center;
+    color: var(--color-primary-ink);
+    margin-bottom: 10px;
+  }
+  .rail button {
+    width: 42px; height: 42px; border-radius: 12px;
+    display: grid; place-items: center;
+    color: var(--color-ink-2);
+    transition: background var(--dur-fast) var(--ease), color var(--dur-fast) var(--ease);
+  }
+  .rail button:hover { background: var(--color-surface-2); color: var(--color-ink); }
+  .rail button[aria-current="page"] { background: var(--color-primary-soft); color: var(--color-primary); }
+  .rail .spacer { flex: 1; }
+
+  /* ---------- sidebar ---------- */
+  .sidebar {
+    border-right: 1px solid var(--color-line);
+    background: var(--color-surface);
+    padding: 18px 14px;
+    overflow-y: auto;
+  }
+  .brand {
+    display: flex; align-items: baseline; gap: 8px;
+    padding: 0 8px 18px;
+  }
+  .brand b {
+    font-family: var(--font-display);
+    font-size: 26px; font-weight: 400; letter-spacing: -0.02em;
+  }
+  .brand span { font-size: 11px; color: var(--color-ink-3); letter-spacing: .08em; text-transform: uppercase; }
+
+  .nav-group { margin-bottom: 22px; }
+  .nav-group h2 {
+    font-size: 11px; letter-spacing: .09em; text-transform: uppercase;
+    color: var(--color-ink-3); font-weight: 600;
+    margin: 0 8px 8px;
+  }
+  .nav-item {
+    display: flex; align-items: center; gap: 10px;
+    width: 100%; padding: 8px 10px; border-radius: 8px;
+    color: var(--color-ink-2); text-align: left;
+    transition: background var(--dur-fast) var(--ease), color var(--dur-fast) var(--ease);
+  }
+  .nav-item:hover { background: var(--color-surface-2); color: var(--color-ink); }
+  .nav-item[aria-current="page"] { background: var(--color-surface-2); color: var(--color-ink); font-weight: 500; }
+  .nav-item .count { margin-left: auto; font-size: 12px; color: var(--color-ink-3); font-variant-numeric: tabular-nums; }
+  .dot { width: 8px; height: 8px; border-radius: 50%; background: var(--cat, var(--color-ink-3)); flex: none; }
+  .nav-item .dot { width: 9px; height: 9px; }
+
+  .side-foot {
+    border-top: 1px solid var(--color-line);
+    padding-top: 14px;
+    font-size: 12px; color: var(--color-ink-3);
+    display: flex; justify-content: space-between; gap: 8px;
+  }
+
+  /* ---------- main ---------- */
+  .main { display: flex; flex-direction: column; min-width: 0; overflow: hidden; }
+  .topbar {
+    height: var(--header);
+    flex: none;
+    display: flex; align-items: center; gap: 14px;
+    padding: 0 20px;
+    border-bottom: 1px solid var(--color-line);
+    background: var(--color-bg);
+  }
+  .topbar .today-label { font-size: 13px; color: var(--color-ink-3); }
+  .viewswitch {
+    margin-left: auto;
+    display: flex; padding: 3px; gap: 2px;
+    background: var(--color-surface-2);
+    border-radius: var(--radius-pill);
+  }
+  .viewswitch button {
+    padding: 6px 14px; border-radius: var(--radius-pill);
+    font-size: 13px; color: var(--color-ink-2);
+    transition: background var(--dur-fast) var(--ease), color var(--dur-fast) var(--ease);
+  }
+  .viewswitch button[aria-pressed="true"] {
+    background: var(--color-surface); color: var(--color-ink);
+    box-shadow: var(--shadow-1);
+  }
+  .icon-btn {
+    width: 36px; height: 36px; border-radius: 10px;
+    display: grid; place-items: center; color: var(--color-ink-2);
+  }
+  .icon-btn:hover { background: var(--color-surface-2); color: var(--color-ink); }
+  .kbd {
+    font-family: var(--font-mono); font-size: 11px;
+    border: 1px solid var(--color-line); border-bottom-width: 2px;
+    border-radius: 5px; padding: 1px 5px; color: var(--color-ink-3);
+  }
+
+  .scroll { overflow-y: auto; padding: 22px 26px 120px; }
+
+  /* ---------- day head ---------- */
+  .dayhead { display: flex; align-items: flex-end; gap: 24px; flex-wrap: wrap; margin-bottom: 18px; }
+  .date {
+    font-family: var(--font-display);
+    font-size: clamp(32px, 4.2vw, 52px);
+    line-height: 1.05; letter-spacing: -0.02em; font-weight: 400;
+    margin: 0;
+  }
+  .date .year { color: var(--color-accent); }
+  .daynav { display: flex; gap: 6px; margin-left: auto; align-items: center; }
+  .daynav .today { font-size: 13px; color: var(--color-ink-2); padding: 0 8px; }
+
+  .progress { display: flex; align-items: center; gap: 14px; margin: 0 0 24px; }
+  .progress .num {
+    font-family: var(--font-mono); font-variant-numeric: tabular-nums;
+    font-size: 22px; font-weight: 500;
+  }
+  .progress .bar { flex: 1; height: 6px; border-radius: 99px; background: var(--color-surface-3); overflow: hidden; max-width: 360px; }
+  .progress .bar i { display: block; height: 100%; background: var(--color-primary); border-radius: inherit; transition: width var(--dur-base) var(--ease); }
+  .progress .meta { font-size: 12px; color: var(--color-ink-3); }
+
+  /* ---------- quick add ---------- */
+  .quickadd {
+    display: flex; align-items: center; gap: 10px;
+    background: var(--color-surface);
+    border: 1px solid var(--color-line);
+    border-radius: var(--radius-md);
+    padding: 10px 12px;
+    margin-bottom: 26px;
+    transition: border-color var(--dur-fast) var(--ease), box-shadow var(--dur-fast) var(--ease);
+  }
+  .quickadd:focus-within { border-color: var(--color-primary); box-shadow: 0 0 0 3px var(--color-focus); }
+  .quickadd .plus { color: var(--color-ink-3); display: grid; place-items: center; }
+  .quickadd input {
+    flex: 1; border: 0; background: none; outline: none;
+    font-size: 15px; min-width: 0;
+  }
+  .quickadd input::placeholder { color: var(--color-ink-3); }
+  .quickadd .hint { font-size: 11px; color: var(--color-ink-3); white-space: nowrap; }
+
+  /* ---------- timeline ---------- */
+  .board { display: grid; grid-template-columns: minmax(0, 1fr); gap: 28px; }
+  .timeline {
+    position: relative;
+    border: 1px solid var(--color-line);
+    border-radius: var(--radius-lg);
+    background: var(--color-surface);
+    overflow: hidden;
+  }
+  .tl-inner { position: relative; margin-left: var(--time-gutter); }
+  .hour-line {
+    position: absolute; left: 0; right: 0; height: 1px;
+    background: var(--color-line);
+  }
+  .hour-label {
+    position: absolute; left: calc(var(--time-gutter) * -1); width: calc(var(--time-gutter) - 12px);
+    text-align: right; transform: translateY(-50%);
+    font-family: var(--font-mono); font-size: 12px; color: var(--color-ink-3);
+    font-variant-numeric: tabular-nums;
+  }
+  .now {
+    position: absolute; left: 0; right: 0; height: 2px;
+    background: var(--color-accent); z-index: 3;
+  }
+  .now::before {
+    content: ""; position: absolute; left: -5px; top: -4px;
+    width: 10px; height: 10px; border-radius: 50%; background: var(--color-accent);
+  }
+  .now-label {
+    position: absolute; left: calc(var(--time-gutter) * -1); width: calc(var(--time-gutter) - 12px);
+    text-align: right; transform: translateY(-50%);
+    font-family: var(--font-mono); font-size: 11px; font-weight: 600; color: var(--color-accent);
+  }
+
+  .block {
+    position: absolute;
+    border-radius: var(--radius-md);
+    border: 1px solid color-mix(in srgb, var(--cat) 26%, transparent);
+    border-left: 3px solid var(--cat);
+    background: color-mix(in srgb, var(--cat) 12%, var(--color-surface));
+    padding: 7px 10px;
+    display: flex; flex-direction: column; gap: 2px;
+    min-height: 44px;
+    cursor: pointer;
+    transition: transform var(--dur-fast) var(--ease), box-shadow var(--dur-fast) var(--ease), opacity var(--dur-fast) var(--ease);
+    z-index: 2;
+    overflow: hidden;
+  }
+  .block:hover { box-shadow: var(--shadow-2); transform: translateY(-1px); z-index: 4; }
+  .block .bt { font-size: 13px; font-weight: 600; line-height: 1.25; }
+  .block .bm { font-family: var(--font-mono); font-size: 11px; color: var(--color-ink-2); font-variant-numeric: tabular-nums; }
+  .block .bsub { font-size: 11px; color: var(--color-ink-3); }
+  .block[data-done="true"] { opacity: .55; }
+  .block[data-done="true"] .bt { text-decoration: line-through; }
+  .block .ring {
+    position: absolute; right: 8px; top: 8px;
+    width: 18px; height: 18px; border-radius: 50%;
+    border: 1.6px solid color-mix(in srgb, var(--cat) 60%, var(--color-ink-3));
+    background: var(--color-surface);
+  }
+  .block[data-done="true"] .ring {
+    background: var(--color-success); border-color: var(--color-success);
+  }
+  .block[data-done="true"] .ring::after {
+    content: ""; position: absolute; left: 5px; top: 2px;
+    width: 4px; height: 8px; border: solid #fff; border-width: 0 2px 2px 0;
+    transform: rotate(45deg);
+  }
+
+  .freeslot {
+    position: absolute; left: 6px; right: 6px;
+    border: 1px dashed var(--color-line-strong);
+    border-radius: var(--radius-md);
+    display: flex; align-items: center; gap: 10px;
+    padding: 8px 12px;
+    color: var(--color-ink-2);
+    background: color-mix(in srgb, var(--color-surface-2) 55%, transparent);
+  }
+  .freeslot b { font-family: var(--font-mono); font-size: 12px; font-weight: 500; color: var(--color-ink); }
+  .freeslot .sugg { font-size: 11px; color: var(--color-ink-3); }
+  .freeslot button {
+    margin-left: auto; font-size: 11px; font-weight: 600;
+    color: var(--color-primary); padding: 4px 8px; border-radius: 6px;
+  }
+  .freeslot button:hover { background: var(--color-primary-soft); }
+
+  /* ---------- unscheduled ---------- */
+  .lane {
+    border: 1px solid var(--color-line);
+    border-radius: var(--radius-md);
+    background: var(--color-surface);
+    padding: 12px 14px;
+  }
+  .lane h3 { margin: 0 0 10px; font-size: 12px; letter-spacing: .06em; text-transform: uppercase; color: var(--color-ink-3); }
+  .chips { display: flex; flex-wrap: wrap; gap: 8px; }
+  .chip {
+    display: inline-flex; align-items: center; gap: 7px;
+    border: 1px solid var(--color-line);
+    background: var(--color-bg);
+    border-radius: var(--radius-pill);
+    padding: 6px 10px 6px 8px;
+    font-size: 12px;
+  }
+  .chip:hover { border-color: var(--color-line-strong); }
+  .chip .dot { width: 7px; height: 7px; }
+  .chip .go { font-size: 10px; color: var(--color-primary); font-weight: 700; }
+
+  /* ---------- list view ---------- */
+  .list { display: none; }
+  .app[data-view="list"] .board { display: none; }
+  .app[data-view="list"] .list { display: block; }
+  .lgroup { margin-bottom: 24px; }
+  .lgroup h3 {
+    display: flex; align-items: center; gap: 8px;
+    font-size: 12px; text-transform: uppercase; letter-spacing: .07em;
+    color: var(--color-ink-3); margin: 0 0 8px;
+  }
+  .row {
+    display: grid;
+    grid-template-columns: 24px minmax(0, 1fr) auto auto auto;
+    align-items: center; gap: 12px;
+    padding: 10px 12px;
+    border-radius: 10px;
+    border: 1px solid transparent;
+    transition: background var(--dur-fast) var(--ease), border-color var(--dur-fast) var(--ease);
+  }
+  .row:hover { background: var(--color-surface); border-color: var(--color-line); }
+  .row .title { font-size: 15px; font-weight: 500; }
+  .row[data-done="true"] .title { color: var(--color-ink-3); text-decoration: line-through; font-weight: 400; }
+  .row .time { font-family: var(--font-mono); font-size: 12px; color: var(--color-ink-3); font-variant-numeric: tabular-nums; }
+  .row .ctxt { display: flex; align-items: center; gap: 6px; font-size: 12px; color: var(--color-ink-2); }
+  .row .energy { display: flex; gap: 2px; }
+  .row .energy i { width: 3px; height: 10px; border-radius: 2px; background: var(--color-line-strong); }
+  .row .energy i.on { background: var(--color-primary); }
+
+  .check {
+    width: 24px; height: 24px; border-radius: 50%;
+    border: 1.6px solid var(--color-ink-3);
+    display: grid; place-items: center;
+    flex: none;
+    transition: background var(--dur-fast) var(--ease), border-color var(--dur-fast) var(--ease), transform var(--dur-fast) var(--ease);
+  }
+  .check:hover { background: var(--color-surface-2); }
+  .check[aria-checked="true"] { background: var(--color-success); border-color: var(--color-success); transform: scale(.94); }
+  .check svg { opacity: 0; color: #fff; }
+  .check[aria-checked="true"] svg { opacity: 1; }
+
+  /* ---------- drawer ---------- */
+  .drawer {
+    position: fixed; top: 0; right: 0; bottom: 0;
+    width: min(var(--drawer), 92vw);
+    background: var(--color-surface);
+    border-left: 1px solid var(--color-line);
+    box-shadow: var(--shadow-3);
+    transform: translateX(102%);
+    transition: transform var(--dur-base) var(--ease);
+    z-index: 40;
+    display: flex; flex-direction: column;
+  }
+  .drawer[data-open="true"] { transform: none; }
+  .drawer header {
+    height: var(--header); display: flex; align-items: center; gap: 8px;
+    padding: 0 12px; border-bottom: 1px solid var(--color-line);
+  }
+  .drawer header .grow { flex: 1; }
+  .drawer .body { padding: 20px; overflow-y: auto; }
+  .drawer h2 { font-family: var(--font-display); font-weight: 400; font-size: 30px; line-height: 1.15; margin: 0 0 16px; letter-spacing: -.02em; }
+  .field { margin-bottom: 16px; }
+  .field label { display: block; font-size: 11px; letter-spacing: .06em; text-transform: uppercase; color: var(--color-ink-3); margin-bottom: 6px; }
+  .field .val { font-size: 14px; }
+  .tag { display: inline-flex; align-items: center; gap: 6px; padding: 4px 9px; border-radius: 99px; background: var(--color-surface-2); font-size: 12px; }
+  .danger { color: var(--color-danger); font-size: 13px; padding: 8px 0; }
+  .scrim { position: fixed; inset: 0; background: rgba(20,20,22,.28); opacity: 0; pointer-events: none; transition: opacity var(--dur-base) var(--ease); z-index: 30; }
+  .scrim[data-open="true"] { opacity: 1; pointer-events: auto; }
+
+  /* ---------- focus timer ---------- */
+  .timer {
+    position: fixed; right: 22px; bottom: 22px; z-index: 25;
+    display: flex; align-items: center; gap: 12px;
+    padding: 10px 14px;
+    border-radius: var(--radius-pill);
+    background: var(--color-ink); color: var(--color-bg);
+    box-shadow: var(--shadow-2);
+    transform: translateY(120%);
+    transition: transform var(--dur-base) var(--ease);
+  }
+  .timer[data-open="true"] { transform: none; }
+  .timer .dial { width: 26px; height: 26px; }
+  .timer .tnum { font-family: var(--font-mono); font-size: 15px; font-variant-numeric: tabular-nums; }
+  .timer .tlabel { font-size: 11px; opacity: .7; max-width: 140px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+  .timer button { width: 30px; height: 30px; border-radius: 50%; display: grid; place-items: center; color: inherit; }
+  .timer button:hover { background: rgba(255,255,255,.14); }
+
+  /* ---------- toast ---------- */
+  .toast {
+    position: fixed; left: 50%; bottom: 24px; transform: translate(-50%, 140%);
+    background: var(--color-ink); color: var(--color-bg);
+    padding: 10px 14px; border-radius: 10px;
+    display: flex; align-items: center; gap: 14px;
+    font-size: 13px; z-index: 50;
+    transition: transform var(--dur-base) var(--ease);
+    box-shadow: var(--shadow-2);
+  }
+  .toast[data-open="true"] { transform: translate(-50%, 0); }
+  .toast button { color: var(--color-accent); font-weight: 700; font-size: 12px; }
+
+  /* ---------- responsive ---------- */
+  @media (max-width: 1279px) {
+    .app { grid-template-columns: var(--rail) 260px minmax(0, 1fr); }
+  }
+  @media (max-width: 1023px) {
+    .app { grid-template-columns: var(--rail) minmax(0, 1fr); }
+    .sidebar { position: fixed; left: var(--rail); top: 0; bottom: 0; width: 280px; z-index: 35; transform: translateX(-110%); transition: transform var(--dur-base) var(--ease); }
+    .sidebar[data-open="true"] { transform: none; }
+  }
+  @media (max-width: 767px) {
+    .app { grid-template-columns: minmax(0, 1fr); }
+    .rail { display: none; }
+    .sidebar { left: 0; }
+    .scroll { padding: 16px 14px 120px; }
+    :root { --time-gutter: 52px; --hour: 64px; }
+    .quickadd .hint { display: none; }
+    .topbar { padding: 0 12px; gap: 8px; }
+    .viewswitch button { padding: 6px 10px; }
+    .dayhead { gap: 10px; }
+    .date { font-size: 34px; }
+  }
+  @media (prefers-reduced-motion: reduce) {
+    * { transition-duration: 1ms !important; animation-duration: 1ms !important; }
+  }
+</style>
+</head>
+<body>
+<div class="app" id="app" data-view="day">
+
+  <!-- rail -->
+  <nav class="rail" aria-label="Primary">
+    <div class="mark" aria-hidden="true">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
+        <path d="M12 3v18M6 7h5M6 12h5M6 17h5M14 9h4M14 14h4"/>
+      </svg>
+    </div>
+    <button data-nav="today" aria-current="page" aria-label="Today">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><rect x="3" y="5" width="18" height="16" rx="3"/><path d="M8 3v4M16 3v4M3 10h18"/></svg>
+    </button>
+    <button data-nav="inbox" aria-label="Inbox">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M4 5h16l-2 11H6L4 5Z"/><path d="M4 12h5l1 2h4l1-2h5"/></svg>
+    </button>
+    <button data-nav="upcoming" aria-label="Upcoming">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M4 7h16M4 12h10M4 17h7"/></svg>
+    </button>
+    <button data-nav="habits" aria-label="Habits">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M12 3v18"/><circle cx="12" cy="7" r="2.4"/><circle cx="12" cy="15" r="2.4"/></svg>
+    </button>
+    <button data-nav="review" aria-label="Weekly review">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M4 19V9M10 19V4M16 19v-7M22 19H2"/></svg>
+    </button>
+    <div class="spacer"></div>
+    <button id="themeBtn" aria-label="Toggle theme">
+      <svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M20 14.5A8 8 0 0 1 9.5 4 8 8 0 1 0 20 14.5Z"/></svg>
+    </button>
+  </nav>
+
+  <!-- sidebar -->
+  <aside class="sidebar" id="sidebar" aria-label="Workspace">
+    <div class="brand"><b>Spine</b><span>day planner</span></div>
+
+    <div class="nav-group">
+      <h2>Plan</h2>
+      <button class="nav-item" data-nav="inbox"><span>Inbox</span><span class="count" id="countInbox">0</span></button>
+      <button class="nav-item" aria-current="page" data-nav="today"><span>Today</span><span class="count" id="countToday">0</span></button>
+      <button class="nav-item" data-nav="upcoming"><span>Upcoming</span><span class="count" id="countUpcoming">0</span></button>
+    </div>
+
+    <div class="nav-group">
+      <h2>Contexts</h2>
+      <button class="nav-item" data-context="indigo"><span class="dot" style="--cat: var(--cat-indigo)"></span><span>Work</span><span class="count" data-ctx-count="indigo">0</span></button>
+      <button class="nav-item" data-context="sage"><span class="dot" style="--cat: var(--cat-sage)"></span><span>Health</span><span class="count" data-ctx-count="sage">0</span></button>
+      <button class="nav-item" data-context="clay"><span class="dot" style="--cat: var(--cat-clay)"></span><span>Home</span><span class="count" data-ctx-count="clay">0</span></button>
+      <button class="nav-item" data-context="plum"><span class="dot" style="--cat: var(--cat-plum)"></span><span>Learning</span><span class="count" data-ctx-count="plum">0</span></button>
+    </div>
+
+    <div class="nav-group">
+      <h2>Reflect</h2>
+      <button class="nav-item" data-nav="habits"><span>Habits</span><span class="count">4</span></button>
+      <button class="nav-item" data-nav="review"><span>Weekly review</span></button>
+    </div>
+
+    <div class="side-foot">
+      <span>Local-first</span>
+      <span class="kbd">⌘K</span>
+    </div>
+  </aside>
+
+  <!-- main -->
+  <main class="main">
+    <div class="topbar">
+      <span class="today-label" id="todayLabel">Today</span>
+      <button class="icon-btn" id="menuBtn" aria-label="Open sidebar" style="display:none">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+      </button>
+      <div class="viewswitch" role="group" aria-label="View">
+        <button data-view="day" aria-pressed="true">Day</button>
+        <button data-view="list" aria-pressed="false">List</button>
+      </div>
+      <button class="icon-btn" id="searchBtn" aria-label="Search">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="11" cy="11" r="6.5"/><path d="m16 16 4 4"/></svg>
+      </button>
+    </div>
+
+    <div class="scroll" id="scroll">
+      <div class="dayhead">
+        <h1 class="date" id="dateTitle">10月25日 <span class="year">2026</span></h1>
+        <div class="daynav">
+          <button class="icon-btn" id="prevDay" aria-label="Previous day">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="m14 6-6 6 6 6"/></svg>
+          </button>
+          <button class="today">今日</button>
+          <button class="icon-btn" id="nextDay" aria-label="Next day">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="m10 6 6 6-6 6"/></svg>
+          </button>
+        </div>
+      </div>
+
+      <div class="progress" aria-label="Today's progress">
+        <span class="num" id="progressNum">0 / 0</span>
+        <div class="bar"><i id="progressBar" style="width:0%"></i></div>
+        <span class="meta" id="progressMeta">完了</span>
+      </div>
+
+      <form class="quickadd" id="quickAdd">
+        <span class="plus" aria-hidden="true">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 5v14M5 12h14"/></svg>
+        </span>
+        <input id="quickInput" autocomplete="off" aria-label="Add a task"
+               placeholder="追加: 明日 15:00 30m 歯医者 #health !high" />
+        <span class="hint"><span class="kbd">N</span> で追加</span>
+      </form>
+
+      <div class="board">
+        <div class="timeline" id="timeline" aria-label="Day timeline"></div>
+        <div class="lane" id="unscheduledLane">
+          <h3>未計画</h3>
+          <div class="chips" id="unscheduled"></div>
+        </div>
+      </div>
+
+      <div class="list" id="list"></div>
+    </div>
+  </main>
+</div>
+
+<div class="scrim" id="scrim"></div>
+
+<aside class="drawer" id="drawer" aria-label="Task details" aria-hidden="true">
+  <header>
+    <span class="grow"></span>
+    <button class="icon-btn" id="closeDrawer" aria-label="Close">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M6 6l12 12M18 6 6 18"/></svg>
+    </button>
+  </header>
+  <div class="body">
+    <h2 id="dTitle">Task</h2>
+    <div class="field"><label>When</label><div class="val" id="dWhen">—</div></div>
+    <div class="field"><label>Context</label><div class="val" id="dCtx">—</div></div>
+    <div class="field"><label>Energy</label><div class="val" id="dEnergy">—</div></div>
+    <div class="field"><label>Notes</label><div class="val" id="dNotes" style="color:var(--color-ink-2)">—</div></div>
+    <button class="danger" id="deleteTask">タスクを削除</button>
+  </div>
+</aside>
+
+<div class="timer" id="timer" data-open="false">
+  <svg class="dial" viewBox="0 0 36 36" aria-hidden="true">
+    <circle cx="18" cy="18" r="15" fill="none" stroke="rgba(255,255,255,.18)" stroke-width="3"/>
+    <circle id="dialArc" cx="18" cy="18" r="15" fill="none" stroke="var(--color-accent)" stroke-width="3"
+            stroke-linecap="round" stroke-dasharray="94.2" stroke-dashoffset="0" transform="rotate(-90 18 18)"/>
+  </svg>
+  <div>
+    <div class="tnum" id="timerNum">25:00</div>
+    <div class="tlabel" id="timerLabel">Focus</div>
+  </div>
+  <button id="timerToggle" aria-label="Pause">
+    <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><rect x="6" y="5" width="4" height="14" rx="1"/><rect x="14" y="5" width="4" height="14" rx="1"/></svg>
+  </button>
+  <button id="timerClose" aria-label="Stop timer">
+    <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><rect x="6" y="6" width="12" height="12" rx="2"/></svg>
+  </button>
+</div>
+
+<div class="toast" id="toast" role="status" aria-live="polite">
+  <span id="toastMsg">完了しました</span>
+  <button id="undoBtn">元に戻す</button>
+</div>
+
+<script>
+const $ = (s, r = document) => r.querySelector(s);
+const $$ = (s, r = document) => [...r.querySelectorAll(s)];
+const pad = (n) => String(n).padStart(2, "0");
+const DAY_START = 6 * 60;
+const DAY_END = 19 * 60;
+const HOUR = () => parseInt(getComputedStyle(document.documentElement).getPropertyValue("--hour"), 10) || 72;
+
+const CONTEXTS = {
+  indigo: { name: "Work", color: "var(--cat-indigo)" },
+  sage:   { name: "Health", color: "var(--cat-sage)" },
+  clay:   { name: "Home", color: "var(--cat-clay)" },
+  plum:   { name: "Learning", color: "var(--cat-plum)" },
+  mustard:{ name: "Meals", color: "var(--cat-mustard)" },
+  slate:  { name: "Admin", color: "var(--cat-slate)" },
+};
+
+const seed = [
+  { id: "t1", title: "瞑想", start: 7 * 60 + 30, duration: 15, ctx: "sage", done: true, energy: "low" },
+  { id: "t2", title: "Rise and shine", start: 8 * 60 + 30, duration: 15, ctx: "clay", done: false, energy: "low" },
+  { id: "t3", title: "深い作業 — Q4 プランニング", start: 9 * 60, duration: 90, ctx: "indigo", done: false, energy: "high", notes: "通知を切る。資料は事前に読む。" },
+  { id: "t4", title: "散歩", start: 10 * 60 + 45, duration: 30, ctx: "sage", done: false, energy: "low" },
+  { id: "t5", title: "Inbox zero", start: 11 * 60 + 30, duration: 45, ctx: "slate", done: false, energy: "medium" },
+  { id: "t6", title: "昼食", start: 13 * 60, duration: 60, ctx: "mustard", done: false, energy: "low" },
+  { id: "t7", title: "デザインレビュー", start: 14 * 60 + 30, duration: 90, ctx: "plum", done: false, energy: "high" },
+  { id: "t8", title: "明日の準備", start: 16 * 60 + 15, duration: 30, ctx: "sage", done: false, energy: "medium" },
+  { id: "t9", title: "請求書を送る", ctx: "slate", done: false, energy: "medium" },
+  { id: "t10", title: "読みたい記事を3本選ぶ", ctx: "plum", done: false, energy: "low" },
+];
+
+let state = {
+  tasks: load() || seed,
+  view: "day",
+  selected: null,
+  theme: localStorage.getItem("spine-theme") || "light",
+  timer: null,
+  undo: null,
+};
+
+function load() {
+  try { return JSON.parse(localStorage.getItem("spine-tasks")); } catch { return null; }
+}
+function save() {
+  localStorage.setItem("spine-tasks", JSON.stringify(state.tasks));
+}
+
+/* ---------- time helpers ---------- */
+function fmt(mins) {
+  const m = ((mins % 1440) + 1440) % 1440;
+  return `${pad(Math.floor(m / 60))}:${pad(m % 60)}`;
+}
+function durLabel(d) {
+  const h = Math.floor(d / 60), m = d % 60;
+  return h && m ? `${h}h ${m}m` : h ? `${h}h` : `${m}m`;
+}
+function topFor(mins) { return (mins - DAY_START) * (HOUR() / 60); }
+
+/* ---------- layout: lanes ---------- */
+function layout(tasks) {
+  const sorted = [...tasks].sort((a, b) => a.start - b.start || b.duration - a.duration);
+  const lanes = [];
+  return sorted.map((t) => {
+    let lane = 0;
+    while (lanes[lane] !== undefined && lanes[lane] > t.start) lane++;
+    lanes[lane] = t.start + t.duration;
+    return { ...t, lane };
+  });
+}
+
+/* ---------- render ---------- */
+function render() {
+  document.documentElement.dataset.theme = state.theme;
+  localStorage.setItem("spine-theme", state.theme);
+  $("#app").dataset.view = state.view;
+  $$(".viewswitch button").forEach((b) => b.setAttribute("aria-pressed", String(b.dataset.view === state.view)));
+
+  const d = new Date();
+  const dateLabel = `${d.getMonth() + 1}月${d.getDate()}日 <span class="year">${d.getFullYear()}</span>`;
+  $("#dateTitle").innerHTML = dateLabel;
+  const weekday = d.toLocaleDateString("ja-JP", { weekday: "long" });
+  $("#todayLabel").textContent = `${d.getMonth() + 1}月${d.getDate()}日 ${weekday}`;
+
+  const today = state.tasks.filter((t) => !t.day);
+  const done = today.filter((t) => t.done).length;
+  $("#progressNum").textContent = `${done} / ${today.length}`;
+  $("#progressBar").style.width = today.length ? `${(done / today.length) * 100}%` : "0%";
+  $("#progressMeta").textContent = done === today.length && today.length ? "全部完了。おつかれさま。" : "完了";
+
+  $("#countToday").textContent = today.filter((t) => !t.done).length;
+  $("#countInbox").textContent = today.filter((t) => t.start == null).length;
+  $("#countUpcoming").textContent = state.tasks.filter((t) => t.day).length;
+  Object.keys(CONTEXTS).forEach((k) => {
+    const el = document.querySelector(`[data-ctx-count="${k}"]`);
+    if (el) el.textContent = today.filter((t) => t.ctx === k && !t.done).length;
+  });
+
+  renderTimeline();
+  renderUnscheduled();
+  renderList();
+}
+
+function renderTimeline() {
+  const el = $("#timeline");
+  const hourPx = HOUR();
+  const height = ((DAY_END - DAY_START) / 60) * hourPx;
+  el.style.height = `${height}px`;
+  el.innerHTML = `<div class="tl-inner" style="height:${height}px"></div>`;
+  const inner = $(".tl-inner", el);
+
+  for (let m = DAY_START; m <= DAY_END; m += 60) {
+    const y = topFor(m);
+    const line = document.createElement("div");
+    line.className = "hour-line";
+    line.style.top = `${y}px`;
+    inner.appendChild(line);
+
+    const label = document.createElement("div");
+    label.className = "hour-label";
+    label.style.top = `${y}px`;
+    if (m === DAY_START) { label.style.top = `${y + 8}px`; label.style.transform = "none"; }
+    label.textContent = fmt(m);
+    inner.appendChild(label);
+
+    if (m < DAY_END) {
+      const half = document.createElement("div");
+      half.className = "hour-line";
+      half.style.top = `${y + hourPx / 2}px`;
+      half.style.opacity = ".45";
+      inner.appendChild(half);
+    }
+  }
+
+  const now = new Date();
+  const nowMin = now.getHours() * 60 + now.getMinutes();
+  if (nowMin > DAY_START && nowMin < DAY_END) {
+    const n = document.createElement("div");
+    n.className = "now";
+    n.style.top = `${topFor(nowMin)}px`;
+    const nl = document.createElement("div");
+    nl.className = "now-label";
+    nl.style.top = `${topFor(nowMin)}px`;
+    nl.textContent = fmt(nowMin);
+    inner.appendChild(nl);
+    inner.appendChild(n);
+  }
+
+  const scheduled = state.tasks.filter((t) => !t.day && t.start != null);
+  const laid = layout(scheduled);
+  const lanes = Math.max(1, ...laid.map((t) => t.lane + 1));
+
+  for (const t of laid) {
+    const b = document.createElement("div");
+    b.className = "block";
+    b.tabIndex = 0;
+    b.setAttribute("role", "button");
+    b.dataset.done = String(!!t.done);
+    b.style.setProperty("--cat", CONTEXTS[t.ctx]?.color || "var(--cat-slate)");
+    b.style.top = `${topFor(t.start) + 3}px`;
+    b.style.height = `${Math.max(44, t.duration * (hourPx / 60)) - 6}px`;
+    const width = 100 / lanes;
+    b.style.left = `${t.lane * width}%`;
+    b.style.width = `calc(${width}% - 12px)`;
+    b.setAttribute("aria-label", `${fmt(t.start)} ${t.title} ${durLabel(t.duration)}${t.done ? " 完了" : ""}`);
+    b.innerHTML = `
+      <div class="ring" aria-hidden="true"></div>
+      <div class="bt">${escapeHtml(t.title)}</div>
+      <div class="bm">${fmt(t.start)}–${fmt(t.start + t.duration)} · ${durLabel(t.duration)}</div>
+      ${t.duration >= 45 ? `<div class="bsub">${CONTEXTS[t.ctx]?.name || ""}${t.energy === "high" ? " · 集中" : ""}</div>` : ""}
+    `;
+    b.addEventListener("click", () => toggle(t.id));
+    b.addEventListener("keydown", (e) => {
+      if (e.key === "Enter" || e.key === " ") { e.preventDefault(); toggle(t.id); }
+    });
+    b.addEventListener("contextmenu", (e) => { e.preventDefault(); openDrawer(t.id); });
+    inner.appendChild(b);
+  }
+
+  // free slots (>= 30 min) inside 08:00-18:00
+  const windowStart = 8 * 60, windowEnd = 18 * 60;
+  const busy = scheduled.filter((t) => !t.done).sort((a, b) => a.start - b.start);
+  let cursor = windowStart;
+  const slots = [];
+  for (const t of busy) {
+    if (t.start > cursor && t.start - cursor >= 30) slots.push([cursor, Math.min(t.start, windowEnd)]);
+    cursor = Math.max(cursor, t.start + t.duration);
+  }
+  if (windowEnd - cursor >= 30) slots.push([cursor, windowEnd]);
+
+  for (const [s, e] of slots.slice(0, 2)) {
+    const d = document.createElement("div");
+    d.className = "freeslot";
+    d.style.top = `${topFor(s) + 3}px`;
+    d.style.height = `${Math.max(40, (e - s) * (hourPx / 60) - 6)}px`;
+    d.innerHTML = `<b>${durLabel(e - s)}</b><span>空いています</span><span class="sugg">散歩 / メール / 何もしない</span><button type="button">提案を見る</button>`;
+    d.querySelector("button").addEventListener("click", () => {
+      addTask({ title: "散歩", start: s, duration: Math.min(30, e - s), ctx: "sage", energy: "low" });
+      toast("散歩を追加しました");
+    });
+    inner.appendChild(d);
+  }
+}
+
+function renderUnscheduled() {
+  const box = $("#unscheduled");
+  const items = state.tasks.filter((t) => !t.day && t.start == null);
+  box.innerHTML = "";
+  if (!items.length) {
+    box.innerHTML = `<span style="font-size:12px;color:var(--color-ink-3)">未計画のタスクはありません</span>`;
+    return;
+  }
+  for (const t of items) {
+    const b = document.createElement("button");
+    b.className = "chip";
+    b.innerHTML = `<span class="dot" style="--cat:${CONTEXTS[t.ctx]?.color || "var(--color-ink-3)"}"></span>
+      <span>${escapeHtml(t.title)}</span><span class="go">今日へ</span>`;
+    b.addEventListener("click", () => scheduleNext(t.id));
+    box.appendChild(b);
+  }
+}
+
+function renderList() {
+  const el = $("#list");
+  const groups = {};
+  for (const t of state.tasks.filter((x) => !x.day)) (groups[t.ctx || "slate"] ||= []).push(t);
+  el.innerHTML = "";
+  for (const [ctx, items] of Object.entries(groups)) {
+    const g = document.createElement("div");
+    g.className = "lgroup";
+    g.innerHTML = `<h3><span class="dot" style="--cat:${CONTEXTS[ctx]?.color}"></span>${CONTEXTS[ctx]?.name || ctx}</h3>`;
+    for (const t of items) {
+      const row = document.createElement("div");
+      row.className = "row";
+      row.dataset.done = String(!!t.done);
+      row.innerHTML = `
+        <button class="check" role="checkbox" aria-checked="${!!t.done}" aria-label="${escapeHtml(t.title)}">
+          <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="m5 13 4 4L19 7"/></svg>
+        </button>
+        <span class="title">${escapeHtml(t.title)}</span>
+        <span class="time">${t.start != null ? `${fmt(t.start)} · ${durLabel(t.duration)}` : "未計画"}</span>
+        <span class="ctxt"><span class="dot" style="--cat:${CONTEXTS[t.ctx]?.color}"></span>${CONTEXTS[t.ctx]?.name || ""}</span>
+        <span class="energy" aria-hidden="true">
+          <i class="${t.energy !== "low" ? "on" : ""}"></i>
+          <i class="${t.energy === "high" ? "on" : ""}"></i>
+        </span>`;
+      row.querySelector(".check").addEventListener("click", () => toggle(t.id));
+      row.querySelector(".title").addEventListener("click", () => openDrawer(t.id));
+      g.appendChild(row);
+    }
+    el.appendChild(g);
+  }
+}
+
+/* ---------- actions ---------- */
+function toggle(id) {
+  const t = state.tasks.find((x) => x.id === id);
+  if (!t) return;
+  const prev = t.done;
+  t.done = !t.done;
+  save(); render();
+  state.undo = { id, prev, at: Date.now() };
+  toast(t.done ? "完了しました" : "未完了に戻しました");
+}
+
+function addTask(partial) {
+  const t = {
+    id: `t${Date.now()}`,
+    title: partial.title || "Untitled",
+    start: partial.start ?? null,
+    duration: partial.duration ?? 30,
+    ctx: partial.ctx || "slate",
+    day: partial.day || 0,
+    done: false,
+    energy: partial.energy || "medium",
+    notes: partial.notes || "",
+  };
+  state.tasks.push(t);
+  save(); render();
+  return t;
+}
+
+function scheduleNext(id) {
+  const t = state.tasks.find((x) => x.id === id);
+  if (!t) return;
+  const busy = state.tasks.filter((x) => !x.day && x.start != null).sort((a, b) => a.start - b.start);
+  let cursor = 8 * 60;
+  for (const b of busy) {
+    if (b.start - cursor >= (t.duration || 30)) break;
+    cursor = Math.max(cursor, b.start + b.duration);
+  }
+  t.start = Math.min(cursor, 18 * 60);
+  if (t.duration == null) t.duration = 30;
+  save(); render();
+  toast(`「${t.title}」を ${fmt(t.start)} に配置しました`);
+}
+
+function deleteTask(id) {
+  state.tasks = state.tasks.filter((t) => t.id !== id);
+  save(); render(); closeDrawer();
+  toast("削除しました");
+}
+
+/* ---------- quick add parser ---------- */
+function parseQuick(raw) {
+  let s = ` ${raw} `;
+  let start = null, duration = null, ctx = null, energy = null;
+  const d = new Date();
+  let dayOffset = 0;
+
+  if (/明日|tomorrow/i.test(s)) { dayOffset = 1; s = s.replace(/明日|tomorrow/gi, " "); }
+  else if (/今日|today/i.test(s)) { s = s.replace(/今日|today/gi, " "); }
+
+  const tm = s.match(/\b(\d{1,2}):(\d{2})\b/);
+  if (tm) {
+    start = (+tm[1]) * 60 + (+tm[2]);
+    s = s.replace(tm[0], " ");
+  }
+  const tm2 = s.match(/(\d{1,2})時/);
+  if (!tm && tm2) { start = (+tm2[1]) * 60; s = s.replace(tm2[0], " "); }
+
+  const dm = s.match(/\b(\d+)\s*(h|m|分)\b/gi);
+  if (dm) {
+    duration = 0;
+    for (const part of dm) {
+      const m = part.match(/(\d+)\s*(h|m|分)/i);
+      duration += m[2].toLowerCase() === "h" ? (+m[1]) * 60 : (+m[1]);
+      s = s.replace(part, " ");
+    }
+  }
+  const dm2 = s.match(/\b(\d+)h(\d+)\b/);
+  if (!duration && dm2) { duration = (+dm2[1]) * 60 + (+dm2[2]); s = s.replace(dm2[0], " "); }
+
+  s = s.replace(/#([\w-]+)/g, (_, tag) => {
+    const map = { work: "indigo", health: "sage", home: "clay", learn: "plum", food: "mustard", admin: "slate" };
+    ctx = map[tag.toLowerCase()] || "slate";
+    return " ";
+  });
+  s = s.replace(/!(high|med|medium|low)/gi, (_, p) => {
+    energy = p.toLowerCase() === "high" ? "high" : p.toLowerCase() === "low" ? "low" : "medium";
+    return " ";
+  });
+
+  const title = s.replace(/\s+/g, " ").trim();
+  return { title, start, duration, ctx, energy, dayOffset };
+}
+
+$("#quickAdd").addEventListener("submit", (e) => {
+  e.preventDefault();
+  const input = $("#quickInput");
+  const raw = input.value.trim();
+  if (!raw) return;
+  const p = parseQuick(raw);
+  if (!p.title) return;
+  const t = addTask({
+    title: p.title,
+    start: p.start,
+    duration: p.duration || 30,
+    ctx: p.ctx || "slate",
+    energy: p.energy || "medium",
+    day: p.dayOffset || 0,
+  });
+  input.value = "";
+  toast(t.day ? `明日に追加: ${t.title}` : `追加: ${t.title}${t.start != null ? " · " + fmt(t.start) : "（未計画）"}`);
+});
+
+/* ---------- drawer ---------- */
+function openDrawer(id) {
+  const t = state.tasks.find((x) => x.id === id);
+  if (!t) return;
+  state.selected = id;
+  $("#dTitle").textContent = t.title;
+  $("#dWhen").textContent = t.start != null ? `${fmt(t.start)}–${fmt(t.start + t.duration)}（${durLabel(t.duration)}）` : "未計画";
+  $("#dCtx").innerHTML = `<span class="tag"><span class="dot" style="--cat:${CONTEXTS[t.ctx]?.color}"></span>${CONTEXTS[t.ctx]?.name || ""}</span>`;
+  $("#dEnergy").textContent = t.energy === "high" ? "高" : t.energy === "low" ? "低" : "中";
+  $("#dNotes").textContent = t.notes || "—";
+  $("#drawer").dataset.open = "true";
+  $("#drawer").setAttribute("aria-hidden", "false");
+  $("#scrim").dataset.open = "true";
+  $("#closeDrawer").focus();
+}
+function closeDrawer() {
+  $("#drawer").dataset.open = "false";
+  $("#drawer").setAttribute("aria-hidden", "true");
+  $("#scrim").dataset.open = "false";
+  state.selected = null;
+}
+$("#closeDrawer").addEventListener("click", closeDrawer);
+$("#scrim").addEventListener("click", closeDrawer);
+$("#deleteTask").addEventListener("click", () => state.selected && deleteTask(state.selected));
+
+/* ---------- toast / undo ---------- */
+let toastTimer;
+function toast(msg) {
+  $("#toastMsg").textContent = msg;
+  $("#toast").dataset.open = "true";
+  clearTimeout(toastTimer);
+  toastTimer = setTimeout(() => { $("#toast").dataset.open = "false"; }, 5000);
+}
+$("#undoBtn").addEventListener("click", () => {
+  if (!state.undo) return;
+  const t = state.tasks.find((x) => x.id === state.undo.id);
+  if (t) { t.done = state.undo.prev; save(); render(); }
+  state.undo = null;
+  $("#toastMsg").textContent = "元に戻しました";
+  $("#toast").dataset.open = "false";
+});
+
+/* ---------- theme ---------- */
+$("#themeBtn").addEventListener("click", () => {
+  state.theme = state.theme === "light" ? "dark" : "light";
+  render();
+});
+
+/* ---------- view switch ---------- */
+$$(".viewswitch button").forEach((b) => b.addEventListener("click", () => { state.view = b.dataset.view; render(); }));
+
+/* ---------- nav (demo: only Today works) ---------- */
+$$("[data-nav]").forEach((b) => b.addEventListener("click", () => {
+  if (b.dataset.nav === "today") {
+    $$("[data-nav]").forEach((x) => x.removeAttribute("aria-current"));
+    b.setAttribute("aria-current", "page");
+    toast("Today（デモはこの画面のみ）");
+  } else {
+    toast(`${b.textContent.trim()} はデモに含まれていません`);
+  }
+}));
+
+/* ---------- focus timer ---------- */
+let timerState = { total: 25 * 60, left: 25 * 60, running: false, id: null, handle: null };
+function startTimer(task) {
+  clearInterval(timerState.handle);
+  timerState = { total: task.duration * 60, left: task.duration * 60, running: true, id: task.id, handle: null };
+  $("#timerLabel").textContent = task.title;
+  $("#timer").dataset.open = "true";
+  tick();
+  timerState.handle = setInterval(tick, 1000);
+}
+function tick() {
+  if (timerState.running) timerState.left = Math.max(0, timerState.left - 1);
+  const m = Math.floor(timerState.left / 60), s = timerState.left % 60;
+  $("#timerNum").textContent = `${pad(m)}:${pad(s)}`;
+  const frac = timerState.total ? timerState.left / timerState.total : 0;
+  $("#dialArc").setAttribute("stroke-dashoffset", String(94.2 * (1 - frac)));
+  if (timerState.left === 0 && timerState.running) {
+    timerState.running = false;
+    toast("集中タイマーが終了しました");
+  }
+}
+$("#timerToggle").addEventListener("click", () => {
+  timerState.running = !timerState.running;
+  $("#timerToggle").setAttribute("aria-label", timerState.running ? "Pause" : "Resume");
+});
+$("#timerClose").addEventListener("click", () => {
+  clearInterval(timerState.handle);
+  $("#timer").dataset.open = "false";
+});
+
+/* double-click a block opens detail; long-press alternative for touch */
+document.addEventListener("dblclick", (e) => {
+  const b = e.target.closest(".block");
+  if (!b) return;
+  const label = b.getAttribute("aria-label");
+  const t = state.tasks.find((x) => label.includes(x.title));
+  if (t) openDrawer(t.id);
+});
+
+/* ---------- keyboard ---------- */
+document.addEventListener("keydown", (e) => {
+  const typing = /INPUT|TEXTAREA/.test(document.activeElement?.tagName || "");
+  if (e.key === "Escape") { closeDrawer(); return; }
+  if (typing) return;
+  if (e.key === "n" || e.key === "N") { e.preventDefault(); $("#quickInput").focus(); }
+  if (e.key === "1") { state.view = "day"; render(); }
+  if (e.key === "2") { state.view = "list"; render(); }
+  if (e.key === "t" || e.key === "T") { $("#scroll").scrollTo({ top: 0, behavior: "smooth" }); }
+  if ((e.metaKey || e.ctrlKey) && e.key.toLowerCase() === "k") {
+    e.preventDefault();
+    $("#quickInput").focus();
+  }
+});
+
+/* ---------- mobile sidebar ---------- */
+const mq = matchMedia("(max-width: 1023px)");
+function syncMenu() {
+  $("#menuBtn").style.display = mq.matches ? "grid" : "none";
+  if (!mq.matches) $("#sidebar").dataset.open = "false";
+}
+mq.addEventListener("change", syncMenu);
+syncMenu();
+$("#menuBtn").addEventListener("click", () => {
+  const s = $("#sidebar");
+  s.dataset.open = s.dataset.open === "true" ? "false" : "true";
+});
+
+/* ---------- boot ---------- */
+function escapeHtml(s) {
+  return String(s).replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+}
+render();
+</script>
+</body>
+</html>
